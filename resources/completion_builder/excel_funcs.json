@@ -1,6 +1,8 @@
 [
     {
         "func_name": "ABS",
+        "is_nullary": false,
+        "comp_str": "ABS(${1:number})",
         "req_param": [
             "number"
         ],
@@ -9,6 +11,8 @@
     },
     {
         "func_name": "ACCRINT",
+        "is_nullary": false,
+        "comp_str": "ACCRINT(${1:issue},${2: first_interest},${3: settlement},${4: rate},${5: par},${6: frequency}${7:,${8: [basis]},${9: [calc_method]}})",
         "req_param": [
             "issue",
             "first_interest",
@@ -25,6 +29,8 @@
     },
     {
         "func_name": "ACCRINTM",
+        "is_nullary": false,
+        "comp_str": "ACCRINTM(${1:issue},${2: settlement},${3: rate},${4: par}${5:,${6: [basis]}})",
         "req_param": [
             "issue",
             "settlement",
@@ -38,6 +44,8 @@
     },
     {
         "func_name": "ACOS",
+        "is_nullary": false,
+        "comp_str": "ACOS(${1:number})",
         "req_param": [
             "number"
         ],
@@ -46,6 +54,8 @@
     },
     {
         "func_name": "ACOSH",
+        "is_nullary": false,
+        "comp_str": "ACOSH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -54,6 +64,8 @@
     },
     {
         "func_name": "ACOT",
+        "is_nullary": false,
+        "comp_str": "ACOT(${1:number})",
         "req_param": [
             "number"
         ],
@@ -62,6 +74,8 @@
     },
     {
         "func_name": "ACOTH",
+        "is_nullary": false,
+        "comp_str": "ACOTH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -70,6 +84,8 @@
     },
     {
         "func_name": "ADDRESS",
+        "is_nullary": false,
+        "comp_str": "ADDRESS(${1:row_num},${2: column_num}${3:,${4: [abs_num]},${5: [a1]},${6: [sheet_text]}})",
         "req_param": [
             "row_num",
             "column_num"
@@ -83,6 +99,8 @@
     },
     {
         "func_name": "AGGREGATE",
+        "is_nullary": false,
+        "comp_str": "AGGREGATE(${1:function_num},${2: options},${3: array}${4:,${5: [k]}})",
         "req_param": [
             "function_num",
             "options",
@@ -95,6 +113,8 @@
     },
     {
         "func_name": "AMORDEGRC",
+        "is_nullary": false,
+        "comp_str": "AMORDEGRC(${1:cost},${2: date_purchased},${3: first_period},${4: salvage},${5: period},${6: rate}${7:,${8: [basis]}})",
         "req_param": [
             "cost",
             "date_purchased",
@@ -110,6 +130,8 @@
     },
     {
         "func_name": "AMORLINC",
+        "is_nullary": false,
+        "comp_str": "AMORLINC(${1:cost},${2: date_purchased},${3: first_period},${4: salvage},${5: period},${6: rate}${7:,${8: [basis]}})",
         "req_param": [
             "cost",
             "date_purchased",
@@ -125,6 +147,8 @@
     },
     {
         "func_name": "AND",
+        "is_nullary": false,
+        "comp_str": "AND(${1:logical1}${2:,${3: [logical2], ...}})",
         "req_param": [
             "logical1"
         ],
@@ -135,6 +159,8 @@
     },
     {
         "func_name": "ARABIC",
+        "is_nullary": false,
+        "comp_str": "ARABIC(${1:text})",
         "req_param": [
             "text"
         ],
@@ -143,6 +169,8 @@
     },
     {
         "func_name": "AREAS",
+        "is_nullary": false,
+        "comp_str": "AREAS(${1:reference})",
         "req_param": [
             "reference"
         ],
@@ -151,6 +179,8 @@
     },
     {
         "func_name": "ARRAYTOTEXT",
+        "is_nullary": false,
+        "comp_str": "ARRAYTOTEXT(${1:array}${2:,${3: [format]}})",
         "req_param": [
             "array"
         ],
@@ -161,6 +191,8 @@
     },
     {
         "func_name": "ASC",
+        "is_nullary": false,
+        "comp_str": "ASC(${1:text})",
         "req_param": [
             "text"
         ],
@@ -169,6 +201,8 @@
     },
     {
         "func_name": "ASIN",
+        "is_nullary": false,
+        "comp_str": "ASIN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -177,6 +211,8 @@
     },
     {
         "func_name": "ASINH",
+        "is_nullary": false,
+        "comp_str": "ASINH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -185,6 +221,8 @@
     },
     {
         "func_name": "ATAN",
+        "is_nullary": false,
+        "comp_str": "ATAN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -193,6 +231,8 @@
     },
     {
         "func_name": "ATAN2",
+        "is_nullary": false,
+        "comp_str": "ATAN2(${1:x_num},${2: y_num})",
         "req_param": [
             "x_num",
             "y_num"
@@ -202,6 +242,8 @@
     },
     {
         "func_name": "ATANH",
+        "is_nullary": false,
+        "comp_str": "ATANH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -210,6 +252,8 @@
     },
     {
         "func_name": "AVEDEV",
+        "is_nullary": false,
+        "comp_str": "AVEDEV(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -220,6 +264,8 @@
     },
     {
         "func_name": "AVERAGE",
+        "is_nullary": false,
+        "comp_str": "AVERAGE(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -230,6 +276,8 @@
     },
     {
         "func_name": "AVERAGEA",
+        "is_nullary": false,
+        "comp_str": "AVERAGEA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -240,6 +288,8 @@
     },
     {
         "func_name": "AVERAGEIF",
+        "is_nullary": false,
+        "comp_str": "AVERAGEIF(${1:range},${2: criteria}${3:,${4: [average_range]}})",
         "req_param": [
             "range",
             "criteria"
@@ -251,6 +301,8 @@
     },
     {
         "func_name": "AVERAGEIFS",
+        "is_nullary": false,
+        "comp_str": "AVERAGEIFS(${1:average_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
         "req_param": [
             "average_range",
             "criteria_range1",
@@ -264,6 +316,8 @@
     },
     {
         "func_name": "BAHTTEXT",
+        "is_nullary": false,
+        "comp_str": "BAHTTEXT(${1:number})",
         "req_param": [
             "number"
         ],
@@ -272,6 +326,8 @@
     },
     {
         "func_name": "BASE",
+        "is_nullary": false,
+        "comp_str": "BASE(${1:number},${2: radix}${3:,${4: [min_length]}})",
         "req_param": [
             "number",
             "radix"
@@ -283,6 +339,8 @@
     },
     {
         "func_name": "BESSELI",
+        "is_nullary": false,
+        "comp_str": "BESSELI(${1:x},${2: n})",
         "req_param": [
             "x",
             "n"
@@ -292,6 +350,8 @@
     },
     {
         "func_name": "BESSELJ",
+        "is_nullary": false,
+        "comp_str": "BESSELJ(${1:x},${2: n})",
         "req_param": [
             "x",
             "n"
@@ -301,6 +361,8 @@
     },
     {
         "func_name": "BESSELK",
+        "is_nullary": false,
+        "comp_str": "BESSELK(${1:x},${2: n})",
         "req_param": [
             "x",
             "n"
@@ -310,6 +372,8 @@
     },
     {
         "func_name": "BESSELY",
+        "is_nullary": false,
+        "comp_str": "BESSELY(${1:x},${2: n})",
         "req_param": [
             "x",
             "n"
@@ -319,6 +383,8 @@
     },
     {
         "func_name": "BETA.DIST",
+        "is_nullary": false,
+        "comp_str": "BETA.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative}${5:,${6: [A]},${7: [B]}})",
         "req_param": [
             "x",
             "alpha",
@@ -333,6 +399,8 @@
     },
     {
         "func_name": "BETA.INV",
+        "is_nullary": false,
+        "comp_str": "BETA.INV(${1:probability},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
         "req_param": [
             "probability",
             "alpha",
@@ -346,6 +414,8 @@
     },
     {
         "func_name": "BETADIST",
+        "is_nullary": false,
+        "comp_str": "BETADIST(${1:x},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
         "req_param": [
             "x",
             "alpha",
@@ -359,6 +429,8 @@
     },
     {
         "func_name": "BETAINV",
+        "is_nullary": false,
+        "comp_str": "BETAINV(${1:probability},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
         "req_param": [
             "probability",
             "alpha",
@@ -372,6 +444,8 @@
     },
     {
         "func_name": "BIN2DEC",
+        "is_nullary": false,
+        "comp_str": "BIN2DEC(${1:number})",
         "req_param": [
             "number"
         ],
@@ -380,6 +454,8 @@
     },
     {
         "func_name": "BIN2HEX",
+        "is_nullary": false,
+        "comp_str": "BIN2HEX(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -390,6 +466,8 @@
     },
     {
         "func_name": "BIN2OCT",
+        "is_nullary": false,
+        "comp_str": "BIN2OCT(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -400,6 +478,8 @@
     },
     {
         "func_name": "BINOM.DIST",
+        "is_nullary": false,
+        "comp_str": "BINOM.DIST(${1:number_s},${2: trials},${3: probability_s},${4: cumulative})",
         "req_param": [
             "number_s",
             "trials",
@@ -411,6 +491,8 @@
     },
     {
         "func_name": "BINOM.DIST.RANGE",
+        "is_nullary": false,
+        "comp_str": "BINOM.DIST.RANGE(${1:trials},${2: probability_s},${3: number_s}${4:,${5: [number_s2]}})",
         "req_param": [
             "trials",
             "probability_s",
@@ -423,6 +505,8 @@
     },
     {
         "func_name": "BINOM.INV",
+        "is_nullary": false,
+        "comp_str": "BINOM.INV(${1:trials},${2: probability_s},${3: alpha})",
         "req_param": [
             "trials",
             "probability_s",
@@ -433,6 +517,8 @@
     },
     {
         "func_name": "BINOMDIST",
+        "is_nullary": false,
+        "comp_str": "BINOMDIST(${1:number_s},${2: trials},${3: probability_s},${4: cumulative})",
         "req_param": [
             "number_s",
             "trials",
@@ -444,6 +530,8 @@
     },
     {
         "func_name": "BITAND",
+        "is_nullary": false,
+        "comp_str": "BITAND(${1:number1},${2: number2})",
         "req_param": [
             "number1",
             "number2"
@@ -453,6 +541,8 @@
     },
     {
         "func_name": "BITLSHIFT",
+        "is_nullary": false,
+        "comp_str": "BITLSHIFT(${1:number},${2: shift_amount})",
         "req_param": [
             "number",
             "shift_amount"
@@ -462,6 +552,8 @@
     },
     {
         "func_name": "BITOR",
+        "is_nullary": false,
+        "comp_str": "BITOR(${1:number1},${2: number2})",
         "req_param": [
             "number1",
             "number2"
@@ -471,6 +563,8 @@
     },
     {
         "func_name": "BITRSHIFT",
+        "is_nullary": false,
+        "comp_str": "BITRSHIFT(${1:number},${2: shift_amount})",
         "req_param": [
             "number",
             "shift_amount"
@@ -480,6 +574,8 @@
     },
     {
         "func_name": "BITXOR",
+        "is_nullary": false,
+        "comp_str": "BITXOR(${1:number1},${2: number2})",
         "req_param": [
             "number1",
             "number2"
@@ -489,6 +585,8 @@
     },
     {
         "func_name": "BYCOL",
+        "is_nullary": false,
+        "comp_str": "BYCOL(${1:array}${2:,${3: [function]}})",
         "req_param": [
             "array"
         ],
@@ -499,6 +597,8 @@
     },
     {
         "func_name": "BYROW",
+        "is_nullary": false,
+        "comp_str": "BYROW(${1:array}${2:,${3: [function]}})",
         "req_param": [
             "array"
         ],
@@ -509,6 +609,8 @@
     },
     {
         "func_name": "CALL",
+        "is_nullary": false,
+        "comp_str": "CALL(${1:register_id}${2:,${3: [argument1], ...}})",
         "req_param": [
             "register_id"
         ],
@@ -519,6 +621,8 @@
     },
     {
         "func_name": "CEILING",
+        "is_nullary": false,
+        "comp_str": "CEILING(${1:number},${2: significance})",
         "req_param": [
             "number",
             "significance"
@@ -528,6 +632,8 @@
     },
     {
         "func_name": "CEILING.MATH",
+        "is_nullary": false,
+        "comp_str": "CEILING.MATH(${1:number}${2:,${3: [significance]},${4: [mode]}})",
         "req_param": [
             "number"
         ],
@@ -539,6 +645,8 @@
     },
     {
         "func_name": "CEILING.PRECISE",
+        "is_nullary": false,
+        "comp_str": "CEILING.PRECISE(${1:number}${2:,${3: [significance]}})",
         "req_param": [
             "number"
         ],
@@ -549,6 +657,8 @@
     },
     {
         "func_name": "CELL",
+        "is_nullary": false,
+        "comp_str": "CELL(${1:info_type}${2:,${3: [reference]}})",
         "req_param": [
             "info_type"
         ],
@@ -559,6 +669,8 @@
     },
     {
         "func_name": "CHAR",
+        "is_nullary": false,
+        "comp_str": "CHAR(${1:number})",
         "req_param": [
             "number"
         ],
@@ -567,6 +679,8 @@
     },
     {
         "func_name": "CHIDIST",
+        "is_nullary": false,
+        "comp_str": "CHIDIST(${1:x},${2: deg_freedom})",
         "req_param": [
             "x",
             "deg_freedom"
@@ -576,6 +690,8 @@
     },
     {
         "func_name": "CHIINV",
+        "is_nullary": false,
+        "comp_str": "CHIINV(${1:probability},${2: deg_freedom})",
         "req_param": [
             "probability",
             "deg_freedom"
@@ -585,6 +701,8 @@
     },
     {
         "func_name": "CHISQ.DIST",
+        "is_nullary": false,
+        "comp_str": "CHISQ.DIST(${1:x},${2: deg_freedom},${3: cumulative})",
         "req_param": [
             "x",
             "deg_freedom",
@@ -595,6 +713,8 @@
     },
     {
         "func_name": "CHISQ.DIST.RT",
+        "is_nullary": false,
+        "comp_str": "CHISQ.DIST.RT(${1:x},${2: deg_freedom})",
         "req_param": [
             "x",
             "deg_freedom"
@@ -604,6 +724,8 @@
     },
     {
         "func_name": "CHISQ.INV",
+        "is_nullary": false,
+        "comp_str": "CHISQ.INV(${1:probability},${2: deg_freedom})",
         "req_param": [
             "probability",
             "deg_freedom"
@@ -613,6 +735,8 @@
     },
     {
         "func_name": "CHISQ.INV.RT",
+        "is_nullary": false,
+        "comp_str": "CHISQ.INV.RT(${1:probability},${2: deg_freedom})",
         "req_param": [
             "probability",
             "deg_freedom"
@@ -622,6 +746,8 @@
     },
     {
         "func_name": "CHISQ.TEST",
+        "is_nullary": false,
+        "comp_str": "CHISQ.TEST(${1:actual_range},${2: expected_range})",
         "req_param": [
             "actual_range",
             "expected_range"
@@ -631,6 +757,8 @@
     },
     {
         "func_name": "CHITEST",
+        "is_nullary": false,
+        "comp_str": "CHITEST(${1:actual_range},${2: expected_range})",
         "req_param": [
             "actual_range",
             "expected_range"
@@ -640,6 +768,8 @@
     },
     {
         "func_name": "CHOOSE",
+        "is_nullary": false,
+        "comp_str": "CHOOSE(${1:index_num},${2: value1}${3:,${4: [value2], ...}})",
         "req_param": [
             "index_num",
             "value1"
@@ -651,6 +781,8 @@
     },
     {
         "func_name": "CHOOSECOLS",
+        "is_nullary": false,
+        "comp_str": "CHOOSECOLS(${1:array},${2: col_num1}${3:,${4: [col_num2], ...}})",
         "req_param": [
             "array",
             "col_num1"
@@ -662,6 +794,8 @@
     },
     {
         "func_name": "CHOOSEROWS",
+        "is_nullary": false,
+        "comp_str": "CHOOSEROWS(${1:array},${2: row_num1}${3:,${4: [row_num2], ...}})",
         "req_param": [
             "array",
             "row_num1"
@@ -673,6 +807,8 @@
     },
     {
         "func_name": "CLEAN",
+        "is_nullary": false,
+        "comp_str": "CLEAN(${1:text})",
         "req_param": [
             "text"
         ],
@@ -681,6 +817,8 @@
     },
     {
         "func_name": "CODE",
+        "is_nullary": false,
+        "comp_str": "CODE(${1:text})",
         "req_param": [
             "text"
         ],
@@ -689,6 +827,8 @@
     },
     {
         "func_name": "COLUMN",
+        "is_nullary": false,
+        "comp_str": "COLUMN(${1:,${2: [reference]}})",
         "req_param": [],
         "opt_param": [
             "reference"
@@ -697,6 +837,8 @@
     },
     {
         "func_name": "COLUMNS",
+        "is_nullary": false,
+        "comp_str": "COLUMNS(${1:array})",
         "req_param": [
             "array"
         ],
@@ -705,6 +847,8 @@
     },
     {
         "func_name": "COMBIN",
+        "is_nullary": false,
+        "comp_str": "COMBIN(${1:number},${2: number_chosen})",
         "req_param": [
             "number",
             "number_chosen"
@@ -714,6 +858,8 @@
     },
     {
         "func_name": "COMBINA",
+        "is_nullary": false,
+        "comp_str": "COMBINA(${1:number},${2: number_chosen})",
         "req_param": [
             "number",
             "number_chosen"
@@ -723,6 +869,8 @@
     },
     {
         "func_name": "COMPLEX",
+        "is_nullary": false,
+        "comp_str": "COMPLEX(${1:real_num},${2: i_num}${3:,${4: [suffix]}})",
         "req_param": [
             "real_num",
             "i_num"
@@ -734,6 +882,8 @@
     },
     {
         "func_name": "CONCAT",
+        "is_nullary": false,
+        "comp_str": "CONCAT(${1:text1}${2:,${3: [text2], ...}})",
         "req_param": [
             "text1"
         ],
@@ -744,6 +894,8 @@
     },
     {
         "func_name": "CONCATENATE",
+        "is_nullary": false,
+        "comp_str": "CONCATENATE(${1:text1}${2:,${3: [text2], ...}})",
         "req_param": [
             "text1"
         ],
@@ -754,6 +906,8 @@
     },
     {
         "func_name": "CONFIDENCE",
+        "is_nullary": false,
+        "comp_str": "CONFIDENCE(${1:alpha},${2: standard_dev},${3: size})",
         "req_param": [
             "alpha",
             "standard_dev",
@@ -764,6 +918,8 @@
     },
     {
         "func_name": "CONFIDENCE.NORM",
+        "is_nullary": false,
+        "comp_str": "CONFIDENCE.NORM(${1:alpha},${2: standard_dev},${3: size})",
         "req_param": [
             "alpha",
             "standard_dev",
@@ -774,6 +930,8 @@
     },
     {
         "func_name": "CONFIDENCE.T",
+        "is_nullary": false,
+        "comp_str": "CONFIDENCE.T(${1:alpha},${2: standard_dev},${3: size})",
         "req_param": [
             "alpha",
             "standard_dev",
@@ -784,6 +942,8 @@
     },
     {
         "func_name": "CONVERT",
+        "is_nullary": false,
+        "comp_str": "CONVERT(${1:number},${2: from_unit},${3: to_unit})",
         "req_param": [
             "number",
             "from_unit",
@@ -794,6 +954,8 @@
     },
     {
         "func_name": "CORREL",
+        "is_nullary": false,
+        "comp_str": "CORREL(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -803,6 +965,8 @@
     },
     {
         "func_name": "COS",
+        "is_nullary": false,
+        "comp_str": "COS(${1:number})",
         "req_param": [
             "number"
         ],
@@ -811,6 +975,8 @@
     },
     {
         "func_name": "COSH",
+        "is_nullary": false,
+        "comp_str": "COSH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -819,6 +985,8 @@
     },
     {
         "func_name": "COT",
+        "is_nullary": false,
+        "comp_str": "COT(${1:number})",
         "req_param": [
             "number"
         ],
@@ -827,6 +995,8 @@
     },
     {
         "func_name": "COTH",
+        "is_nullary": false,
+        "comp_str": "COTH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -835,6 +1005,8 @@
     },
     {
         "func_name": "COUNT",
+        "is_nullary": false,
+        "comp_str": "COUNT(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -845,6 +1017,8 @@
     },
     {
         "func_name": "COUNTA",
+        "is_nullary": false,
+        "comp_str": "COUNTA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -855,6 +1029,8 @@
     },
     {
         "func_name": "COUNTBLANK",
+        "is_nullary": false,
+        "comp_str": "COUNTBLANK(${1:range})",
         "req_param": [
             "range"
         ],
@@ -863,6 +1039,8 @@
     },
     {
         "func_name": "COUNTIF",
+        "is_nullary": false,
+        "comp_str": "COUNTIF(${1:range},${2: criteria})",
         "req_param": [
             "range",
             "criteria"
@@ -872,6 +1050,8 @@
     },
     {
         "func_name": "COUNTIFS",
+        "is_nullary": false,
+        "comp_str": "COUNTIFS(${1:criteria_range1},${2: criteria1}${3:,${4: [criteria_range2]},${5: [criteria2], ...}})",
         "req_param": [
             "criteria_range1",
             "criteria1"
@@ -884,6 +1064,8 @@
     },
     {
         "func_name": "COUPDAYBS",
+        "is_nullary": false,
+        "comp_str": "COUPDAYBS(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -896,6 +1078,8 @@
     },
     {
         "func_name": "COUPDAYS",
+        "is_nullary": false,
+        "comp_str": "COUPDAYS(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -908,6 +1092,8 @@
     },
     {
         "func_name": "COUPDAYSNC",
+        "is_nullary": false,
+        "comp_str": "COUPDAYSNC(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -920,6 +1106,8 @@
     },
     {
         "func_name": "COUPNCD",
+        "is_nullary": false,
+        "comp_str": "COUPNCD(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -932,6 +1120,8 @@
     },
     {
         "func_name": "COUPNUM",
+        "is_nullary": false,
+        "comp_str": "COUPNUM(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -944,6 +1134,8 @@
     },
     {
         "func_name": "COUPPCD",
+        "is_nullary": false,
+        "comp_str": "COUPPCD(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -956,6 +1148,8 @@
     },
     {
         "func_name": "COVAR",
+        "is_nullary": false,
+        "comp_str": "COVAR(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -965,6 +1159,8 @@
     },
     {
         "func_name": "COVARIANCE.P",
+        "is_nullary": false,
+        "comp_str": "COVARIANCE.P(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -974,6 +1170,8 @@
     },
     {
         "func_name": "COVARIANCE.S",
+        "is_nullary": false,
+        "comp_str": "COVARIANCE.S(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -983,6 +1181,8 @@
     },
     {
         "func_name": "CRITBINOM",
+        "is_nullary": false,
+        "comp_str": "CRITBINOM(${1:trials},${2: probability_s},${3: alpha})",
         "req_param": [
             "trials",
             "probability_s",
@@ -993,6 +1193,8 @@
     },
     {
         "func_name": "CSC",
+        "is_nullary": false,
+        "comp_str": "CSC(${1:number})",
         "req_param": [
             "number"
         ],
@@ -1001,6 +1203,8 @@
     },
     {
         "func_name": "CSCH",
+        "is_nullary": false,
+        "comp_str": "CSCH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -1009,6 +1213,8 @@
     },
     {
         "func_name": "CUBEKPIMEMBER",
+        "is_nullary": false,
+        "comp_str": "CUBEKPIMEMBER(${1:connection},${2: kpi_name},${3: kpi_property}${4:,${5: [caption]}})",
         "req_param": [
             "connection",
             "kpi_name",
@@ -1021,6 +1227,8 @@
     },
     {
         "func_name": "CUBEMEMBER",
+        "is_nullary": false,
+        "comp_str": "CUBEMEMBER(${1:connection},${2: member_expression}${3:,${4: [caption]}})",
         "req_param": [
             "connection",
             "member_expression"
@@ -1032,6 +1240,8 @@
     },
     {
         "func_name": "CUBEMEMBERPROPERTY",
+        "is_nullary": false,
+        "comp_str": "CUBEMEMBERPROPERTY(${1:connection},${2: member_expression},${3: property})",
         "req_param": [
             "connection",
             "member_expression",
@@ -1042,6 +1252,8 @@
     },
     {
         "func_name": "CUBERANKEDMEMBER",
+        "is_nullary": false,
+        "comp_str": "CUBERANKEDMEMBER(${1:connection},${2: set_expression},${3: rank}${4:,${5: [caption]}})",
         "req_param": [
             "connection",
             "set_expression",
@@ -1054,6 +1266,8 @@
     },
     {
         "func_name": "CUBESET",
+        "is_nullary": false,
+        "comp_str": "CUBESET(${1:connection},${2: set_expression}${3:,${4: [caption]},${5: [sort_order]},${6: [sort_by]}})",
         "req_param": [
             "connection",
             "set_expression"
@@ -1067,6 +1281,8 @@
     },
     {
         "func_name": "CUBESETCOUNT",
+        "is_nullary": false,
+        "comp_str": "CUBESETCOUNT(${1:set})",
         "req_param": [
             "set"
         ],
@@ -1075,6 +1291,8 @@
     },
     {
         "func_name": "CUBEVALUE",
+        "is_nullary": false,
+        "comp_str": "CUBEVALUE(${1:connection}${2:,${3: [member_expression1], ...}})",
         "req_param": [
             "connection"
         ],
@@ -1085,6 +1303,8 @@
     },
     {
         "func_name": "CUMIPMT",
+        "is_nullary": false,
+        "comp_str": "CUMIPMT(${1:rate},${2: nper},${3: pv},${4: start_period},${5: end_period},${6: type})",
         "req_param": [
             "rate",
             "nper",
@@ -1098,6 +1318,8 @@
     },
     {
         "func_name": "CUMPRINC",
+        "is_nullary": false,
+        "comp_str": "CUMPRINC(${1:rate},${2: nper},${3: pv},${4: start_period},${5: end_period},${6: type})",
         "req_param": [
             "rate",
             "nper",
@@ -1111,6 +1333,8 @@
     },
     {
         "func_name": "DATE",
+        "is_nullary": false,
+        "comp_str": "DATE(${1:year},${2: month},${3: day})",
         "req_param": [
             "year",
             "month",
@@ -1121,6 +1345,8 @@
     },
     {
         "func_name": "DATEDIF",
+        "is_nullary": false,
+        "comp_str": "DATEDIF(${1:start_date},${2: end_date},${3: unit})",
         "req_param": [
             "start_date",
             "end_date",
@@ -1131,6 +1357,8 @@
     },
     {
         "func_name": "DATEVALUE",
+        "is_nullary": false,
+        "comp_str": "DATEVALUE(${1:date_text})",
         "req_param": [
             "date_text"
         ],
@@ -1139,6 +1367,8 @@
     },
     {
         "func_name": "DAVERAGE",
+        "is_nullary": false,
+        "comp_str": "DAVERAGE(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1149,6 +1379,8 @@
     },
     {
         "func_name": "DAY",
+        "is_nullary": false,
+        "comp_str": "DAY(${1:serial_number})",
         "req_param": [
             "serial_number"
         ],
@@ -1157,6 +1389,8 @@
     },
     {
         "func_name": "DAYS",
+        "is_nullary": false,
+        "comp_str": "DAYS(${1:end_date},${2: start_date})",
         "req_param": [
             "end_date",
             "start_date"
@@ -1166,6 +1400,8 @@
     },
     {
         "func_name": "DAYS360",
+        "is_nullary": false,
+        "comp_str": "DAYS360(${1:start_date},${2: end_date}${3:,${4: [method]}})",
         "req_param": [
             "start_date",
             "end_date"
@@ -1177,6 +1413,8 @@
     },
     {
         "func_name": "DB",
+        "is_nullary": false,
+        "comp_str": "DB(${1:cost},${2: salvage},${3: life},${4: period}${5:,${6: [month]}})",
         "req_param": [
             "cost",
             "salvage",
@@ -1190,6 +1428,8 @@
     },
     {
         "func_name": "DBCS",
+        "is_nullary": false,
+        "comp_str": "DBCS(${1:text})",
         "req_param": [
             "text"
         ],
@@ -1198,6 +1438,8 @@
     },
     {
         "func_name": "DCOUNT",
+        "is_nullary": false,
+        "comp_str": "DCOUNT(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1208,6 +1450,8 @@
     },
     {
         "func_name": "DCOUNTA",
+        "is_nullary": false,
+        "comp_str": "DCOUNTA(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1218,6 +1462,8 @@
     },
     {
         "func_name": "DDB",
+        "is_nullary": false,
+        "comp_str": "DDB(${1:cost},${2: salvage},${3: life},${4: period}${5:,${6: [factor]}})",
         "req_param": [
             "cost",
             "salvage",
@@ -1231,6 +1477,8 @@
     },
     {
         "func_name": "DEC2BIN",
+        "is_nullary": false,
+        "comp_str": "DEC2BIN(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -1241,6 +1489,8 @@
     },
     {
         "func_name": "DEC2HEX",
+        "is_nullary": false,
+        "comp_str": "DEC2HEX(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -1251,6 +1501,8 @@
     },
     {
         "func_name": "DEC2OCT",
+        "is_nullary": false,
+        "comp_str": "DEC2OCT(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -1261,6 +1513,8 @@
     },
     {
         "func_name": "DECIMAL",
+        "is_nullary": false,
+        "comp_str": "DECIMAL(${1:number},${2: radix})",
         "req_param": [
             "number",
             "radix"
@@ -1270,6 +1524,8 @@
     },
     {
         "func_name": "DEGREES",
+        "is_nullary": false,
+        "comp_str": "DEGREES(${1:angle})",
         "req_param": [
             "angle"
         ],
@@ -1278,6 +1534,8 @@
     },
     {
         "func_name": "DELTA",
+        "is_nullary": false,
+        "comp_str": "DELTA(${1:number1}${2:,${3: [number2]}})",
         "req_param": [
             "number1"
         ],
@@ -1288,6 +1546,8 @@
     },
     {
         "func_name": "DEVSQ",
+        "is_nullary": false,
+        "comp_str": "DEVSQ(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -1298,6 +1558,8 @@
     },
     {
         "func_name": "DGET",
+        "is_nullary": false,
+        "comp_str": "DGET(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1308,6 +1570,8 @@
     },
     {
         "func_name": "DISC",
+        "is_nullary": false,
+        "comp_str": "DISC(${1:settlement},${2: maturity},${3: pr},${4: redemption}${5:,${6: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -1321,6 +1585,8 @@
     },
     {
         "func_name": "DMAX",
+        "is_nullary": false,
+        "comp_str": "DMAX(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1331,6 +1597,8 @@
     },
     {
         "func_name": "DMIN",
+        "is_nullary": false,
+        "comp_str": "DMIN(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1341,6 +1609,8 @@
     },
     {
         "func_name": "DOLLAR",
+        "is_nullary": false,
+        "comp_str": "DOLLAR(${1:number}${2:,${3: [decimals]}})",
         "req_param": [
             "number"
         ],
@@ -1351,6 +1621,8 @@
     },
     {
         "func_name": "DOLLARDE",
+        "is_nullary": false,
+        "comp_str": "DOLLARDE(${1:fractional_dollar},${2: fraction})",
         "req_param": [
             "fractional_dollar",
             "fraction"
@@ -1360,6 +1632,8 @@
     },
     {
         "func_name": "DOLLARFR",
+        "is_nullary": false,
+        "comp_str": "DOLLARFR(${1:decimal_dollar},${2: fraction})",
         "req_param": [
             "decimal_dollar",
             "fraction"
@@ -1369,6 +1643,8 @@
     },
     {
         "func_name": "DPRODUCT",
+        "is_nullary": false,
+        "comp_str": "DPRODUCT(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1379,6 +1655,8 @@
     },
     {
         "func_name": "DROP",
+        "is_nullary": false,
+        "comp_str": "DROP(${1:array},${2: rows}${3:,${4: [columns]}})",
         "req_param": [
             "array",
             "rows"
@@ -1390,6 +1668,8 @@
     },
     {
         "func_name": "DSTDEV",
+        "is_nullary": false,
+        "comp_str": "DSTDEV(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1400,6 +1680,8 @@
     },
     {
         "func_name": "DSTDEVP",
+        "is_nullary": false,
+        "comp_str": "DSTDEVP(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1410,6 +1692,8 @@
     },
     {
         "func_name": "DSUM",
+        "is_nullary": false,
+        "comp_str": "DSUM(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1420,6 +1704,8 @@
     },
     {
         "func_name": "DURATION",
+        "is_nullary": false,
+        "comp_str": "DURATION(${1:settlement},${2: maturity},${3: coupon},${4: yld},${5: frequency}${6:,${7: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -1434,6 +1720,8 @@
     },
     {
         "func_name": "DVAR",
+        "is_nullary": false,
+        "comp_str": "DVAR(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1444,6 +1732,8 @@
     },
     {
         "func_name": "DVARP",
+        "is_nullary": false,
+        "comp_str": "DVARP(${1:database},${2: field},${3: criteria})",
         "req_param": [
             "database",
             "field",
@@ -1454,6 +1744,8 @@
     },
     {
         "func_name": "EDATE",
+        "is_nullary": false,
+        "comp_str": "EDATE(${1:start_date},${2: months})",
         "req_param": [
             "start_date",
             "months"
@@ -1463,6 +1755,8 @@
     },
     {
         "func_name": "EFFECT",
+        "is_nullary": false,
+        "comp_str": "EFFECT(${1:nominal_rate},${2: npery})",
         "req_param": [
             "nominal_rate",
             "npery"
@@ -1472,6 +1766,8 @@
     },
     {
         "func_name": "ENCODEURL",
+        "is_nullary": false,
+        "comp_str": "ENCODEURL(${1:text})",
         "req_param": [
             "text"
         ],
@@ -1480,6 +1776,8 @@
     },
     {
         "func_name": "EOMONTH",
+        "is_nullary": false,
+        "comp_str": "EOMONTH(${1:start_date},${2: months})",
         "req_param": [
             "start_date",
             "months"
@@ -1489,6 +1787,8 @@
     },
     {
         "func_name": "ERF",
+        "is_nullary": false,
+        "comp_str": "ERF(${1:lower_limit}${2:,${3: [upper_limit]}})",
         "req_param": [
             "lower_limit"
         ],
@@ -1499,6 +1799,8 @@
     },
     {
         "func_name": "ERF.PRECISE",
+        "is_nullary": false,
+        "comp_str": "ERF.PRECISE(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1507,6 +1809,8 @@
     },
     {
         "func_name": "ERFC",
+        "is_nullary": false,
+        "comp_str": "ERFC(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1515,6 +1819,8 @@
     },
     {
         "func_name": "ERFC.PRECISE",
+        "is_nullary": false,
+        "comp_str": "ERFC.PRECISE(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1523,6 +1829,8 @@
     },
     {
         "func_name": "ERROR.TYPE",
+        "is_nullary": false,
+        "comp_str": "ERROR.TYPE(${1:error_val})",
         "req_param": [
             "error_val"
         ],
@@ -1531,6 +1839,8 @@
     },
     {
         "func_name": "EUROCONVERT",
+        "is_nullary": false,
+        "comp_str": "EUROCONVERT(${1:number},${2: source},${3: target},${4: full_precision},${5: triangulation_precision})",
         "req_param": [
             "number",
             "source",
@@ -1543,6 +1853,8 @@
     },
     {
         "func_name": "EVEN",
+        "is_nullary": false,
+        "comp_str": "EVEN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -1551,6 +1863,8 @@
     },
     {
         "func_name": "EXACT",
+        "is_nullary": false,
+        "comp_str": "EXACT(${1:text1},${2: text2})",
         "req_param": [
             "text1",
             "text2"
@@ -1560,6 +1874,8 @@
     },
     {
         "func_name": "EXP",
+        "is_nullary": false,
+        "comp_str": "EXP(${1:number})",
         "req_param": [
             "number"
         ],
@@ -1568,6 +1884,8 @@
     },
     {
         "func_name": "EXPAND",
+        "is_nullary": false,
+        "comp_str": "EXPAND(${1:array},${2: rows}${3:,${4: [columns]},${5: [pad_with]}})",
         "req_param": [
             "array",
             "rows"
@@ -1580,6 +1898,8 @@
     },
     {
         "func_name": "EXPON.DIST",
+        "is_nullary": false,
+        "comp_str": "EXPON.DIST(${1:x},${2: lambda},${3: cumulative})",
         "req_param": [
             "x",
             "lambda",
@@ -1590,6 +1910,8 @@
     },
     {
         "func_name": "EXPONDIST",
+        "is_nullary": false,
+        "comp_str": "EXPONDIST(${1:x},${2: lambda},${3: cumulative})",
         "req_param": [
             "x",
             "lambda",
@@ -1600,6 +1922,8 @@
     },
     {
         "func_name": "F.DIST",
+        "is_nullary": false,
+        "comp_str": "F.DIST(${1:x},${2: deg_freedom1},${3: deg_freedom2},${4: cumulative})",
         "req_param": [
             "x",
             "deg_freedom1",
@@ -1611,6 +1935,8 @@
     },
     {
         "func_name": "F.DIST.RT",
+        "is_nullary": false,
+        "comp_str": "F.DIST.RT(${1:x},${2: deg_freedom1},${3: deg_freedom2})",
         "req_param": [
             "x",
             "deg_freedom1",
@@ -1621,6 +1947,8 @@
     },
     {
         "func_name": "F.INV",
+        "is_nullary": false,
+        "comp_str": "F.INV(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
         "req_param": [
             "probability",
             "deg_freedom1",
@@ -1631,6 +1959,8 @@
     },
     {
         "func_name": "F.INV.RT",
+        "is_nullary": false,
+        "comp_str": "F.INV.RT(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
         "req_param": [
             "probability",
             "deg_freedom1",
@@ -1641,6 +1971,8 @@
     },
     {
         "func_name": "F.TEST",
+        "is_nullary": false,
+        "comp_str": "F.TEST(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -1650,6 +1982,8 @@
     },
     {
         "func_name": "FACT",
+        "is_nullary": false,
+        "comp_str": "FACT(${1:number})",
         "req_param": [
             "number"
         ],
@@ -1658,6 +1992,8 @@
     },
     {
         "func_name": "FACTDOUBLE",
+        "is_nullary": false,
+        "comp_str": "FACTDOUBLE(${1:number})",
         "req_param": [
             "number"
         ],
@@ -1666,6 +2002,8 @@
     },
     {
         "func_name": "FDIST",
+        "is_nullary": false,
+        "comp_str": "FDIST(${1:x},${2: deg_freedom1},${3: deg_freedom2})",
         "req_param": [
             "x",
             "deg_freedom1",
@@ -1676,6 +2014,8 @@
     },
     {
         "func_name": "FILTER",
+        "is_nullary": false,
+        "comp_str": "FILTER(${1:array},${2: include}${3:,${4: [if_empty]}})",
         "req_param": [
             "array",
             "include"
@@ -1687,6 +2027,8 @@
     },
     {
         "func_name": "FILTERXML",
+        "is_nullary": false,
+        "comp_str": "FILTERXML(${1:xml},${2: xpath})",
         "req_param": [
             "xml",
             "xpath"
@@ -1696,6 +2038,8 @@
     },
     {
         "func_name": "FIND",
+        "is_nullary": false,
+        "comp_str": "FIND(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
         "req_param": [
             "find_text",
             "within_text"
@@ -1707,6 +2051,8 @@
     },
     {
         "func_name": "FINDB",
+        "is_nullary": false,
+        "comp_str": "FINDB(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
         "req_param": [
             "find_text",
             "within_text"
@@ -1718,6 +2064,8 @@
     },
     {
         "func_name": "FINV",
+        "is_nullary": false,
+        "comp_str": "FINV(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
         "req_param": [
             "probability",
             "deg_freedom1",
@@ -1728,6 +2076,8 @@
     },
     {
         "func_name": "FISHER",
+        "is_nullary": false,
+        "comp_str": "FISHER(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1736,6 +2086,8 @@
     },
     {
         "func_name": "FISHERINV",
+        "is_nullary": false,
+        "comp_str": "FISHERINV(${1:y})",
         "req_param": [
             "y"
         ],
@@ -1744,6 +2096,8 @@
     },
     {
         "func_name": "FIXED",
+        "is_nullary": false,
+        "comp_str": "FIXED(${1:number}${2:,${3: [decimals]},${4: [no_commas]}})",
         "req_param": [
             "number"
         ],
@@ -1755,6 +2109,8 @@
     },
     {
         "func_name": "FLOOR",
+        "is_nullary": false,
+        "comp_str": "FLOOR(${1:number},${2: significance})",
         "req_param": [
             "number",
             "significance"
@@ -1764,6 +2120,8 @@
     },
     {
         "func_name": "FLOOR.MATH",
+        "is_nullary": false,
+        "comp_str": "FLOOR.MATH(${1:number}${2:,${3: [significance]},${4: [mode]}})",
         "req_param": [
             "number"
         ],
@@ -1775,6 +2133,8 @@
     },
     {
         "func_name": "FLOOR.PRECISE",
+        "is_nullary": false,
+        "comp_str": "FLOOR.PRECISE(${1:number}${2:,${3: [significance]}})",
         "req_param": [
             "number"
         ],
@@ -1785,6 +2145,8 @@
     },
     {
         "func_name": "FORECAST",
+        "is_nullary": false,
+        "comp_str": "FORECAST(${1:x},${2: known_ys},${3: known_xs})",
         "req_param": [
             "x",
             "known_ys",
@@ -1795,6 +2157,8 @@
     },
     {
         "func_name": "FORECAST.ETS",
+        "is_nullary": false,
+        "comp_str": "FORECAST.ETS(${1:target_date},${2: values},${3: timeline}${4:,${5: [seasonality]},${6: [data_completion]},${7: [aggregation]}})",
         "req_param": [
             "target_date",
             "values",
@@ -1809,6 +2173,8 @@
     },
     {
         "func_name": "FORECAST.ETS.CONFINT",
+        "is_nullary": false,
+        "comp_str": "FORECAST.ETS.CONFINT(${1:target_date},${2: values},${3: timeline}${4:,${5: [confidence_level]},${6: [seasonality]},${7: [data_completion]},${8: [aggregation]}})",
         "req_param": [
             "target_date",
             "values",
@@ -1824,6 +2190,8 @@
     },
     {
         "func_name": "FORECAST.ETS.SEASONALITY",
+        "is_nullary": false,
+        "comp_str": "FORECAST.ETS.SEASONALITY(${1:values},${2: timeline}${3:,${4: [data_completion]},${5: [aggregation]}})",
         "req_param": [
             "values",
             "timeline"
@@ -1836,6 +2204,8 @@
     },
     {
         "func_name": "FORECAST.ETS.STAT",
+        "is_nullary": false,
+        "comp_str": "FORECAST.ETS.STAT(${1:values},${2: timeline},${3: statistic_type}${4:,${5: [seasonality]},${6: [data_completion]},${7: [aggregation]}})",
         "req_param": [
             "values",
             "timeline",
@@ -1850,6 +2220,8 @@
     },
     {
         "func_name": "FORECAST.LINEAR",
+        "is_nullary": false,
+        "comp_str": "FORECAST.LINEAR(${1:x},${2: known_ys},${3: known_xs})",
         "req_param": [
             "x",
             "known_ys",
@@ -1860,6 +2232,8 @@
     },
     {
         "func_name": "FORMULATEXT",
+        "is_nullary": false,
+        "comp_str": "FORMULATEXT(${1:reference})",
         "req_param": [
             "reference"
         ],
@@ -1868,6 +2242,8 @@
     },
     {
         "func_name": "FREQUENCY",
+        "is_nullary": false,
+        "comp_str": "FREQUENCY(${1:data_array},${2: bins_array})",
         "req_param": [
             "data_array",
             "bins_array"
@@ -1877,6 +2253,8 @@
     },
     {
         "func_name": "FTEST",
+        "is_nullary": false,
+        "comp_str": "FTEST(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -1886,6 +2264,8 @@
     },
     {
         "func_name": "FV",
+        "is_nullary": false,
+        "comp_str": "FV(${1:rate},${2: nper},${3: pmt}${4:,${5: [pv]},${6: [type]}})",
         "req_param": [
             "rate",
             "nper",
@@ -1899,6 +2279,8 @@
     },
     {
         "func_name": "FVSCHEDULE",
+        "is_nullary": false,
+        "comp_str": "FVSCHEDULE(${1:principal},${2: schedule})",
         "req_param": [
             "principal",
             "schedule"
@@ -1908,6 +2290,8 @@
     },
     {
         "func_name": "GAMMA",
+        "is_nullary": false,
+        "comp_str": "GAMMA(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1916,6 +2300,8 @@
     },
     {
         "func_name": "GAMMA.DIST",
+        "is_nullary": false,
+        "comp_str": "GAMMA.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
         "req_param": [
             "x",
             "alpha",
@@ -1927,6 +2313,8 @@
     },
     {
         "func_name": "GAMMA.INV",
+        "is_nullary": false,
+        "comp_str": "GAMMA.INV(${1:probability},${2: alpha},${3: beta})",
         "req_param": [
             "probability",
             "alpha",
@@ -1937,6 +2325,8 @@
     },
     {
         "func_name": "GAMMADIST",
+        "is_nullary": false,
+        "comp_str": "GAMMADIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
         "req_param": [
             "x",
             "alpha",
@@ -1948,6 +2338,8 @@
     },
     {
         "func_name": "GAMMAINV",
+        "is_nullary": false,
+        "comp_str": "GAMMAINV(${1:probability},${2: alpha},${3: beta})",
         "req_param": [
             "probability",
             "alpha",
@@ -1958,6 +2350,8 @@
     },
     {
         "func_name": "GAMMALN",
+        "is_nullary": false,
+        "comp_str": "GAMMALN(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1966,6 +2360,8 @@
     },
     {
         "func_name": "GAMMALN.PRECISE",
+        "is_nullary": false,
+        "comp_str": "GAMMALN.PRECISE(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1974,6 +2370,8 @@
     },
     {
         "func_name": "GAUSS",
+        "is_nullary": false,
+        "comp_str": "GAUSS(${1:x})",
         "req_param": [
             "x"
         ],
@@ -1982,6 +2380,8 @@
     },
     {
         "func_name": "GCD",
+        "is_nullary": false,
+        "comp_str": "GCD(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -1992,6 +2392,8 @@
     },
     {
         "func_name": "GEOMEAN",
+        "is_nullary": false,
+        "comp_str": "GEOMEAN(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -2002,6 +2404,8 @@
     },
     {
         "func_name": "GESTEP",
+        "is_nullary": false,
+        "comp_str": "GESTEP(${1:number}${2:,${3: [step]}})",
         "req_param": [
             "number"
         ],
@@ -2012,6 +2416,8 @@
     },
     {
         "func_name": "GETPIVOTDATA",
+        "is_nullary": false,
+        "comp_str": "GETPIVOTDATA(${1:data_field},${2: pivot_table}${3:,${4: [field1]},${5: [item1], ...}})",
         "req_param": [
             "data_field",
             "pivot_table"
@@ -2024,6 +2430,8 @@
     },
     {
         "func_name": "GROWTH",
+        "is_nullary": false,
+        "comp_str": "GROWTH(${1:known_ys}${2:,${3: [known_xs]},${4: [new_xs]},${5: [const]}})",
         "req_param": [
             "known_ys"
         ],
@@ -2036,6 +2444,8 @@
     },
     {
         "func_name": "HARMEAN",
+        "is_nullary": false,
+        "comp_str": "HARMEAN(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -2046,6 +2456,8 @@
     },
     {
         "func_name": "HEX2BIN",
+        "is_nullary": false,
+        "comp_str": "HEX2BIN(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -2056,6 +2468,8 @@
     },
     {
         "func_name": "HEX2DEC",
+        "is_nullary": false,
+        "comp_str": "HEX2DEC(${1:number})",
         "req_param": [
             "number"
         ],
@@ -2064,6 +2478,8 @@
     },
     {
         "func_name": "HEX2OCT",
+        "is_nullary": false,
+        "comp_str": "HEX2OCT(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -2074,6 +2490,8 @@
     },
     {
         "func_name": "HLOOKUP",
+        "is_nullary": false,
+        "comp_str": "HLOOKUP(${1:lookup_value},${2: table_array},${3: row_index_num}${4:,${5: [range_lookup]}})",
         "req_param": [
             "lookup_value",
             "table_array",
@@ -2086,6 +2504,8 @@
     },
     {
         "func_name": "HOUR",
+        "is_nullary": false,
+        "comp_str": "HOUR(${1:serial_number})",
         "req_param": [
             "serial_number"
         ],
@@ -2094,6 +2514,8 @@
     },
     {
         "func_name": "HSTACK",
+        "is_nullary": false,
+        "comp_str": "HSTACK(${1:array1}${2:,${3: [array2], ...}})",
         "req_param": [
             "array1"
         ],
@@ -2104,6 +2526,8 @@
     },
     {
         "func_name": "HYPERLINK",
+        "is_nullary": false,
+        "comp_str": "HYPERLINK(${1:link_location}${2:,${3: [friendly_name]}})",
         "req_param": [
             "link_location"
         ],
@@ -2114,6 +2538,8 @@
     },
     {
         "func_name": "HYPGEOM.DIST",
+        "is_nullary": false,
+        "comp_str": "HYPGEOM.DIST(${1:sample_s},${2: number_sample},${3: population_s},${4: number_pop},${5: cumulative})",
         "req_param": [
             "sample_s",
             "number_sample",
@@ -2126,6 +2552,8 @@
     },
     {
         "func_name": "HYPGEOMDIST",
+        "is_nullary": false,
+        "comp_str": "HYPGEOMDIST(${1:sample_s},${2: number_sample},${3: population_s},${4: number_pop})",
         "req_param": [
             "sample_s",
             "number_sample",
@@ -2137,6 +2565,8 @@
     },
     {
         "func_name": "IF",
+        "is_nullary": false,
+        "comp_str": "IF(${1:logical_test}${2:,${3: [value_if_true]},${4: [value_if_false]}})",
         "req_param": [
             "logical_test"
         ],
@@ -2148,6 +2578,8 @@
     },
     {
         "func_name": "IFERROR",
+        "is_nullary": false,
+        "comp_str": "IFERROR(${1:value},${2: value_if_error})",
         "req_param": [
             "value",
             "value_if_error"
@@ -2157,6 +2589,8 @@
     },
     {
         "func_name": "IFNA",
+        "is_nullary": false,
+        "comp_str": "IFNA(${1:value},${2: value_if_na})",
         "req_param": [
             "value",
             "value_if_na"
@@ -2166,6 +2600,8 @@
     },
     {
         "func_name": "IFS",
+        "is_nullary": false,
+        "comp_str": "IFS(${1:logical_test1},${2: value_if_true1}${3:,${4: [logical_test2]},${5: [value_if_true2], ...}})",
         "req_param": [
             "logical_test1",
             "value_if_true1"
@@ -2178,6 +2614,8 @@
     },
     {
         "func_name": "IMABS",
+        "is_nullary": false,
+        "comp_str": "IMABS(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2186,6 +2624,8 @@
     },
     {
         "func_name": "IMAGE",
+        "is_nullary": false,
+        "comp_str": "IMAGE(${1:source}${2:,${3: [alt_text]},${4: [sizing]},${5: [height]},${6: [width]}})",
         "req_param": [
             "source"
         ],
@@ -2199,6 +2639,8 @@
     },
     {
         "func_name": "IMAGINARY",
+        "is_nullary": false,
+        "comp_str": "IMAGINARY(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2207,6 +2649,8 @@
     },
     {
         "func_name": "IMARGUMENT",
+        "is_nullary": false,
+        "comp_str": "IMARGUMENT(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2215,6 +2659,8 @@
     },
     {
         "func_name": "IMCONJUGATE",
+        "is_nullary": false,
+        "comp_str": "IMCONJUGATE(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2223,6 +2669,8 @@
     },
     {
         "func_name": "IMCOS",
+        "is_nullary": false,
+        "comp_str": "IMCOS(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2231,6 +2679,8 @@
     },
     {
         "func_name": "IMCOSH",
+        "is_nullary": false,
+        "comp_str": "IMCOSH(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2239,6 +2689,8 @@
     },
     {
         "func_name": "IMCOT",
+        "is_nullary": false,
+        "comp_str": "IMCOT(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2247,6 +2699,8 @@
     },
     {
         "func_name": "IMCSC",
+        "is_nullary": false,
+        "comp_str": "IMCSC(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2255,6 +2709,8 @@
     },
     {
         "func_name": "IMCSCH",
+        "is_nullary": false,
+        "comp_str": "IMCSCH(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2263,6 +2719,8 @@
     },
     {
         "func_name": "IMDIV",
+        "is_nullary": false,
+        "comp_str": "IMDIV(${1:inumber1},${2: inumber2})",
         "req_param": [
             "inumber1",
             "inumber2"
@@ -2272,6 +2730,8 @@
     },
     {
         "func_name": "IMEXP",
+        "is_nullary": false,
+        "comp_str": "IMEXP(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2280,6 +2740,8 @@
     },
     {
         "func_name": "IMLN",
+        "is_nullary": false,
+        "comp_str": "IMLN(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2288,6 +2750,8 @@
     },
     {
         "func_name": "IMLOG10",
+        "is_nullary": false,
+        "comp_str": "IMLOG10(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2296,6 +2760,8 @@
     },
     {
         "func_name": "IMLOG2",
+        "is_nullary": false,
+        "comp_str": "IMLOG2(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2304,6 +2770,8 @@
     },
     {
         "func_name": "IMPOWER",
+        "is_nullary": false,
+        "comp_str": "IMPOWER(${1:inumber},${2: number})",
         "req_param": [
             "inumber",
             "number"
@@ -2313,6 +2781,8 @@
     },
     {
         "func_name": "IMPRODUCT",
+        "is_nullary": false,
+        "comp_str": "IMPRODUCT(${1:inumber1}${2:,${3: [inumber2], ...}})",
         "req_param": [
             "inumber1"
         ],
@@ -2323,6 +2793,8 @@
     },
     {
         "func_name": "IMREAL",
+        "is_nullary": false,
+        "comp_str": "IMREAL(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2331,6 +2803,8 @@
     },
     {
         "func_name": "IMSEC",
+        "is_nullary": false,
+        "comp_str": "IMSEC(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2339,6 +2813,8 @@
     },
     {
         "func_name": "IMSECH",
+        "is_nullary": false,
+        "comp_str": "IMSECH(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2347,6 +2823,8 @@
     },
     {
         "func_name": "IMSIN",
+        "is_nullary": false,
+        "comp_str": "IMSIN(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2355,6 +2833,8 @@
     },
     {
         "func_name": "IMSINH",
+        "is_nullary": false,
+        "comp_str": "IMSINH(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2363,6 +2843,8 @@
     },
     {
         "func_name": "IMSQRT",
+        "is_nullary": false,
+        "comp_str": "IMSQRT(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2371,6 +2853,8 @@
     },
     {
         "func_name": "IMSUB",
+        "is_nullary": false,
+        "comp_str": "IMSUB(${1:inumber1},${2: inumber2})",
         "req_param": [
             "inumber1",
             "inumber2"
@@ -2380,6 +2864,8 @@
     },
     {
         "func_name": "IMSUM",
+        "is_nullary": false,
+        "comp_str": "IMSUM(${1:inumber1}${2:,${3: [inumber2], ...}})",
         "req_param": [
             "inumber1"
         ],
@@ -2390,6 +2876,8 @@
     },
     {
         "func_name": "IMTAN",
+        "is_nullary": false,
+        "comp_str": "IMTAN(${1:inumber})",
         "req_param": [
             "inumber"
         ],
@@ -2398,6 +2886,8 @@
     },
     {
         "func_name": "INDEX",
+        "is_nullary": false,
+        "comp_str": "INDEX(${1:array},${2: row_num}${3:,${4: [column_num]}})",
         "req_param": [
             "array",
             "row_num"
@@ -2409,6 +2899,8 @@
     },
     {
         "func_name": "INDIRECT",
+        "is_nullary": false,
+        "comp_str": "INDIRECT(${1:ref_text}${2:,${3: [a1]}})",
         "req_param": [
             "ref_text"
         ],
@@ -2419,6 +2911,8 @@
     },
     {
         "func_name": "INFO",
+        "is_nullary": false,
+        "comp_str": "INFO(${1:type_text})",
         "req_param": [
             "type_text"
         ],
@@ -2427,6 +2921,8 @@
     },
     {
         "func_name": "INT",
+        "is_nullary": false,
+        "comp_str": "INT(${1:number})",
         "req_param": [
             "number"
         ],
@@ -2435,6 +2931,8 @@
     },
     {
         "func_name": "INTERCEPT",
+        "is_nullary": false,
+        "comp_str": "INTERCEPT(${1:known_ys},${2: known_xs})",
         "req_param": [
             "known_ys",
             "known_xs"
@@ -2444,6 +2942,8 @@
     },
     {
         "func_name": "INTRATE",
+        "is_nullary": false,
+        "comp_str": "INTRATE(${1:settlement},${2: maturity},${3: investment},${4: redemption}${5:,${6: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -2457,6 +2957,8 @@
     },
     {
         "func_name": "IPMT",
+        "is_nullary": false,
+        "comp_str": "IPMT(${1:rate},${2: per},${3: nper},${4: pv}${5:,${6: [fv]},${7: [type]}})",
         "req_param": [
             "rate",
             "per",
@@ -2471,6 +2973,8 @@
     },
     {
         "func_name": "IRR",
+        "is_nullary": false,
+        "comp_str": "IRR(${1:values}${2:,${3: [guess]}})",
         "req_param": [
             "values"
         ],
@@ -2481,6 +2985,8 @@
     },
     {
         "func_name": "ISBLANK",
+        "is_nullary": false,
+        "comp_str": "ISBLANK(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2489,6 +2995,8 @@
     },
     {
         "func_name": "ISERR",
+        "is_nullary": false,
+        "comp_str": "ISERR(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2497,6 +3005,8 @@
     },
     {
         "func_name": "ISERROR",
+        "is_nullary": false,
+        "comp_str": "ISERROR(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2505,6 +3015,8 @@
     },
     {
         "func_name": "ISEVEN",
+        "is_nullary": false,
+        "comp_str": "ISEVEN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -2513,6 +3025,8 @@
     },
     {
         "func_name": "ISFORMULA",
+        "is_nullary": false,
+        "comp_str": "ISFORMULA(${1:reference})",
         "req_param": [
             "reference"
         ],
@@ -2521,6 +3035,8 @@
     },
     {
         "func_name": "ISLOGICAL",
+        "is_nullary": false,
+        "comp_str": "ISLOGICAL(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2529,6 +3045,8 @@
     },
     {
         "func_name": "ISNA",
+        "is_nullary": false,
+        "comp_str": "ISNA(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2537,6 +3055,8 @@
     },
     {
         "func_name": "ISNONTEXT",
+        "is_nullary": false,
+        "comp_str": "ISNONTEXT(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2545,6 +3065,8 @@
     },
     {
         "func_name": "ISNUMBER",
+        "is_nullary": false,
+        "comp_str": "ISNUMBER(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2553,6 +3075,8 @@
     },
     {
         "func_name": "ISO.CEILING",
+        "is_nullary": false,
+        "comp_str": "ISO.CEILING(${1:number}${2:,${3: [significance]}})",
         "req_param": [
             "number"
         ],
@@ -2563,6 +3087,8 @@
     },
     {
         "func_name": "ISODD",
+        "is_nullary": false,
+        "comp_str": "ISODD(${1:number})",
         "req_param": [
             "number"
         ],
@@ -2571,6 +3097,8 @@
     },
     {
         "func_name": "ISOMITTED",
+        "is_nullary": false,
+        "comp_str": "ISOMITTED(${1:argument})",
         "req_param": [
             "argument"
         ],
@@ -2579,6 +3107,8 @@
     },
     {
         "func_name": "ISOWEEKNUM",
+        "is_nullary": false,
+        "comp_str": "ISOWEEKNUM(${1:date})",
         "req_param": [
             "date"
         ],
@@ -2587,6 +3117,8 @@
     },
     {
         "func_name": "ISPMT",
+        "is_nullary": false,
+        "comp_str": "ISPMT(${1:rate},${2: per},${3: nper},${4: pv})",
         "req_param": [
             "rate",
             "per",
@@ -2598,6 +3130,8 @@
     },
     {
         "func_name": "ISREF",
+        "is_nullary": false,
+        "comp_str": "ISREF(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2606,6 +3140,8 @@
     },
     {
         "func_name": "ISTEXT",
+        "is_nullary": false,
+        "comp_str": "ISTEXT(${1:value})",
         "req_param": [
             "value"
         ],
@@ -2614,6 +3150,8 @@
     },
     {
         "func_name": "JIS",
+        "is_nullary": false,
+        "comp_str": "JIS(${1:text})",
         "req_param": [
             "text"
         ],
@@ -2622,6 +3160,8 @@
     },
     {
         "func_name": "KURT",
+        "is_nullary": false,
+        "comp_str": "KURT(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -2632,6 +3172,8 @@
     },
     {
         "func_name": "LAMBDA",
+        "is_nullary": false,
+        "comp_str": "LAMBDA(${1:parameter_or_calculation1}${2:,${3: [parameter_or_calculation2], ...}})",
         "req_param": [
             "parameter_or_calculation1"
         ],
@@ -2642,6 +3184,8 @@
     },
     {
         "func_name": "LARGE",
+        "is_nullary": false,
+        "comp_str": "LARGE(${1:array},${2: k})",
         "req_param": [
             "array",
             "k"
@@ -2651,6 +3195,8 @@
     },
     {
         "func_name": "LCM",
+        "is_nullary": false,
+        "comp_str": "LCM(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -2661,6 +3207,8 @@
     },
     {
         "func_name": "LEFT",
+        "is_nullary": false,
+        "comp_str": "LEFT(${1:text}${2:,${3: [num_chars]}})",
         "req_param": [
             "text"
         ],
@@ -2671,6 +3219,8 @@
     },
     {
         "func_name": "LEFTB",
+        "is_nullary": false,
+        "comp_str": "LEFTB(${1:text}${2:,${3: [num_bytes]}})",
         "req_param": [
             "text"
         ],
@@ -2681,6 +3231,8 @@
     },
     {
         "func_name": "LEN",
+        "is_nullary": false,
+        "comp_str": "LEN(${1:text})",
         "req_param": [
             "text"
         ],
@@ -2689,6 +3241,8 @@
     },
     {
         "func_name": "LENB",
+        "is_nullary": false,
+        "comp_str": "LENB(${1:text})",
         "req_param": [
             "text"
         ],
@@ -2697,6 +3251,8 @@
     },
     {
         "func_name": "LET",
+        "is_nullary": false,
+        "comp_str": "LET(${1:name1},${2: name_value1},${3: calculation_or_name2}${4:,${5: [name_value2], ...}})",
         "req_param": [
             "name1",
             "name_value1",
@@ -2709,6 +3265,8 @@
     },
     {
         "func_name": "LINEST",
+        "is_nullary": false,
+        "comp_str": "LINEST(${1:known_ys}${2:,${3: [known_xs]},${4: [const]},${5: [stats]}})",
         "req_param": [
             "known_ys"
         ],
@@ -2721,6 +3279,8 @@
     },
     {
         "func_name": "LN",
+        "is_nullary": false,
+        "comp_str": "LN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -2729,6 +3289,8 @@
     },
     {
         "func_name": "LOG",
+        "is_nullary": false,
+        "comp_str": "LOG(${1:number}${2:,${3: [base]}})",
         "req_param": [
             "number"
         ],
@@ -2739,6 +3301,8 @@
     },
     {
         "func_name": "LOG10",
+        "is_nullary": false,
+        "comp_str": "LOG10(${1:number})",
         "req_param": [
             "number"
         ],
@@ -2747,6 +3311,8 @@
     },
     {
         "func_name": "LOGEST",
+        "is_nullary": false,
+        "comp_str": "LOGEST(${1:known_ys}${2:,${3: [known_xs]},${4: [const]},${5: [stats]}})",
         "req_param": [
             "known_ys"
         ],
@@ -2759,6 +3325,8 @@
     },
     {
         "func_name": "LOGINV",
+        "is_nullary": false,
+        "comp_str": "LOGINV(${1:probability},${2: mean},${3: standard_dev})",
         "req_param": [
             "probability",
             "mean",
@@ -2769,6 +3337,8 @@
     },
     {
         "func_name": "LOGNORM.DIST",
+        "is_nullary": false,
+        "comp_str": "LOGNORM.DIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
         "req_param": [
             "x",
             "mean",
@@ -2780,6 +3350,8 @@
     },
     {
         "func_name": "LOGNORM.INV",
+        "is_nullary": false,
+        "comp_str": "LOGNORM.INV(${1:probability},${2: mean},${3: standard_dev})",
         "req_param": [
             "probability",
             "mean",
@@ -2790,6 +3362,8 @@
     },
     {
         "func_name": "LOGNORMDIST",
+        "is_nullary": false,
+        "comp_str": "LOGNORMDIST(${1:x},${2: mean},${3: standard_dev})",
         "req_param": [
             "x",
             "mean",
@@ -2800,6 +3374,8 @@
     },
     {
         "func_name": "LOOKUP",
+        "is_nullary": false,
+        "comp_str": "LOOKUP(${1:lookup_value},${2: lookup_vector}${3:,${4: [result_vector]}})",
         "req_param": [
             "lookup_value",
             "lookup_vector"
@@ -2811,6 +3387,8 @@
     },
     {
         "func_name": "LOWER",
+        "is_nullary": false,
+        "comp_str": "LOWER(${1:text})",
         "req_param": [
             "text"
         ],
@@ -2819,6 +3397,8 @@
     },
     {
         "func_name": "MAKEARRAY",
+        "is_nullary": false,
+        "comp_str": "MAKEARRAY(${1:rows},${2: columns},${3: function})",
         "req_param": [
             "rows",
             "columns",
@@ -2829,6 +3409,8 @@
     },
     {
         "func_name": "MAP",
+        "is_nullary": false,
+        "comp_str": "MAP(${1:array},${2: lambda_or_array2}${3:,${4: [lambda_or_array3], ...}})",
         "req_param": [
             "array",
             "lambda_or_array2"
@@ -2840,6 +3422,8 @@
     },
     {
         "func_name": "MATCH",
+        "is_nullary": false,
+        "comp_str": "MATCH(${1:lookup_value},${2: lookup_array}${3:,${4: [match_type]}})",
         "req_param": [
             "lookup_value",
             "lookup_array"
@@ -2851,6 +3435,8 @@
     },
     {
         "func_name": "MAX",
+        "is_nullary": false,
+        "comp_str": "MAX(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -2861,6 +3447,8 @@
     },
     {
         "func_name": "MAXA",
+        "is_nullary": false,
+        "comp_str": "MAXA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -2871,6 +3459,8 @@
     },
     {
         "func_name": "MAXIFS",
+        "is_nullary": false,
+        "comp_str": "MAXIFS(${1:max_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
         "req_param": [
             "max_range",
             "criteria_range1",
@@ -2884,6 +3474,8 @@
     },
     {
         "func_name": "MDETERM",
+        "is_nullary": false,
+        "comp_str": "MDETERM(${1:array})",
         "req_param": [
             "array"
         ],
@@ -2892,6 +3484,8 @@
     },
     {
         "func_name": "MDURATION",
+        "is_nullary": false,
+        "comp_str": "MDURATION(${1:settlement},${2: maturity},${3: coupon},${4: yld},${5: frequency}${6:,${7: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -2906,6 +3500,8 @@
     },
     {
         "func_name": "MEDIAN",
+        "is_nullary": false,
+        "comp_str": "MEDIAN(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -2916,6 +3512,8 @@
     },
     {
         "func_name": "MID",
+        "is_nullary": false,
+        "comp_str": "MID(${1:text},${2: start_num},${3: num_chars})",
         "req_param": [
             "text",
             "start_num",
@@ -2926,6 +3524,8 @@
     },
     {
         "func_name": "MIDB",
+        "is_nullary": false,
+        "comp_str": "MIDB(${1:text},${2: start_num},${3: num_bytes})",
         "req_param": [
             "text",
             "start_num",
@@ -2936,6 +3536,8 @@
     },
     {
         "func_name": "MIN",
+        "is_nullary": false,
+        "comp_str": "MIN(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -2946,6 +3548,8 @@
     },
     {
         "func_name": "MINA",
+        "is_nullary": false,
+        "comp_str": "MINA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -2956,6 +3560,8 @@
     },
     {
         "func_name": "MINIFS",
+        "is_nullary": false,
+        "comp_str": "MINIFS(${1:min_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
         "req_param": [
             "min_range",
             "criteria_range1",
@@ -2969,6 +3575,8 @@
     },
     {
         "func_name": "MINUTE",
+        "is_nullary": false,
+        "comp_str": "MINUTE(${1:serial_number})",
         "req_param": [
             "serial_number"
         ],
@@ -2977,6 +3585,8 @@
     },
     {
         "func_name": "MINVERSE",
+        "is_nullary": false,
+        "comp_str": "MINVERSE(${1:array})",
         "req_param": [
             "array"
         ],
@@ -2985,6 +3595,8 @@
     },
     {
         "func_name": "MIRR",
+        "is_nullary": false,
+        "comp_str": "MIRR(${1:values},${2: finance_rate},${3: reinvest_rate})",
         "req_param": [
             "values",
             "finance_rate",
@@ -2995,6 +3607,8 @@
     },
     {
         "func_name": "MMULT",
+        "is_nullary": false,
+        "comp_str": "MMULT(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -3004,6 +3618,8 @@
     },
     {
         "func_name": "MOD",
+        "is_nullary": false,
+        "comp_str": "MOD(${1:number},${2: divisor})",
         "req_param": [
             "number",
             "divisor"
@@ -3013,6 +3629,8 @@
     },
     {
         "func_name": "MODE",
+        "is_nullary": false,
+        "comp_str": "MODE(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -3023,6 +3641,8 @@
     },
     {
         "func_name": "MODE.MULT",
+        "is_nullary": false,
+        "comp_str": "MODE.MULT(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -3033,6 +3653,8 @@
     },
     {
         "func_name": "MODE.SNGL",
+        "is_nullary": false,
+        "comp_str": "MODE.SNGL(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -3043,6 +3665,8 @@
     },
     {
         "func_name": "MONTH",
+        "is_nullary": false,
+        "comp_str": "MONTH(${1:serial_number})",
         "req_param": [
             "serial_number"
         ],
@@ -3051,6 +3675,8 @@
     },
     {
         "func_name": "MROUND",
+        "is_nullary": false,
+        "comp_str": "MROUND(${1:number},${2: multiple})",
         "req_param": [
             "number",
             "multiple"
@@ -3060,6 +3686,8 @@
     },
     {
         "func_name": "MULTINOMIAL",
+        "is_nullary": false,
+        "comp_str": "MULTINOMIAL(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -3070,6 +3698,8 @@
     },
     {
         "func_name": "MUNIT",
+        "is_nullary": false,
+        "comp_str": "MUNIT(${1:dimension})",
         "req_param": [
             "dimension"
         ],
@@ -3078,6 +3708,8 @@
     },
     {
         "func_name": "N",
+        "is_nullary": false,
+        "comp_str": "N(${1:value})",
         "req_param": [
             "value"
         ],
@@ -3086,6 +3718,8 @@
     },
     {
         "func_name": "NEGBINOM.DIST",
+        "is_nullary": false,
+        "comp_str": "NEGBINOM.DIST(${1:number_f},${2: number_s},${3: probability_s},${4: cumulative})",
         "req_param": [
             "number_f",
             "number_s",
@@ -3097,6 +3731,8 @@
     },
     {
         "func_name": "NEGBINOMDIST",
+        "is_nullary": false,
+        "comp_str": "NEGBINOMDIST(${1:number_f},${2: number_s},${3: probability_s})",
         "req_param": [
             "number_f",
             "number_s",
@@ -3107,6 +3743,8 @@
     },
     {
         "func_name": "NETWORKDAYS",
+        "is_nullary": false,
+        "comp_str": "NETWORKDAYS(${1:start_date},${2: end_date}${3:,${4: [holidays]}})",
         "req_param": [
             "start_date",
             "end_date"
@@ -3118,6 +3756,8 @@
     },
     {
         "func_name": "NETWORKDAYS.INTL",
+        "is_nullary": false,
+        "comp_str": "NETWORKDAYS.INTL(${1:start_date},${2: end_date}${3:,${4: [weekend]},${5: [holidays]}})",
         "req_param": [
             "start_date",
             "end_date"
@@ -3130,6 +3770,8 @@
     },
     {
         "func_name": "NOMINAL",
+        "is_nullary": false,
+        "comp_str": "NOMINAL(${1:effect_rate},${2: npery})",
         "req_param": [
             "effect_rate",
             "npery"
@@ -3139,6 +3781,8 @@
     },
     {
         "func_name": "NORM.DIST",
+        "is_nullary": false,
+        "comp_str": "NORM.DIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
         "req_param": [
             "x",
             "mean",
@@ -3150,6 +3794,8 @@
     },
     {
         "func_name": "NORM.INV",
+        "is_nullary": false,
+        "comp_str": "NORM.INV(${1:probability},${2: mean},${3: standard_dev})",
         "req_param": [
             "probability",
             "mean",
@@ -3160,6 +3806,8 @@
     },
     {
         "func_name": "NORM.S.DIST",
+        "is_nullary": false,
+        "comp_str": "NORM.S.DIST(${1:z},${2: cumulative})",
         "req_param": [
             "z",
             "cumulative"
@@ -3169,6 +3817,8 @@
     },
     {
         "func_name": "NORM.S.INV",
+        "is_nullary": false,
+        "comp_str": "NORM.S.INV(${1:probability})",
         "req_param": [
             "probability"
         ],
@@ -3177,6 +3827,8 @@
     },
     {
         "func_name": "NORMDIST",
+        "is_nullary": false,
+        "comp_str": "NORMDIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
         "req_param": [
             "x",
             "mean",
@@ -3188,6 +3840,8 @@
     },
     {
         "func_name": "NORMINV",
+        "is_nullary": false,
+        "comp_str": "NORMINV(${1:probability},${2: mean},${3: standard_dev})",
         "req_param": [
             "probability",
             "mean",
@@ -3198,6 +3852,8 @@
     },
     {
         "func_name": "NORMSDIST",
+        "is_nullary": false,
+        "comp_str": "NORMSDIST(${1:z})",
         "req_param": [
             "z"
         ],
@@ -3206,6 +3862,8 @@
     },
     {
         "func_name": "NORMSINV",
+        "is_nullary": false,
+        "comp_str": "NORMSINV(${1:probability})",
         "req_param": [
             "probability"
         ],
@@ -3214,6 +3872,8 @@
     },
     {
         "func_name": "NOT",
+        "is_nullary": false,
+        "comp_str": "NOT(${1:logical})",
         "req_param": [
             "logical"
         ],
@@ -3222,6 +3882,8 @@
     },
     {
         "func_name": "NPER",
+        "is_nullary": false,
+        "comp_str": "NPER(${1:rate},${2: pmt},${3: pv}${4:,${5: [fv]},${6: [type]}})",
         "req_param": [
             "rate",
             "pmt",
@@ -3235,6 +3897,8 @@
     },
     {
         "func_name": "NPV",
+        "is_nullary": false,
+        "comp_str": "NPV(${1:rate},${2: value1}${3:,${4: [value2], ...}})",
         "req_param": [
             "rate",
             "value1"
@@ -3246,6 +3910,8 @@
     },
     {
         "func_name": "NUMBERVALUE",
+        "is_nullary": false,
+        "comp_str": "NUMBERVALUE(${1:text}${2:,${3: [decimal_separator]},${4: [group_separator]}})",
         "req_param": [
             "text"
         ],
@@ -3257,6 +3923,8 @@
     },
     {
         "func_name": "OCT2BIN",
+        "is_nullary": false,
+        "comp_str": "OCT2BIN(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -3267,6 +3935,8 @@
     },
     {
         "func_name": "OCT2DEC",
+        "is_nullary": false,
+        "comp_str": "OCT2DEC(${1:number})",
         "req_param": [
             "number"
         ],
@@ -3275,6 +3945,8 @@
     },
     {
         "func_name": "OCT2HEX",
+        "is_nullary": false,
+        "comp_str": "OCT2HEX(${1:number}${2:,${3: [places]}})",
         "req_param": [
             "number"
         ],
@@ -3285,6 +3957,8 @@
     },
     {
         "func_name": "ODD",
+        "is_nullary": false,
+        "comp_str": "ODD(${1:number})",
         "req_param": [
             "number"
         ],
@@ -3293,6 +3967,8 @@
     },
     {
         "func_name": "ODDFPRICE",
+        "is_nullary": false,
+        "comp_str": "ODDFPRICE(${1:settlement},${2: maturity},${3: issue},${4: first_coupon},${5: rate},${6: yld},${7: redemption},${8: frequency}${9:,${10: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3310,6 +3986,8 @@
     },
     {
         "func_name": "ODDFYIELD",
+        "is_nullary": false,
+        "comp_str": "ODDFYIELD(${1:settlement},${2: maturity},${3: issue},${4: first_coupon},${5: rate},${6: pr},${7: redemption},${8: frequency}${9:,${10: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3327,6 +4005,8 @@
     },
     {
         "func_name": "ODDLPRICE",
+        "is_nullary": false,
+        "comp_str": "ODDLPRICE(${1:settlement},${2: maturity},${3: last_interest},${4: rate},${5: yld},${6: redemption},${7: frequency}${8:,${9: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3343,6 +4023,8 @@
     },
     {
         "func_name": "ODDLYIELD",
+        "is_nullary": false,
+        "comp_str": "ODDLYIELD(${1:settlement},${2: maturity},${3: last_interest},${4: rate},${5: pr},${6: redemption},${7: frequency}${8:,${9: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3359,6 +4041,8 @@
     },
     {
         "func_name": "OFFSET",
+        "is_nullary": false,
+        "comp_str": "OFFSET(${1:reference},${2: rows},${3: cols}${4:,${5: [height]},${6: [width]}})",
         "req_param": [
             "reference",
             "rows",
@@ -3372,6 +4056,8 @@
     },
     {
         "func_name": "OR",
+        "is_nullary": false,
+        "comp_str": "OR(${1:logical1}${2:,${3: [logical2], ...}})",
         "req_param": [
             "logical1"
         ],
@@ -3382,6 +4068,8 @@
     },
     {
         "func_name": "PDURATION",
+        "is_nullary": false,
+        "comp_str": "PDURATION(${1:rate},${2: py},${3: fv})",
         "req_param": [
             "rate",
             "py",
@@ -3392,6 +4080,8 @@
     },
     {
         "func_name": "PEARSON",
+        "is_nullary": false,
+        "comp_str": "PEARSON(${1:array1},${2: array2})",
         "req_param": [
             "array1",
             "array2"
@@ -3401,6 +4091,8 @@
     },
     {
         "func_name": "PERCENTILE",
+        "is_nullary": false,
+        "comp_str": "PERCENTILE(${1:array},${2: k})",
         "req_param": [
             "array",
             "k"
@@ -3410,6 +4102,8 @@
     },
     {
         "func_name": "PERCENTILE.EXC",
+        "is_nullary": false,
+        "comp_str": "PERCENTILE.EXC(${1:array},${2: k})",
         "req_param": [
             "array",
             "k"
@@ -3419,6 +4113,8 @@
     },
     {
         "func_name": "PERCENTILE.INC",
+        "is_nullary": false,
+        "comp_str": "PERCENTILE.INC(${1:array},${2: k})",
         "req_param": [
             "array",
             "k"
@@ -3428,6 +4124,8 @@
     },
     {
         "func_name": "PERCENTRANK",
+        "is_nullary": false,
+        "comp_str": "PERCENTRANK(${1:array},${2: x}${3:,${4: [significance]}})",
         "req_param": [
             "array",
             "x"
@@ -3439,6 +4137,8 @@
     },
     {
         "func_name": "PERCENTRANK.EXC",
+        "is_nullary": false,
+        "comp_str": "PERCENTRANK.EXC(${1:array},${2: x}${3:,${4: [significance]}})",
         "req_param": [
             "array",
             "x"
@@ -3450,6 +4150,8 @@
     },
     {
         "func_name": "PERCENTRANK.INC",
+        "is_nullary": false,
+        "comp_str": "PERCENTRANK.INC(${1:array},${2: x}${3:,${4: [significance]}})",
         "req_param": [
             "array",
             "x"
@@ -3461,6 +4163,8 @@
     },
     {
         "func_name": "PERMUT",
+        "is_nullary": false,
+        "comp_str": "PERMUT(${1:number},${2: number_chosen})",
         "req_param": [
             "number",
             "number_chosen"
@@ -3470,6 +4174,8 @@
     },
     {
         "func_name": "PERMUTATIONA",
+        "is_nullary": false,
+        "comp_str": "PERMUTATIONA(${1:number},${2: number_chosen})",
         "req_param": [
             "number",
             "number_chosen"
@@ -3479,6 +4185,8 @@
     },
     {
         "func_name": "PHI",
+        "is_nullary": false,
+        "comp_str": "PHI(${1:x})",
         "req_param": [
             "x"
         ],
@@ -3487,6 +4195,8 @@
     },
     {
         "func_name": "PHONETIC",
+        "is_nullary": false,
+        "comp_str": "PHONETIC(${1:reference})",
         "req_param": [
             "reference"
         ],
@@ -3495,6 +4205,8 @@
     },
     {
         "func_name": "PMT",
+        "is_nullary": false,
+        "comp_str": "PMT(${1:rate},${2: nper},${3: pv}${4:,${5: [fv]},${6: [type]}})",
         "req_param": [
             "rate",
             "nper",
@@ -3508,6 +4220,8 @@
     },
     {
         "func_name": "POISSON",
+        "is_nullary": false,
+        "comp_str": "POISSON(${1:x},${2: mean},${3: cumulative})",
         "req_param": [
             "x",
             "mean",
@@ -3518,6 +4232,8 @@
     },
     {
         "func_name": "POISSON.DIST",
+        "is_nullary": false,
+        "comp_str": "POISSON.DIST(${1:x},${2: mean},${3: cumulative})",
         "req_param": [
             "x",
             "mean",
@@ -3528,6 +4244,8 @@
     },
     {
         "func_name": "POWER",
+        "is_nullary": false,
+        "comp_str": "POWER(${1:number},${2: power})",
         "req_param": [
             "number",
             "power"
@@ -3537,6 +4255,8 @@
     },
     {
         "func_name": "PPMT",
+        "is_nullary": false,
+        "comp_str": "PPMT(${1:rate},${2: per},${3: nper},${4: pv}${5:,${6: [fv]},${7: [type]}})",
         "req_param": [
             "rate",
             "per",
@@ -3551,6 +4271,8 @@
     },
     {
         "func_name": "PRICE",
+        "is_nullary": false,
+        "comp_str": "PRICE(${1:settlement},${2: maturity},${3: rate},${4: yld},${5: redemption},${6: frequency}${7:,${8: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3566,6 +4288,8 @@
     },
     {
         "func_name": "PRICEDISC",
+        "is_nullary": false,
+        "comp_str": "PRICEDISC(${1:settlement},${2: maturity},${3: discount},${4: redemption}${5:,${6: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3579,6 +4303,8 @@
     },
     {
         "func_name": "PRICEMAT",
+        "is_nullary": false,
+        "comp_str": "PRICEMAT(${1:settlement},${2: maturity},${3: issue},${4: rate},${5: yld}${6:,${7: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3593,6 +4319,8 @@
     },
     {
         "func_name": "PROB",
+        "is_nullary": false,
+        "comp_str": "PROB(${1:x_range},${2: prob_range},${3: lower_limit}${4:,${5: [upper_limit]}})",
         "req_param": [
             "x_range",
             "prob_range",
@@ -3605,6 +4333,8 @@
     },
     {
         "func_name": "PRODUCT",
+        "is_nullary": false,
+        "comp_str": "PRODUCT(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -3615,6 +4345,8 @@
     },
     {
         "func_name": "PROPER",
+        "is_nullary": false,
+        "comp_str": "PROPER(${1:text})",
         "req_param": [
             "text"
         ],
@@ -3623,6 +4355,8 @@
     },
     {
         "func_name": "PV",
+        "is_nullary": false,
+        "comp_str": "PV(${1:rate},${2: nper},${3: pmt}${4:,${5: [fv]},${6: [typel]}})",
         "req_param": [
             "rate",
             "nper",
@@ -3636,6 +4370,8 @@
     },
     {
         "func_name": "QUARTILE",
+        "is_nullary": false,
+        "comp_str": "QUARTILE(${1:array},${2: quart})",
         "req_param": [
             "array",
             "quart"
@@ -3645,6 +4381,8 @@
     },
     {
         "func_name": "QUARTILE.EXC",
+        "is_nullary": false,
+        "comp_str": "QUARTILE.EXC(${1:array},${2: quart})",
         "req_param": [
             "array",
             "quart"
@@ -3654,6 +4392,8 @@
     },
     {
         "func_name": "QUARTILE.INC",
+        "is_nullary": false,
+        "comp_str": "QUARTILE.INC(${1:array},${2: quart})",
         "req_param": [
             "array",
             "quart"
@@ -3663,6 +4403,8 @@
     },
     {
         "func_name": "QUOTIENT",
+        "is_nullary": false,
+        "comp_str": "QUOTIENT(${1:numerator},${2: denominator})",
         "req_param": [
             "numerator",
             "denominator"
@@ -3672,6 +4414,8 @@
     },
     {
         "func_name": "RADIANS",
+        "is_nullary": false,
+        "comp_str": "RADIANS(${1:angle})",
         "req_param": [
             "angle"
         ],
@@ -3680,6 +4424,8 @@
     },
     {
         "func_name": "RANDARRAY",
+        "is_nullary": false,
+        "comp_str": "RANDARRAY(${1:,${2: [rows]},${3: [columns]},${4: [min]},${5: [max]},${6: [integer]}})",
         "req_param": [],
         "opt_param": [
             "rows",
@@ -3692,6 +4438,8 @@
     },
     {
         "func_name": "RANDBETWEEN",
+        "is_nullary": false,
+        "comp_str": "RANDBETWEEN(${1:bottom},${2: top})",
         "req_param": [
             "bottom",
             "top"
@@ -3701,6 +4449,8 @@
     },
     {
         "func_name": "RANK",
+        "is_nullary": false,
+        "comp_str": "RANK(${1:number},${2: ref}${3:,${4: [order]}})",
         "req_param": [
             "number",
             "ref"
@@ -3712,6 +4462,8 @@
     },
     {
         "func_name": "RANK.AVG",
+        "is_nullary": false,
+        "comp_str": "RANK.AVG(${1:number},${2: ref}${3:,${4: [order]}})",
         "req_param": [
             "number",
             "ref"
@@ -3723,6 +4475,8 @@
     },
     {
         "func_name": "RANK.EQ",
+        "is_nullary": false,
+        "comp_str": "RANK.EQ(${1:number},${2: ref}${3:,${4: [order]}})",
         "req_param": [
             "number",
             "ref"
@@ -3734,6 +4488,8 @@
     },
     {
         "func_name": "RATE",
+        "is_nullary": false,
+        "comp_str": "RATE(${1:nper},${2: pmt},${3: pv}${4:,${5: [fv]},${6: [type]},${7: [guess]}})",
         "req_param": [
             "nper",
             "pmt",
@@ -3748,6 +4504,8 @@
     },
     {
         "func_name": "RECEIVED",
+        "is_nullary": false,
+        "comp_str": "RECEIVED(${1:settlement},${2: maturity},${3: investment},${4: discount}${5:,${6: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -3761,6 +4519,8 @@
     },
     {
         "func_name": "REDUCE",
+        "is_nullary": false,
+        "comp_str": "REDUCE(${1:initial_value},${2: array},${3: function})",
         "req_param": [
             "initial_value",
             "array",
@@ -3771,6 +4531,8 @@
     },
     {
         "func_name": "REGISTER",
+        "is_nullary": false,
+        "comp_str": "REGISTER(${1:module_text},${2: procedure},${3: type_text}${4:,${5: [argument1], ...}})",
         "req_param": [
             "module_text",
             "procedure",
@@ -3783,6 +4545,8 @@
     },
     {
         "func_name": "REGISTER.ID",
+        "is_nullary": false,
+        "comp_str": "REGISTER.ID(${1:module_text},${2: procedure}${3:,${4: [type_text]}})",
         "req_param": [
             "module_text",
             "procedure"
@@ -3794,6 +4558,8 @@
     },
     {
         "func_name": "REPLACE",
+        "is_nullary": false,
+        "comp_str": "REPLACE(${1:old_text},${2: start_num},${3: num_chars},${4: new_text})",
         "req_param": [
             "old_text",
             "start_num",
@@ -3805,6 +4571,8 @@
     },
     {
         "func_name": "REPLACEB",
+        "is_nullary": false,
+        "comp_str": "REPLACEB(${1:old_text},${2: start_num},${3: num_bytes},${4: new_text})",
         "req_param": [
             "old_text",
             "start_num",
@@ -3816,6 +4584,8 @@
     },
     {
         "func_name": "REPT",
+        "is_nullary": false,
+        "comp_str": "REPT(${1:text},${2: number_times})",
         "req_param": [
             "text",
             "number_times"
@@ -3825,6 +4595,8 @@
     },
     {
         "func_name": "RIGHT",
+        "is_nullary": false,
+        "comp_str": "RIGHT(${1:text}${2:,${3: [num_chars]}})",
         "req_param": [
             "text"
         ],
@@ -3835,6 +4607,8 @@
     },
     {
         "func_name": "RIGHTB",
+        "is_nullary": false,
+        "comp_str": "RIGHTB(${1:text}${2:,${3: [num_bytes]}})",
         "req_param": [
             "text"
         ],
@@ -3845,6 +4619,8 @@
     },
     {
         "func_name": "ROMAN",
+        "is_nullary": false,
+        "comp_str": "ROMAN(${1:number}${2:,${3: [form]}})",
         "req_param": [
             "number"
         ],
@@ -3855,6 +4631,8 @@
     },
     {
         "func_name": "ROUND",
+        "is_nullary": false,
+        "comp_str": "ROUND(${1:number},${2: num_digits})",
         "req_param": [
             "number",
             "num_digits"
@@ -3864,6 +4642,8 @@
     },
     {
         "func_name": "ROUNDDOWN",
+        "is_nullary": false,
+        "comp_str": "ROUNDDOWN(${1:number},${2: num_digits})",
         "req_param": [
             "number",
             "num_digits"
@@ -3873,6 +4653,8 @@
     },
     {
         "func_name": "ROUNDUP",
+        "is_nullary": false,
+        "comp_str": "ROUNDUP(${1:number},${2: num_digits})",
         "req_param": [
             "number",
             "num_digits"
@@ -3882,6 +4664,8 @@
     },
     {
         "func_name": "ROW",
+        "is_nullary": false,
+        "comp_str": "ROW(${1:,${2: [reference]}})",
         "req_param": [],
         "opt_param": [
             "reference"
@@ -3890,6 +4674,8 @@
     },
     {
         "func_name": "ROWS",
+        "is_nullary": false,
+        "comp_str": "ROWS(${1:array})",
         "req_param": [
             "array"
         ],
@@ -3898,6 +4684,8 @@
     },
     {
         "func_name": "RRI",
+        "is_nullary": false,
+        "comp_str": "RRI(${1:nper},${2: pv},${3: fv})",
         "req_param": [
             "nper",
             "pv",
@@ -3908,6 +4696,8 @@
     },
     {
         "func_name": "RSQ",
+        "is_nullary": false,
+        "comp_str": "RSQ(${1:known_ys},${2: known_xs})",
         "req_param": [
             "known_ys",
             "known_xs"
@@ -3917,6 +4707,8 @@
     },
     {
         "func_name": "RTD",
+        "is_nullary": false,
+        "comp_str": "RTD(${1:progID},${2: server},${3: topic1}${4:,${5: [topic2], ...}})",
         "req_param": [
             "progID",
             "server",
@@ -3929,6 +4721,8 @@
     },
     {
         "func_name": "SCAN",
+        "is_nullary": false,
+        "comp_str": "SCAN(${1:initial_value},${2: array},${3: function})",
         "req_param": [
             "initial_value",
             "array",
@@ -3939,6 +4733,8 @@
     },
     {
         "func_name": "SEARCH",
+        "is_nullary": false,
+        "comp_str": "SEARCH(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
         "req_param": [
             "find_text",
             "within_text"
@@ -3950,6 +4746,8 @@
     },
     {
         "func_name": "SEARCHB",
+        "is_nullary": false,
+        "comp_str": "SEARCHB(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
         "req_param": [
             "find_text",
             "within_text"
@@ -3961,6 +4759,8 @@
     },
     {
         "func_name": "SEC",
+        "is_nullary": false,
+        "comp_str": "SEC(${1:number})",
         "req_param": [
             "number"
         ],
@@ -3969,6 +4769,8 @@
     },
     {
         "func_name": "SECH",
+        "is_nullary": false,
+        "comp_str": "SECH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -3977,6 +4779,8 @@
     },
     {
         "func_name": "SECOND",
+        "is_nullary": false,
+        "comp_str": "SECOND(${1:serial_number})",
         "req_param": [
             "serial_number"
         ],
@@ -3985,6 +4789,8 @@
     },
     {
         "func_name": "SEQUENCE",
+        "is_nullary": false,
+        "comp_str": "SEQUENCE(${1:rows}${2:,${3: [columns]},${4: [start]},${5: [step]}})",
         "req_param": [
             "rows"
         ],
@@ -3997,6 +4803,8 @@
     },
     {
         "func_name": "SERIESSUM",
+        "is_nullary": false,
+        "comp_str": "SERIESSUM(${1:x},${2: n},${3: m},${4: coefficients})",
         "req_param": [
             "x",
             "n",
@@ -4008,6 +4816,8 @@
     },
     {
         "func_name": "SHEET",
+        "is_nullary": false,
+        "comp_str": "SHEET(${1:,${2: [value]}})",
         "req_param": [],
         "opt_param": [
             "value"
@@ -4016,6 +4826,8 @@
     },
     {
         "func_name": "SHEETS",
+        "is_nullary": false,
+        "comp_str": "SHEETS(${1:,${2: [reference]}})",
         "req_param": [],
         "opt_param": [
             "reference"
@@ -4024,6 +4836,8 @@
     },
     {
         "func_name": "SIGN",
+        "is_nullary": false,
+        "comp_str": "SIGN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4032,6 +4846,8 @@
     },
     {
         "func_name": "SIN",
+        "is_nullary": false,
+        "comp_str": "SIN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4040,6 +4856,8 @@
     },
     {
         "func_name": "SINH",
+        "is_nullary": false,
+        "comp_str": "SINH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4048,6 +4866,8 @@
     },
     {
         "func_name": "SKEW",
+        "is_nullary": false,
+        "comp_str": "SKEW(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4058,6 +4878,8 @@
     },
     {
         "func_name": "SKEW.P",
+        "is_nullary": false,
+        "comp_str": "SKEW.P(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4068,6 +4890,8 @@
     },
     {
         "func_name": "SLN",
+        "is_nullary": false,
+        "comp_str": "SLN(${1:cost},${2: salvage},${3: life})",
         "req_param": [
             "cost",
             "salvage",
@@ -4078,6 +4902,8 @@
     },
     {
         "func_name": "SLOPE",
+        "is_nullary": false,
+        "comp_str": "SLOPE(${1:known_ys},${2: known_xs})",
         "req_param": [
             "known_ys",
             "known_xs"
@@ -4087,6 +4913,8 @@
     },
     {
         "func_name": "SMALL",
+        "is_nullary": false,
+        "comp_str": "SMALL(${1:array},${2: k})",
         "req_param": [
             "array",
             "k"
@@ -4096,6 +4924,8 @@
     },
     {
         "func_name": "SORT",
+        "is_nullary": false,
+        "comp_str": "SORT(${1:array}${2:,${3: [sort_index]},${4: [sort_order]},${5: [by_col]}})",
         "req_param": [
             "array"
         ],
@@ -4108,6 +4938,8 @@
     },
     {
         "func_name": "SORTBY",
+        "is_nullary": false,
+        "comp_str": "SORTBY(${1:array},${2: by_array1}${3:,${4: [sort_order1], ...}})",
         "req_param": [
             "array",
             "by_array1"
@@ -4119,6 +4951,8 @@
     },
     {
         "func_name": "SQRT",
+        "is_nullary": false,
+        "comp_str": "SQRT(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4127,6 +4961,8 @@
     },
     {
         "func_name": "SQRTPI",
+        "is_nullary": false,
+        "comp_str": "SQRTPI(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4135,6 +4971,8 @@
     },
     {
         "func_name": "STANDARDIZE",
+        "is_nullary": false,
+        "comp_str": "STANDARDIZE(${1:x},${2: mean},${3: standard_dev})",
         "req_param": [
             "x",
             "mean",
@@ -4145,6 +4983,8 @@
     },
     {
         "func_name": "STDEV",
+        "is_nullary": false,
+        "comp_str": "STDEV(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4155,6 +4995,8 @@
     },
     {
         "func_name": "STDEV.P",
+        "is_nullary": false,
+        "comp_str": "STDEV.P(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4165,6 +5007,8 @@
     },
     {
         "func_name": "STDEV.S",
+        "is_nullary": false,
+        "comp_str": "STDEV.S(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4175,6 +5019,8 @@
     },
     {
         "func_name": "STDEVA",
+        "is_nullary": false,
+        "comp_str": "STDEVA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -4185,6 +5031,8 @@
     },
     {
         "func_name": "STDEVP",
+        "is_nullary": false,
+        "comp_str": "STDEVP(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4195,6 +5043,8 @@
     },
     {
         "func_name": "STDEVPA",
+        "is_nullary": false,
+        "comp_str": "STDEVPA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -4205,6 +5055,8 @@
     },
     {
         "func_name": "STEYX",
+        "is_nullary": false,
+        "comp_str": "STEYX(${1:known_ys},${2: known_xs})",
         "req_param": [
             "known_ys",
             "known_xs"
@@ -4214,6 +5066,8 @@
     },
     {
         "func_name": "STOCKHISTORY",
+        "is_nullary": false,
+        "comp_str": "STOCKHISTORY(${1:stock},${2: start_date}${3:,${4: [end_date]},${5: [interval]},${6: [headers]},${7: [properties], ...}})",
         "req_param": [
             "stock",
             "start_date"
@@ -4228,6 +5082,8 @@
     },
     {
         "func_name": "SUBSTITUTE",
+        "is_nullary": false,
+        "comp_str": "SUBSTITUTE(${1:text},${2: old_text},${3: new_text}${4:,${5: [instance_num]}})",
         "req_param": [
             "text",
             "old_text",
@@ -4240,6 +5096,8 @@
     },
     {
         "func_name": "SUBTOTAL",
+        "is_nullary": false,
+        "comp_str": "SUBTOTAL(${1:function_num},${2: ref1}${3:,${4: [ref2], ...}})",
         "req_param": [
             "function_num",
             "ref1"
@@ -4251,6 +5109,8 @@
     },
     {
         "func_name": "SUM",
+        "is_nullary": false,
+        "comp_str": "SUM(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4261,6 +5121,8 @@
     },
     {
         "func_name": "SUMIF",
+        "is_nullary": false,
+        "comp_str": "SUMIF(${1:range},${2: criteria}${3:,${4: [sum_range]}})",
         "req_param": [
             "range",
             "criteria"
@@ -4272,6 +5134,8 @@
     },
     {
         "func_name": "SUMIFS",
+        "is_nullary": false,
+        "comp_str": "SUMIFS(${1:sum_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
         "req_param": [
             "sum_range",
             "criteria_range1",
@@ -4285,6 +5149,8 @@
     },
     {
         "func_name": "SUMPRODUCT",
+        "is_nullary": false,
+        "comp_str": "SUMPRODUCT(${1:array1}${2:,${3: [array2]},${4: [array3], ...}})",
         "req_param": [
             "array1"
         ],
@@ -4296,6 +5162,8 @@
     },
     {
         "func_name": "SUMSQ",
+        "is_nullary": false,
+        "comp_str": "SUMSQ(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4306,6 +5174,8 @@
     },
     {
         "func_name": "SUMX2MY2",
+        "is_nullary": false,
+        "comp_str": "SUMX2MY2(${1:array_x},${2: array_y})",
         "req_param": [
             "array_x",
             "array_y"
@@ -4315,6 +5185,8 @@
     },
     {
         "func_name": "SUMX2PY2",
+        "is_nullary": false,
+        "comp_str": "SUMX2PY2(${1:array_x},${2: array_y})",
         "req_param": [
             "array_x",
             "array_y"
@@ -4324,6 +5196,8 @@
     },
     {
         "func_name": "SUMXMY2",
+        "is_nullary": false,
+        "comp_str": "SUMXMY2(${1:array_x},${2: array_y})",
         "req_param": [
             "array_x",
             "array_y"
@@ -4333,6 +5207,8 @@
     },
     {
         "func_name": "SWITCH",
+        "is_nullary": false,
+        "comp_str": "SWITCH(${1:expression},${2: value1},${3: result1}${4:,${5: [default_or_value2]},${6: [result2], ...}})",
         "req_param": [
             "expression",
             "value1",
@@ -4346,6 +5222,8 @@
     },
     {
         "func_name": "SYD",
+        "is_nullary": false,
+        "comp_str": "SYD(${1:cost},${2: salvage},${3: life},${4: per})",
         "req_param": [
             "cost",
             "salvage",
@@ -4357,6 +5235,8 @@
     },
     {
         "func_name": "T",
+        "is_nullary": false,
+        "comp_str": "T(${1:value})",
         "req_param": [
             "value"
         ],
@@ -4365,6 +5245,8 @@
     },
     {
         "func_name": "T.DIST",
+        "is_nullary": false,
+        "comp_str": "T.DIST(${1:x},${2: deg_freedom},${3: cumulative})",
         "req_param": [
             "x",
             "deg_freedom",
@@ -4375,6 +5257,8 @@
     },
     {
         "func_name": "T.DIST.2T",
+        "is_nullary": false,
+        "comp_str": "T.DIST.2T(${1:x},${2: deg_freedom})",
         "req_param": [
             "x",
             "deg_freedom"
@@ -4384,6 +5268,8 @@
     },
     {
         "func_name": "T.DIST.RT",
+        "is_nullary": false,
+        "comp_str": "T.DIST.RT(${1:x},${2: deg_freedom})",
         "req_param": [
             "x",
             "deg_freedom"
@@ -4393,6 +5279,8 @@
     },
     {
         "func_name": "T.INV",
+        "is_nullary": false,
+        "comp_str": "T.INV(${1:probability},${2: deg_freedom})",
         "req_param": [
             "probability",
             "deg_freedom"
@@ -4402,6 +5290,8 @@
     },
     {
         "func_name": "T.INV.2T",
+        "is_nullary": false,
+        "comp_str": "T.INV.2T(${1:probability},${2: deg_freedom})",
         "req_param": [
             "probability",
             "deg_freedom"
@@ -4411,6 +5301,8 @@
     },
     {
         "func_name": "T.TEST",
+        "is_nullary": false,
+        "comp_str": "T.TEST(${1:array1},${2: array2},${3: tails},${4: type})",
         "req_param": [
             "array1",
             "array2",
@@ -4422,6 +5314,8 @@
     },
     {
         "func_name": "TAKE",
+        "is_nullary": false,
+        "comp_str": "TAKE(${1:array},${2: rows}${3:,${4: [columns]}})",
         "req_param": [
             "array",
             "rows"
@@ -4433,6 +5327,8 @@
     },
     {
         "func_name": "TAN",
+        "is_nullary": false,
+        "comp_str": "TAN(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4441,6 +5337,8 @@
     },
     {
         "func_name": "TANH",
+        "is_nullary": false,
+        "comp_str": "TANH(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4449,6 +5347,8 @@
     },
     {
         "func_name": "TBILLEQ",
+        "is_nullary": false,
+        "comp_str": "TBILLEQ(${1:settlement},${2: maturity},${3: discount})",
         "req_param": [
             "settlement",
             "maturity",
@@ -4459,6 +5359,8 @@
     },
     {
         "func_name": "TBILLPRICE",
+        "is_nullary": false,
+        "comp_str": "TBILLPRICE(${1:settlement},${2: maturity},${3: discount})",
         "req_param": [
             "settlement",
             "maturity",
@@ -4469,6 +5371,8 @@
     },
     {
         "func_name": "TBILLYIELD",
+        "is_nullary": false,
+        "comp_str": "TBILLYIELD(${1:settlement},${2: maturity},${3: pr})",
         "req_param": [
             "settlement",
             "maturity",
@@ -4479,6 +5383,8 @@
     },
     {
         "func_name": "TDIST",
+        "is_nullary": false,
+        "comp_str": "TDIST(${1:x},${2: deg_freedom},${3: tails})",
         "req_param": [
             "x",
             "deg_freedom",
@@ -4489,6 +5395,8 @@
     },
     {
         "func_name": "TEXT",
+        "is_nullary": false,
+        "comp_str": "TEXT(${1:value},${2: format_text})",
         "req_param": [
             "value",
             "format_text"
@@ -4498,6 +5406,8 @@
     },
     {
         "func_name": "TEXTAFTER",
+        "is_nullary": false,
+        "comp_str": "TEXTAFTER(${1:text},${2: delimiter}${3:,${4: [instance_num]},${5: [match_mode]},${6: [match_end]},${7: [if_not_found]}})",
         "req_param": [
             "text",
             "delimiter"
@@ -4512,6 +5422,8 @@
     },
     {
         "func_name": "TEXTBEFORE",
+        "is_nullary": false,
+        "comp_str": "TEXTBEFORE(${1:text},${2: delimiter}${3:,${4: [instance_num]},${5: [match_mode]},${6: [match_end]},${7: [if_not_found]}})",
         "req_param": [
             "text",
             "delimiter"
@@ -4526,6 +5438,8 @@
     },
     {
         "func_name": "TEXTJOIN",
+        "is_nullary": false,
+        "comp_str": "TEXTJOIN(${1:delimiter},${2: ignore_empty},${3: text1}${4:,${5: [text2], ...}})",
         "req_param": [
             "delimiter",
             "ignore_empty",
@@ -4538,6 +5452,8 @@
     },
     {
         "func_name": "TEXTSPLIT",
+        "is_nullary": false,
+        "comp_str": "TEXTSPLIT(${1:text},${2: col_delimiter}${3:,${4: [row_delimiter]},${5: [ignore_empty]},${6: [match_mode]},${7: [pad_with]}})",
         "req_param": [
             "text",
             "col_delimiter"
@@ -4552,6 +5468,8 @@
     },
     {
         "func_name": "TIME",
+        "is_nullary": false,
+        "comp_str": "TIME(${1:hour},${2: minute},${3: second})",
         "req_param": [
             "hour",
             "minute",
@@ -4562,6 +5480,8 @@
     },
     {
         "func_name": "TIMEVALUE",
+        "is_nullary": false,
+        "comp_str": "TIMEVALUE(${1:time_text})",
         "req_param": [
             "time_text"
         ],
@@ -4570,6 +5490,8 @@
     },
     {
         "func_name": "TINV",
+        "is_nullary": false,
+        "comp_str": "TINV(${1:probability},${2: deg_freedom})",
         "req_param": [
             "probability",
             "deg_freedom"
@@ -4579,6 +5501,8 @@
     },
     {
         "func_name": "TOCOL",
+        "is_nullary": false,
+        "comp_str": "TOCOL(${1:array}${2:,${3: [ignore]},${4: [scan_by_column]}})",
         "req_param": [
             "array"
         ],
@@ -4590,6 +5514,8 @@
     },
     {
         "func_name": "TOROW",
+        "is_nullary": false,
+        "comp_str": "TOROW(${1:array}${2:,${3: [ignore]},${4: [scan_by_column]}})",
         "req_param": [
             "array"
         ],
@@ -4601,6 +5527,8 @@
     },
     {
         "func_name": "TRANSPOSE",
+        "is_nullary": false,
+        "comp_str": "TRANSPOSE(${1:array})",
         "req_param": [
             "array"
         ],
@@ -4609,6 +5537,8 @@
     },
     {
         "func_name": "TREND",
+        "is_nullary": false,
+        "comp_str": "TREND(${1:known_ys}${2:,${3: [known_xs]},${4: [new_xs]},${5: [const]}})",
         "req_param": [
             "known_ys"
         ],
@@ -4621,6 +5551,8 @@
     },
     {
         "func_name": "TRIM",
+        "is_nullary": false,
+        "comp_str": "TRIM(${1:text})",
         "req_param": [
             "text"
         ],
@@ -4629,6 +5561,8 @@
     },
     {
         "func_name": "TRIMMEAN",
+        "is_nullary": false,
+        "comp_str": "TRIMMEAN(${1:array},${2: percent})",
         "req_param": [
             "array",
             "percent"
@@ -4638,6 +5572,8 @@
     },
     {
         "func_name": "TRUNC",
+        "is_nullary": false,
+        "comp_str": "TRUNC(${1:number}${2:,${3: [num_digits]}})",
         "req_param": [
             "number"
         ],
@@ -4648,6 +5584,8 @@
     },
     {
         "func_name": "TTEST",
+        "is_nullary": false,
+        "comp_str": "TTEST(${1:array1},${2: array2},${3: tails},${4: type})",
         "req_param": [
             "array1",
             "array2",
@@ -4659,6 +5597,8 @@
     },
     {
         "func_name": "TYPE",
+        "is_nullary": false,
+        "comp_str": "TYPE(${1:value})",
         "req_param": [
             "value"
         ],
@@ -4667,6 +5607,8 @@
     },
     {
         "func_name": "UNICHAR",
+        "is_nullary": false,
+        "comp_str": "UNICHAR(${1:number})",
         "req_param": [
             "number"
         ],
@@ -4675,6 +5617,8 @@
     },
     {
         "func_name": "UNICODE",
+        "is_nullary": false,
+        "comp_str": "UNICODE(${1:text})",
         "req_param": [
             "text"
         ],
@@ -4683,6 +5627,8 @@
     },
     {
         "func_name": "UNIQUE",
+        "is_nullary": false,
+        "comp_str": "UNIQUE(${1:array}${2:,${3: [by_col]},${4: [exactly_once]}})",
         "req_param": [
             "array"
         ],
@@ -4694,6 +5640,8 @@
     },
     {
         "func_name": "UNREGISTER",
+        "is_nullary": false,
+        "comp_str": "UNREGISTER(${1:register_id})",
         "req_param": [
             "register_id"
         ],
@@ -4702,6 +5650,8 @@
     },
     {
         "func_name": "UPPER",
+        "is_nullary": false,
+        "comp_str": "UPPER(${1:text})",
         "req_param": [
             "text"
         ],
@@ -4710,6 +5660,8 @@
     },
     {
         "func_name": "VALUE",
+        "is_nullary": false,
+        "comp_str": "VALUE(${1:text})",
         "req_param": [
             "text"
         ],
@@ -4718,6 +5670,8 @@
     },
     {
         "func_name": "VALUETOTEXT",
+        "is_nullary": false,
+        "comp_str": "VALUETOTEXT(${1:value}${2:,${3: [format]}})",
         "req_param": [
             "value"
         ],
@@ -4728,6 +5682,8 @@
     },
     {
         "func_name": "VAR",
+        "is_nullary": false,
+        "comp_str": "VAR(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4738,6 +5694,8 @@
     },
     {
         "func_name": "VAR.P",
+        "is_nullary": false,
+        "comp_str": "VAR.P(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4748,6 +5706,8 @@
     },
     {
         "func_name": "VAR.S",
+        "is_nullary": false,
+        "comp_str": "VAR.S(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4758,6 +5718,8 @@
     },
     {
         "func_name": "VARA",
+        "is_nullary": false,
+        "comp_str": "VARA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -4768,6 +5730,8 @@
     },
     {
         "func_name": "VARP",
+        "is_nullary": false,
+        "comp_str": "VARP(${1:number1}${2:,${3: [number2], ...}})",
         "req_param": [
             "number1"
         ],
@@ -4778,6 +5742,8 @@
     },
     {
         "func_name": "VARPA",
+        "is_nullary": false,
+        "comp_str": "VARPA(${1:value1}${2:,${3: [value2], ...}})",
         "req_param": [
             "value1"
         ],
@@ -4788,6 +5754,8 @@
     },
     {
         "func_name": "VDB",
+        "is_nullary": false,
+        "comp_str": "VDB(${1:cost},${2: salvage},${3: life},${4: start_period},${5: end_period}${6:,${7: [factor]},${8: [no_switch]}})",
         "req_param": [
             "cost",
             "salvage",
@@ -4803,6 +5771,8 @@
     },
     {
         "func_name": "VLOOKUP",
+        "is_nullary": false,
+        "comp_str": "VLOOKUP(${1:lookup_value},${2: table_array},${3: col_index_num}${4:,${5: [range_lookup]}})",
         "req_param": [
             "lookup_value",
             "table_array",
@@ -4815,6 +5785,8 @@
     },
     {
         "func_name": "VSTACK",
+        "is_nullary": false,
+        "comp_str": "VSTACK(${1:array1}${2:,${3: [array2], ...}})",
         "req_param": [
             "array1"
         ],
@@ -4825,6 +5797,8 @@
     },
     {
         "func_name": "WEBSERVICE",
+        "is_nullary": false,
+        "comp_str": "WEBSERVICE(${1:url})",
         "req_param": [
             "url"
         ],
@@ -4833,6 +5807,8 @@
     },
     {
         "func_name": "WEEKDAY",
+        "is_nullary": false,
+        "comp_str": "WEEKDAY(${1:serial_number}${2:,${3: [return_type]}})",
         "req_param": [
             "serial_number"
         ],
@@ -4843,6 +5819,8 @@
     },
     {
         "func_name": "WEEKNUM",
+        "is_nullary": false,
+        "comp_str": "WEEKNUM(${1:serial_number}${2:,${3: [return_type]}})",
         "req_param": [
             "serial_number"
         ],
@@ -4853,6 +5831,8 @@
     },
     {
         "func_name": "WEIBULL",
+        "is_nullary": false,
+        "comp_str": "WEIBULL(${1:x},${2: alpha},${3: beta},${4: cumulative})",
         "req_param": [
             "x",
             "alpha",
@@ -4864,6 +5844,8 @@
     },
     {
         "func_name": "WEIBULL.DIST",
+        "is_nullary": false,
+        "comp_str": "WEIBULL.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
         "req_param": [
             "x",
             "alpha",
@@ -4875,6 +5857,8 @@
     },
     {
         "func_name": "WORKDAY",
+        "is_nullary": false,
+        "comp_str": "WORKDAY(${1:start_date},${2: days}${3:,${4: [holidays]}})",
         "req_param": [
             "start_date",
             "days"
@@ -4886,6 +5870,8 @@
     },
     {
         "func_name": "WORKDAY.INTL",
+        "is_nullary": false,
+        "comp_str": "WORKDAY.INTL(${1:start_date},${2: days}${3:,${4: [weekend]},${5: [holidays]}})",
         "req_param": [
             "start_date",
             "days"
@@ -4898,6 +5884,8 @@
     },
     {
         "func_name": "WRAPCOLS",
+        "is_nullary": false,
+        "comp_str": "WRAPCOLS(${1:vector},${2: wrap_count}${3:,${4: [pad_with]}})",
         "req_param": [
             "vector",
             "wrap_count"
@@ -4909,6 +5897,8 @@
     },
     {
         "func_name": "WRAPROWS",
+        "is_nullary": false,
+        "comp_str": "WRAPROWS(${1:vector},${2: wrap_count}${3:,${4: [pad_with]}})",
         "req_param": [
             "vector",
             "wrap_count"
@@ -4920,6 +5910,8 @@
     },
     {
         "func_name": "XIRR",
+        "is_nullary": false,
+        "comp_str": "XIRR(${1:values},${2: dates}${3:,${4: [guess]}})",
         "req_param": [
             "values",
             "dates"
@@ -4931,6 +5923,8 @@
     },
     {
         "func_name": "XLOOKUP",
+        "is_nullary": false,
+        "comp_str": "XLOOKUP(${1:lookup_value},${2: lookup_array},${3: return_array}${4:,${5: [if_not_found]},${6: [match_mode]},${7: [search_mode]}})",
         "req_param": [
             "lookup_value",
             "lookup_array",
@@ -4945,6 +5939,8 @@
     },
     {
         "func_name": "XMATCH",
+        "is_nullary": false,
+        "comp_str": "XMATCH(${1:lookup_value},${2: lookup_array}${3:,${4: [match_mode]},${5: [search_mode]}})",
         "req_param": [
             "lookup_value",
             "lookup_array"
@@ -4957,6 +5953,8 @@
     },
     {
         "func_name": "XNPV",
+        "is_nullary": false,
+        "comp_str": "XNPV(${1:rate},${2: values},${3: dates})",
         "req_param": [
             "rate",
             "values",
@@ -4967,6 +5965,8 @@
     },
     {
         "func_name": "XOR",
+        "is_nullary": false,
+        "comp_str": "XOR(${1:logical1}${2:,${3: [logical2], ...}})",
         "req_param": [
             "logical1"
         ],
@@ -4977,6 +5977,8 @@
     },
     {
         "func_name": "YEAR",
+        "is_nullary": false,
+        "comp_str": "YEAR(${1:serial_number})",
         "req_param": [
             "serial_number"
         ],
@@ -4985,6 +5987,8 @@
     },
     {
         "func_name": "YEARFRAC",
+        "is_nullary": false,
+        "comp_str": "YEARFRAC(${1:start_date},${2: end_date}${3:,${4: [basis]}})",
         "req_param": [
             "start_date",
             "end_date"
@@ -4996,6 +6000,8 @@
     },
     {
         "func_name": "YIELD",
+        "is_nullary": false,
+        "comp_str": "YIELD(${1:settlement},${2: maturity},${3: rate},${4: pr},${5: redemption},${6: frequency}${7:,${8: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -5011,6 +6017,8 @@
     },
     {
         "func_name": "YIELDDISC",
+        "is_nullary": false,
+        "comp_str": "YIELDDISC(${1:settlement},${2: maturity},${3: pr},${4: redemption}${5:,${6: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -5024,6 +6032,8 @@
     },
     {
         "func_name": "YIELDMAT",
+        "is_nullary": false,
+        "comp_str": "YIELDMAT(${1:settlement},${2: maturity},${3: issue},${4: rate},${5: pr}${6:,${7: [basis]}})",
         "req_param": [
             "settlement",
             "maturity",
@@ -5038,6 +6048,8 @@
     },
     {
         "func_name": "Z.TEST",
+        "is_nullary": false,
+        "comp_str": "Z.TEST(${1:array},${2: x}${3:,${4: [sigma]}})",
         "req_param": [
             "array",
             "x"
@@ -5049,6 +6061,8 @@
     },
     {
         "func_name": "ZTEST",
+        "is_nullary": false,
+        "comp_str": "ZTEST(${1:array},${2: x}${3:,${4: [sigma]}})",
         "req_param": [
             "array",
             "x"
