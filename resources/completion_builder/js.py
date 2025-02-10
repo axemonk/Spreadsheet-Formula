@@ -1,51 +1,68 @@
-# See main.py for overview.
+#! /usr/bin/env python3
 
 import json
 import re
-import sys
+from argparse import ArgumentParser
 
-app = sys.argv[1]
+from SpreadsheetFunction import APP_SUFFIXES, SpreadsheetFunction
 
-func_file = f'{app}_funcs_data_list.txt'
+def parse_function_list(sheet_app: str, write_json_file: bool = True):
 
-with open(func_file, 'r') as file:
-    func_list = [line.strip() for line in file]
+    with open(f'{sheet_app}_funcs_data_list.txt', 'r') as file:
+        lines = [line.strip() for line in file]
 
-# Debug
-# func_list = ['CALL~register_id,[argument1],...']
+    # Debug
+    # lines = ['CALL~register_id,[argument1],...']
 
-dict_list = []
+    functions = []
 
-for line in func_list:
-    func_name = line.split('~')[0]
+    for line in lines:
+        func_name, param_str = line.split('~')
+        param_list = param_str.split(',')
+        req_param = []
+        opt_param = []
 
-    param_str = line.split('~')[1]
+        ellipsis = False
 
-    param_list = param_str.split(',')
+        for param in param_list:
+            if param[0] == '[':
+                opt_param.append(re.sub(r'[\[\]]', '', param))
 
-    req_param = []
+            elif param[0] == '.':
+                ellipsis = True
 
-    opt_param = []
+            else:
+                req_param.append(param)
 
-    ellipsis = False
+        function = SpreadsheetFunction(
+            func_name,
+            required_args = req_param,
+            optional_args = opt_param,
+            has_ellipsis = ellipsis,
+        )
 
-    for param in param_list:
-        if param[0] == '[':
-            opt_param.append(re.sub(r'[\[\]]', '', param))
+        functions.append(function)
 
-        elif param[0] == '.':
-            ellipsis = True
+    if write_json_file:
+        with open(f'{sheet_app}_funcs.json', 'w') as o:
+            json.dump([f.to_json() for f in functions], o, indent=4)
 
-        else:
-            req_param.append(param)
+    return functions
 
-    func_dict = dict(func_name = func_name, req_param = req_param, opt_param = opt_param, ellipsis = ellipsis)
 
-    dict_list.append(func_dict)
+if __name__ == '__main__':
+    parser = ArgumentParser(
+        description='Parse ~-delimited spreadsheet function list from a file')
+    parser.add_argument(
+        '-s', '--spreadsheet-app',
+        choices=APP_SUFFIXES,
+        default='excel',
+        help='spreadsheet application')
+    parser.add_argument(
+        '-j', '--dump-json',
+        type=bool,
+        default=True,
+        help='dump JSON output to a file')
+    args = parser.parse_args()
 
-json_out = json.dumps(dict_list, indent = 4)
-
-o = open(f'{app}_funcs.json', 'w')
-
-o.write(json_out)
-o.close()
+    parse_function_list(args.spreadsheet_app, args.dump_json)

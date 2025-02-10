@@ -5,6 +5,10 @@
         "func_desc": "Returns the absolute value of a number.",
         "is_nullary": false,
         "comp_str": "ABS(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -13,6 +17,18 @@
         "func_desc": "Returns the accrued interest for a security that pays periodic interest.",
         "is_nullary": false,
         "comp_str": "ACCRINT(${1:issue},${2: first_interest},${3: settlement},${4: rate},${5: par},${6: frequency}${7:,${8: [basis]},${9: [calc_method]}})",
+        "req_param": [
+            "issue",
+            "first_interest",
+            "settlement",
+            "rate",
+            "par",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis",
+            "calc_method"
+        ],
         "ellipsis": false
     },
     {
@@ -21,6 +37,15 @@
         "func_desc": "Returns the accrued interest for a security that pays interest at maturity.",
         "is_nullary": false,
         "comp_str": "ACCRINTM(${1:issue},${2: settlement},${3: rate},${4: par}${5:,${6: [basis]}})",
+        "req_param": [
+            "issue",
+            "settlement",
+            "rate",
+            "par"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -29,6 +54,10 @@
         "func_desc": "Returns the arccosine of a number.",
         "is_nullary": false,
         "comp_str": "ACOS(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -37,6 +66,10 @@
         "func_desc": "Returns the inverse hyperbolic cosine of a number.",
         "is_nullary": false,
         "comp_str": "ACOSH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -45,6 +78,10 @@
         "func_desc": "Returns the arccotangent of a number.",
         "is_nullary": false,
         "comp_str": "ACOT(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -53,6 +90,10 @@
         "func_desc": "Returns the hyperbolic arccotangent of a number.",
         "is_nullary": false,
         "comp_str": "ACOTH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -61,6 +102,15 @@
         "func_desc": "Returns a reference as text to a single cell in a worksheet.",
         "is_nullary": false,
         "comp_str": "ADDRESS(${1:row_num},${2: column_num}${3:,${4: [abs_num]},${5: [a1]},${6: [sheet_text]}})",
+        "req_param": [
+            "row_num",
+            "column_num"
+        ],
+        "opt_param": [
+            "abs_num",
+            "a1",
+            "sheet_text"
+        ],
         "ellipsis": false
     },
     {
@@ -69,6 +119,14 @@
         "func_desc": "Returns an aggregate in a list or database.",
         "is_nullary": false,
         "comp_str": "AGGREGATE(${1:function_num},${2: options},${3: array}${4:,${5: [k]}})",
+        "req_param": [
+            "function_num",
+            "options",
+            "array"
+        ],
+        "opt_param": [
+            "k"
+        ],
         "ellipsis": false
     },
     {
@@ -77,6 +135,17 @@
         "func_desc": "Returns the depreciation for each accounting period by using a depreciation coefficient.",
         "is_nullary": false,
         "comp_str": "AMORDEGRC(${1:cost},${2: date_purchased},${3: first_period},${4: salvage},${5: period},${6: rate}${7:,${8: [basis]}})",
+        "req_param": [
+            "cost",
+            "date_purchased",
+            "first_period",
+            "salvage",
+            "period",
+            "rate"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -85,6 +154,17 @@
         "func_desc": "Returns the depreciation for each accounting period.",
         "is_nullary": false,
         "comp_str": "AMORLINC(${1:cost},${2: date_purchased},${3: first_period},${4: salvage},${5: period},${6: rate}${7:,${8: [basis]}})",
+        "req_param": [
+            "cost",
+            "date_purchased",
+            "first_period",
+            "salvage",
+            "period",
+            "rate"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -93,6 +173,12 @@
         "func_desc": "Returns TRUE if all of its arguments are TRUE.",
         "is_nullary": false,
         "comp_str": "AND(${1:logical1}${2:,${3: [logical2], ...}})",
+        "req_param": [
+            "logical1"
+        ],
+        "opt_param": [
+            "logical2"
+        ],
         "ellipsis": true
     },
     {
@@ -101,6 +187,10 @@
         "func_desc": "Converts a Roman number to Arabic, as a number.",
         "is_nullary": false,
         "comp_str": "ARABIC(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -109,6 +199,10 @@
         "func_desc": "Returns the number of areas in a reference.",
         "is_nullary": false,
         "comp_str": "AREAS(${1:reference})",
+        "req_param": [
+            "reference"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -117,6 +211,12 @@
         "func_desc": "Returns an array of text values from any specified range.",
         "is_nullary": false,
         "comp_str": "ARRAYTOTEXT(${1:array}${2:,${3: [format]}})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [
+            "format"
+        ],
         "ellipsis": false
     },
     {
@@ -125,6 +225,10 @@
         "func_desc": "Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters.",
         "is_nullary": false,
         "comp_str": "ASC(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -133,6 +237,10 @@
         "func_desc": "Returns the arcsine of a number.",
         "is_nullary": false,
         "comp_str": "ASIN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -141,6 +249,10 @@
         "func_desc": "Returns the inverse hyperbolic sine of a number.",
         "is_nullary": false,
         "comp_str": "ASINH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -149,6 +261,10 @@
         "func_desc": "Returns the arctangent of a number.",
         "is_nullary": false,
         "comp_str": "ATAN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -157,6 +273,11 @@
         "func_desc": "Returns the arctangent from x- and y-coordinates.",
         "is_nullary": false,
         "comp_str": "ATAN2(${1:x_num},${2: y_num})",
+        "req_param": [
+            "x_num",
+            "y_num"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -165,6 +286,10 @@
         "func_desc": "Returns the inverse hyperbolic tangent of a number.",
         "is_nullary": false,
         "comp_str": "ATANH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -173,6 +298,12 @@
         "func_desc": "Returns the average of the absolute deviations of data points from their mean.",
         "is_nullary": false,
         "comp_str": "AVEDEV(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -181,6 +312,12 @@
         "func_desc": "Returns the average of its arguments.",
         "is_nullary": false,
         "comp_str": "AVERAGE(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -189,6 +326,12 @@
         "func_desc": "Returns the average of its arguments, including numbers, text, and logical values.",
         "is_nullary": false,
         "comp_str": "AVERAGEA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -197,6 +340,13 @@
         "func_desc": "Returns the average (arithmetic mean) of all the cells in a range that meet a given criteria.",
         "is_nullary": false,
         "comp_str": "AVERAGEIF(${1:range},${2: criteria}${3:,${4: [average_range]}})",
+        "req_param": [
+            "range",
+            "criteria"
+        ],
+        "opt_param": [
+            "average_range"
+        ],
         "ellipsis": false
     },
     {
@@ -205,6 +355,15 @@
         "func_desc": "Returns the average (arithmetic mean) of all cells that meet multiple criteria.",
         "is_nullary": false,
         "comp_str": "AVERAGEIFS(${1:average_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
+        "req_param": [
+            "average_range",
+            "criteria_range1",
+            "criteria1"
+        ],
+        "opt_param": [
+            "criteria_range2",
+            "criteria2"
+        ],
         "ellipsis": true
     },
     {
@@ -213,6 +372,10 @@
         "func_desc": "Converts a number to text, using the \u00df (baht) currency format.",
         "is_nullary": false,
         "comp_str": "BAHTTEXT(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -221,6 +384,13 @@
         "func_desc": "Converts a number into a text representation with the given radix (base).",
         "is_nullary": false,
         "comp_str": "BASE(${1:number},${2: radix}${3:,${4: [min_length]}})",
+        "req_param": [
+            "number",
+            "radix"
+        ],
+        "opt_param": [
+            "min_length"
+        ],
         "ellipsis": false
     },
     {
@@ -229,6 +399,11 @@
         "func_desc": "Returns the modified Bessel function In(x).",
         "is_nullary": false,
         "comp_str": "BESSELI(${1:x},${2: n})",
+        "req_param": [
+            "x",
+            "n"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -237,6 +412,11 @@
         "func_desc": "Returns the Bessel function Jn(x).",
         "is_nullary": false,
         "comp_str": "BESSELJ(${1:x},${2: n})",
+        "req_param": [
+            "x",
+            "n"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -245,6 +425,11 @@
         "func_desc": "Returns the modified Bessel function Kn(x).",
         "is_nullary": false,
         "comp_str": "BESSELK(${1:x},${2: n})",
+        "req_param": [
+            "x",
+            "n"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -253,6 +438,11 @@
         "func_desc": "Returns the Bessel function Yn(x).",
         "is_nullary": false,
         "comp_str": "BESSELY(${1:x},${2: n})",
+        "req_param": [
+            "x",
+            "n"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -261,6 +451,16 @@
         "func_desc": "Returns the beta cumulative distribution function.",
         "is_nullary": false,
         "comp_str": "BETA.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative}${5:,${6: [A]},${7: [B]}})",
+        "req_param": [
+            "x",
+            "alpha",
+            "beta",
+            "cumulative"
+        ],
+        "opt_param": [
+            "A",
+            "B"
+        ],
         "ellipsis": false
     },
     {
@@ -269,6 +469,15 @@
         "func_desc": "Returns the inverse of the cumulative distribution function for a specified beta distribution.",
         "is_nullary": false,
         "comp_str": "BETA.INV(${1:probability},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
+        "req_param": [
+            "probability",
+            "alpha",
+            "beta"
+        ],
+        "opt_param": [
+            "A",
+            "B"
+        ],
         "ellipsis": false
     },
     {
@@ -277,6 +486,15 @@
         "func_desc": "Returns the beta cumulative distribution function. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "BETADIST(${1:x},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
+        "req_param": [
+            "x",
+            "alpha",
+            "beta"
+        ],
+        "opt_param": [
+            "A",
+            "B"
+        ],
         "ellipsis": false
     },
     {
@@ -285,6 +503,15 @@
         "func_desc": "Returns the inverse of the cumulative distribution function for a specified beta. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "BETAINV(${1:probability},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
+        "req_param": [
+            "probability",
+            "alpha",
+            "beta"
+        ],
+        "opt_param": [
+            "A",
+            "B"
+        ],
         "ellipsis": false
     },
     {
@@ -293,6 +520,10 @@
         "func_desc": "Converts a binary number to decimal.",
         "is_nullary": false,
         "comp_str": "BIN2DEC(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -301,6 +532,12 @@
         "func_desc": "Converts a binary number to hexadecimal.",
         "is_nullary": false,
         "comp_str": "BIN2HEX(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -309,6 +546,12 @@
         "func_desc": "Converts a binary number to octal.",
         "is_nullary": false,
         "comp_str": "BIN2OCT(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -317,6 +560,13 @@
         "func_desc": "Returns the individual term binomial distribution probability.",
         "is_nullary": false,
         "comp_str": "BINOM.DIST(${1:number_s},${2: trials},${3: probability_s},${4: cumulative})",
+        "req_param": [
+            "number_s",
+            "trials",
+            "probability_s",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -325,6 +575,14 @@
         "func_desc": "Returns the probability of a trial result using a binomial distribution.",
         "is_nullary": false,
         "comp_str": "BINOM.DIST.RANGE(${1:trials},${2: probability_s},${3: number_s}${4:,${5: [number_s2]}})",
+        "req_param": [
+            "trials",
+            "probability_s",
+            "number_s"
+        ],
+        "opt_param": [
+            "number_s2"
+        ],
         "ellipsis": false
     },
     {
@@ -333,6 +591,12 @@
         "func_desc": "Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value.",
         "is_nullary": false,
         "comp_str": "BINOM.INV(${1:trials},${2: probability_s},${3: alpha})",
+        "req_param": [
+            "trials",
+            "probability_s",
+            "alpha"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -341,6 +605,13 @@
         "func_desc": "Returns the individual term binomial distribution probability. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "BINOMDIST(${1:number_s},${2: trials},${3: probability_s},${4: cumulative})",
+        "req_param": [
+            "number_s",
+            "trials",
+            "probability_s",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -349,6 +620,11 @@
         "func_desc": "Returns a 'Bitwise And' of two numbers.",
         "is_nullary": false,
         "comp_str": "BITAND(${1:number1},${2: number2})",
+        "req_param": [
+            "number1",
+            "number2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -357,6 +633,11 @@
         "func_desc": "Returns a value number shifted left by shift_amount bits.",
         "is_nullary": false,
         "comp_str": "BITLSHIFT(${1:number},${2: shift_amount})",
+        "req_param": [
+            "number",
+            "shift_amount"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -365,6 +646,11 @@
         "func_desc": "Returns a bitwise OR of 2 numbers.",
         "is_nullary": false,
         "comp_str": "BITOR(${1:number1},${2: number2})",
+        "req_param": [
+            "number1",
+            "number2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -373,6 +659,11 @@
         "func_desc": "Returns a value number shifted right by shift_amount bits.",
         "is_nullary": false,
         "comp_str": "BITRSHIFT(${1:number},${2: shift_amount})",
+        "req_param": [
+            "number",
+            "shift_amount"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -381,6 +672,11 @@
         "func_desc": "Returns a bitwise 'Exclusive Or' of two numbers.",
         "is_nullary": false,
         "comp_str": "BITXOR(${1:number1},${2: number2})",
+        "req_param": [
+            "number1",
+            "number2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -389,6 +685,12 @@
         "func_desc": "Applies a LAMBDA to each column and returns an array of the results.",
         "is_nullary": false,
         "comp_str": "BYCOL(${1:array}${2:,${3: [function]}})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [
+            "function"
+        ],
         "ellipsis": false
     },
     {
@@ -397,6 +699,12 @@
         "func_desc": "Applies a LAMBDA to each row and returns an array of the results.",
         "is_nullary": false,
         "comp_str": "BYROW(${1:array}${2:,${3: [function]}})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [
+            "function"
+        ],
         "ellipsis": false
     },
     {
@@ -405,6 +713,12 @@
         "func_desc": "Calls a procedure in a specified DLL or code resource.",
         "is_nullary": false,
         "comp_str": "CALL(${1:register_id}${2:,${3: [argument1], ...}})",
+        "req_param": [
+            "register_id"
+        ],
+        "opt_param": [
+            "argument1"
+        ],
         "ellipsis": true
     },
     {
@@ -413,6 +727,11 @@
         "func_desc": "Rounds a number to the nearest integer or to the nearest multiple of significance.",
         "is_nullary": false,
         "comp_str": "CEILING(${1:number},${2: significance})",
+        "req_param": [
+            "number",
+            "significance"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -421,6 +740,13 @@
         "func_desc": "Rounds a number up, to the nearest integer or to the nearest multiple of significance.",
         "is_nullary": false,
         "comp_str": "CEILING.MATH(${1:number}${2:,${3: [significance]},${4: [mode]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "significance",
+            "mode"
+        ],
         "ellipsis": false
     },
     {
@@ -429,6 +755,12 @@
         "func_desc": "Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.",
         "is_nullary": false,
         "comp_str": "CEILING.PRECISE(${1:number}${2:,${3: [significance]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "significance"
+        ],
         "ellipsis": false
     },
     {
@@ -437,6 +769,12 @@
         "func_desc": "Returns information about the formatting, location, or contents of a cell. This function is not available in Excel Online.",
         "is_nullary": false,
         "comp_str": "CELL(${1:info_type}${2:,${3: [reference]}})",
+        "req_param": [
+            "info_type"
+        ],
+        "opt_param": [
+            "reference"
+        ],
         "ellipsis": false
     },
     {
@@ -445,6 +783,10 @@
         "func_desc": "Returns the character specified by the code number.",
         "is_nullary": false,
         "comp_str": "CHAR(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -453,6 +795,11 @@
         "func_desc": "Returns the one-tailed probability of the chi-squared. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "CHIDIST(${1:x},${2: deg_freedom})",
+        "req_param": [
+            "x",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -461,6 +808,11 @@
         "func_desc": "Returns the inverse of the one-tailed probability of the chi-squared. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "CHIINV(${1:probability},${2: deg_freedom})",
+        "req_param": [
+            "probability",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -469,6 +821,12 @@
         "func_desc": "Returns the left-tailed probability of the chi-squared distribution.",
         "is_nullary": false,
         "comp_str": "CHISQ.DIST(${1:x},${2: deg_freedom},${3: cumulative})",
+        "req_param": [
+            "x",
+            "deg_freedom",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -477,6 +835,11 @@
         "func_desc": "Returns the right-tailed probability of the chi-squared distribution.",
         "is_nullary": false,
         "comp_str": "CHISQ.DIST.RT(${1:x},${2: deg_freedom})",
+        "req_param": [
+            "x",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -485,6 +848,11 @@
         "func_desc": "Returns the inverse of the left-tailed probability of the chi-squared distribution.",
         "is_nullary": false,
         "comp_str": "CHISQ.INV(${1:probability},${2: deg_freedom})",
+        "req_param": [
+            "probability",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -493,6 +861,11 @@
         "func_desc": "Returns the inverse of the right-tailed probability of the chi-squared distribution.",
         "is_nullary": false,
         "comp_str": "CHISQ.INV.RT(${1:probability},${2: deg_freedom})",
+        "req_param": [
+            "probability",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -501,6 +874,11 @@
         "func_desc": "Returns the test for independence: the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.",
         "is_nullary": false,
         "comp_str": "CHISQ.TEST(${1:actual_range},${2: expected_range})",
+        "req_param": [
+            "actual_range",
+            "expected_range"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -509,6 +887,11 @@
         "func_desc": "Returns the test for independence. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "CHITEST(${1:actual_range},${2: expected_range})",
+        "req_param": [
+            "actual_range",
+            "expected_range"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -517,6 +900,13 @@
         "func_desc": "Chooses a value from a list of values.",
         "is_nullary": false,
         "comp_str": "CHOOSE(${1:index_num},${2: value1}${3:,${4: [value2], ...}})",
+        "req_param": [
+            "index_num",
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -525,6 +915,13 @@
         "func_desc": "Returns columns from an array or reference.",
         "is_nullary": false,
         "comp_str": "CHOOSECOLS(${1:array},${2: col_num1}${3:,${4: [col_num2], ...}})",
+        "req_param": [
+            "array",
+            "col_num1"
+        ],
+        "opt_param": [
+            "col_num2"
+        ],
         "ellipsis": true
     },
     {
@@ -533,6 +930,13 @@
         "func_desc": "Returns rows from an array of reference.",
         "is_nullary": false,
         "comp_str": "CHOOSEROWS(${1:array},${2: row_num1}${3:,${4: [row_num2], ...}})",
+        "req_param": [
+            "array",
+            "row_num1"
+        ],
+        "opt_param": [
+            "row_num2"
+        ],
         "ellipsis": true
     },
     {
@@ -541,6 +945,10 @@
         "func_desc": "Removes all nonprintable characters from text.",
         "is_nullary": false,
         "comp_str": "CLEAN(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -549,6 +957,10 @@
         "func_desc": "Returns a numeric code for the first character in a text string.",
         "is_nullary": false,
         "comp_str": "CODE(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -557,6 +969,10 @@
         "func_desc": "Returns the column number of a reference.",
         "is_nullary": false,
         "comp_str": "COLUMN(${1:,${2: [reference]}})",
+        "req_param": [],
+        "opt_param": [
+            "reference"
+        ],
         "ellipsis": false
     },
     {
@@ -565,6 +981,10 @@
         "func_desc": "Returns the number of columns in a reference.",
         "is_nullary": false,
         "comp_str": "COLUMNS(${1:array})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -573,6 +993,11 @@
         "func_desc": "Returns the number of combinations for a given number of objects.",
         "is_nullary": false,
         "comp_str": "COMBIN(${1:number},${2: number_chosen})",
+        "req_param": [
+            "number",
+            "number_chosen"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -581,6 +1006,11 @@
         "func_desc": "Returns the number of combinations with repetitions for a given number of items.",
         "is_nullary": false,
         "comp_str": "COMBINA(${1:number},${2: number_chosen})",
+        "req_param": [
+            "number",
+            "number_chosen"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -589,6 +1019,13 @@
         "func_desc": "Converts real and imaginary coefficients into a complex number.",
         "is_nullary": false,
         "comp_str": "COMPLEX(${1:real_num},${2: i_num}${3:,${4: [suffix]}})",
+        "req_param": [
+            "real_num",
+            "i_num"
+        ],
+        "opt_param": [
+            "suffix"
+        ],
         "ellipsis": false
     },
     {
@@ -597,6 +1034,12 @@
         "func_desc": "Combines the text from multiple ranges and/or strings, but it doesn't provide the delimiter or IgnoreEmpty arguments. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "CONCAT(${1:text1}${2:,${3: [text2], ...}})",
+        "req_param": [
+            "text1"
+        ],
+        "opt_param": [
+            "text2"
+        ],
         "ellipsis": true
     },
     {
@@ -605,6 +1048,12 @@
         "func_desc": "Joins several text items into one text item.",
         "is_nullary": false,
         "comp_str": "CONCATENATE(${1:text1}${2:,${3: [text2], ...}})",
+        "req_param": [
+            "text1"
+        ],
+        "opt_param": [
+            "text2"
+        ],
         "ellipsis": true
     },
     {
@@ -613,6 +1062,12 @@
         "func_desc": "Returns the confidence interval for a population mean. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "CONFIDENCE(${1:alpha},${2: standard_dev},${3: size})",
+        "req_param": [
+            "alpha",
+            "standard_dev",
+            "size"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -621,6 +1076,12 @@
         "func_desc": "Returns the confidence interval for a population mean.",
         "is_nullary": false,
         "comp_str": "CONFIDENCE.NORM(${1:alpha},${2: standard_dev},${3: size})",
+        "req_param": [
+            "alpha",
+            "standard_dev",
+            "size"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -629,6 +1090,12 @@
         "func_desc": "Returns the confidence interval for a population mean, using a Student's t distribution.",
         "is_nullary": false,
         "comp_str": "CONFIDENCE.T(${1:alpha},${2: standard_dev},${3: size})",
+        "req_param": [
+            "alpha",
+            "standard_dev",
+            "size"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -637,6 +1104,12 @@
         "func_desc": "Converts a number from one measurement system to another.",
         "is_nullary": false,
         "comp_str": "CONVERT(${1:number},${2: from_unit},${3: to_unit})",
+        "req_param": [
+            "number",
+            "from_unit",
+            "to_unit"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -645,6 +1118,11 @@
         "func_desc": "Returns the correlation coefficient between two data sets.",
         "is_nullary": false,
         "comp_str": "CORREL(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -653,6 +1131,10 @@
         "func_desc": "Returns the cosine of a number.",
         "is_nullary": false,
         "comp_str": "COS(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -661,6 +1143,10 @@
         "func_desc": "Returns the hyperbolic cosine of a number.",
         "is_nullary": false,
         "comp_str": "COSH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -669,6 +1155,10 @@
         "func_desc": "Returns the cotangent of a number.",
         "is_nullary": false,
         "comp_str": "COT(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -677,6 +1167,10 @@
         "func_desc": "Returns the cotangent of an angle.",
         "is_nullary": false,
         "comp_str": "COTH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -685,6 +1179,12 @@
         "func_desc": "Counts how many numbers are in the list of arguments.",
         "is_nullary": false,
         "comp_str": "COUNT(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -693,6 +1193,12 @@
         "func_desc": "Counts how many values are in the list of arguments.",
         "is_nullary": false,
         "comp_str": "COUNTA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -701,6 +1207,10 @@
         "func_desc": "Counts the number of blank cells within a range.",
         "is_nullary": false,
         "comp_str": "COUNTBLANK(${1:range})",
+        "req_param": [
+            "range"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -709,6 +1219,11 @@
         "func_desc": "Counts the number of cells within a range that meet the given criteria.",
         "is_nullary": false,
         "comp_str": "COUNTIF(${1:range},${2: criteria})",
+        "req_param": [
+            "range",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -717,6 +1232,14 @@
         "func_desc": "Counts the number of cells within a range that meet multiple criteria.",
         "is_nullary": false,
         "comp_str": "COUNTIFS(${1:criteria_range1},${2: criteria1}${3:,${4: [criteria_range2]},${5: [criteria2], ...}})",
+        "req_param": [
+            "criteria_range1",
+            "criteria1"
+        ],
+        "opt_param": [
+            "criteria_range2",
+            "criteria2"
+        ],
         "ellipsis": true
     },
     {
@@ -725,6 +1248,14 @@
         "func_desc": "Returns the number of days from the beginning of the coupon period to the settlement date.",
         "is_nullary": false,
         "comp_str": "COUPDAYBS(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -733,6 +1264,14 @@
         "func_desc": "Returns the number of days in the coupon period that contains the settlement date.",
         "is_nullary": false,
         "comp_str": "COUPDAYS(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -741,6 +1280,14 @@
         "func_desc": "Returns the number of days from the settlement date to the next coupon date.",
         "is_nullary": false,
         "comp_str": "COUPDAYSNC(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -749,6 +1296,14 @@
         "func_desc": "Returns the next coupon date after the settlement date.",
         "is_nullary": false,
         "comp_str": "COUPNCD(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -757,6 +1312,14 @@
         "func_desc": "Returns the number of coupons payable between the settlement date and maturity date.",
         "is_nullary": false,
         "comp_str": "COUPNUM(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -765,6 +1328,14 @@
         "func_desc": "Returns the previous coupon date before the settlement date.",
         "is_nullary": false,
         "comp_str": "COUPPCD(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -773,6 +1344,11 @@
         "func_desc": "Returns covariance, the average of the products of paired deviations. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "COVAR(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -781,6 +1357,11 @@
         "func_desc": "Returns covariance, the average of the products of paired deviations.",
         "is_nullary": false,
         "comp_str": "COVARIANCE.P(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -789,6 +1370,11 @@
         "func_desc": "Returns the sample covariance, the average of the products deviations for each data point pair in two data sets.",
         "is_nullary": false,
         "comp_str": "COVARIANCE.S(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -797,6 +1383,12 @@
         "func_desc": "Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "CRITBINOM(${1:trials},${2: probability_s},${3: alpha})",
+        "req_param": [
+            "trials",
+            "probability_s",
+            "alpha"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -805,6 +1397,10 @@
         "func_desc": "Returns the cosecant of an angle.",
         "is_nullary": false,
         "comp_str": "CSC(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -813,6 +1409,10 @@
         "func_desc": "Returns the hyperbolic cosecant of an angle.",
         "is_nullary": false,
         "comp_str": "CSCH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -821,6 +1421,14 @@
         "func_desc": "Returns a key performance  (KPI) name, property, and measure, and displays the name and property in the cell. A KPI is a quantifiable measurement, such as monthly gross profit or quarterly employee turnover, used to monitor an organization's performance.",
         "is_nullary": false,
         "comp_str": "CUBEKPIMEMBER(${1:connection},${2: kpi_name},${3: kpi_property}${4:,${5: [caption]}})",
+        "req_param": [
+            "connection",
+            "kpi_name",
+            "kpi_property"
+        ],
+        "opt_param": [
+            "caption"
+        ],
         "ellipsis": false
     },
     {
@@ -829,6 +1437,13 @@
         "func_desc": "Returns a member or tuple in a cube hierarchy. Use to validate that the member or tuple exists in the cube.",
         "is_nullary": false,
         "comp_str": "CUBEMEMBER(${1:connection},${2: member_expression}${3:,${4: [caption]}})",
+        "req_param": [
+            "connection",
+            "member_expression"
+        ],
+        "opt_param": [
+            "caption"
+        ],
         "ellipsis": false
     },
     {
@@ -837,6 +1452,12 @@
         "func_desc": "Returns the value of a member property in the cube. Use to validate that a member name exists within the cube and to return the specified property for this member.",
         "is_nullary": false,
         "comp_str": "CUBEMEMBERPROPERTY(${1:connection},${2: member_expression},${3: property})",
+        "req_param": [
+            "connection",
+            "member_expression",
+            "property"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -845,6 +1466,14 @@
         "func_desc": "Returns the nth, or ranked, member in a set. Use to return one or more elements in a set, such as the top sales performer or top 10 students.",
         "is_nullary": false,
         "comp_str": "CUBERANKEDMEMBER(${1:connection},${2: set_expression},${3: rank}${4:,${5: [caption]}})",
+        "req_param": [
+            "connection",
+            "set_expression",
+            "rank"
+        ],
+        "opt_param": [
+            "caption"
+        ],
         "ellipsis": false
     },
     {
@@ -853,6 +1482,15 @@
         "func_desc": "Defines a calculated set of members or tuples by sending a set expression to the cube on the server, which creates the set, and then returns that set to Microsoft Office Excel.",
         "is_nullary": false,
         "comp_str": "CUBESET(${1:connection},${2: set_expression}${3:,${4: [caption]},${5: [sort_order]},${6: [sort_by]}})",
+        "req_param": [
+            "connection",
+            "set_expression"
+        ],
+        "opt_param": [
+            "caption",
+            "sort_order",
+            "sort_by"
+        ],
         "ellipsis": false
     },
     {
@@ -861,6 +1499,10 @@
         "func_desc": "Returns the number of items in a set.",
         "is_nullary": false,
         "comp_str": "CUBESETCOUNT(${1:set})",
+        "req_param": [
+            "set"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -869,6 +1511,12 @@
         "func_desc": "Returns an aggregated value from a cube.",
         "is_nullary": false,
         "comp_str": "CUBEVALUE(${1:connection}${2:,${3: [member_expression1], ...}})",
+        "req_param": [
+            "connection"
+        ],
+        "opt_param": [
+            "member_expression1"
+        ],
         "ellipsis": true
     },
     {
@@ -877,6 +1525,15 @@
         "func_desc": "Returns the cumulative interest paid between two periods.",
         "is_nullary": false,
         "comp_str": "CUMIPMT(${1:rate},${2: nper},${3: pv},${4: start_period},${5: end_period},${6: type})",
+        "req_param": [
+            "rate",
+            "nper",
+            "pv",
+            "start_period",
+            "end_period",
+            "type"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -885,6 +1542,15 @@
         "func_desc": "Returns the cumulative principal paid on a loan between two periods.",
         "is_nullary": false,
         "comp_str": "CUMPRINC(${1:rate},${2: nper},${3: pv},${4: start_period},${5: end_period},${6: type})",
+        "req_param": [
+            "rate",
+            "nper",
+            "pv",
+            "start_period",
+            "end_period",
+            "type"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -893,6 +1559,12 @@
         "func_desc": "Returns the serial number of a particular date.",
         "is_nullary": false,
         "comp_str": "DATE(${1:year},${2: month},${3: day})",
+        "req_param": [
+            "year",
+            "month",
+            "day"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -901,6 +1573,12 @@
         "func_desc": "Calculates the number of days, months, or years between two dates. This is useful in formulas where you need to calculate an age.",
         "is_nullary": false,
         "comp_str": "DATEDIF(${1:start_date},${2: end_date},${3: unit})",
+        "req_param": [
+            "start_date",
+            "end_date",
+            "unit"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -909,6 +1587,10 @@
         "func_desc": "Converts a date in the form of text to a serial number.",
         "is_nullary": false,
         "comp_str": "DATEVALUE(${1:date_text})",
+        "req_param": [
+            "date_text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -917,6 +1599,12 @@
         "func_desc": "Returns the average of selected database entries.",
         "is_nullary": false,
         "comp_str": "DAVERAGE(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -925,6 +1613,10 @@
         "func_desc": "Converts a serial number to a day of the month.",
         "is_nullary": false,
         "comp_str": "DAY(${1:serial_number})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -933,6 +1625,11 @@
         "func_desc": "Returns the number of days between two dates.",
         "is_nullary": false,
         "comp_str": "DAYS(${1:end_date},${2: start_date})",
+        "req_param": [
+            "end_date",
+            "start_date"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -941,6 +1638,13 @@
         "func_desc": "Calculates the number of days between two dates based on a 360-day year.",
         "is_nullary": false,
         "comp_str": "DAYS360(${1:start_date},${2: end_date}${3:,${4: [method]}})",
+        "req_param": [
+            "start_date",
+            "end_date"
+        ],
+        "opt_param": [
+            "method"
+        ],
         "ellipsis": false
     },
     {
@@ -949,6 +1653,15 @@
         "func_desc": "Returns the depreciation of an asset for a specified period by using the fixed-declining balance method.",
         "is_nullary": false,
         "comp_str": "DB(${1:cost},${2: salvage},${3: life},${4: period}${5:,${6: [month]}})",
+        "req_param": [
+            "cost",
+            "salvage",
+            "life",
+            "period"
+        ],
+        "opt_param": [
+            "month"
+        ],
         "ellipsis": false
     },
     {
@@ -957,6 +1670,10 @@
         "func_desc": "Changes half-width (single-byte) English letters or katakana within a character string to full-width (double-byte) characters.",
         "is_nullary": false,
         "comp_str": "DBCS(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -965,6 +1682,12 @@
         "func_desc": "Counts the cells that contain numbers in a database.",
         "is_nullary": false,
         "comp_str": "DCOUNT(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -973,6 +1696,12 @@
         "func_desc": "Counts nonblank cells in a database.",
         "is_nullary": false,
         "comp_str": "DCOUNTA(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -981,6 +1710,15 @@
         "func_desc": "Returns the depreciation of an asset for a specified period by using the double-declining balance method or some other method that you specify.",
         "is_nullary": false,
         "comp_str": "DDB(${1:cost},${2: salvage},${3: life},${4: period}${5:,${6: [factor]}})",
+        "req_param": [
+            "cost",
+            "salvage",
+            "life",
+            "period"
+        ],
+        "opt_param": [
+            "factor"
+        ],
         "ellipsis": false
     },
     {
@@ -989,6 +1727,12 @@
         "func_desc": "Converts a decimal number to binary.",
         "is_nullary": false,
         "comp_str": "DEC2BIN(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -997,6 +1741,12 @@
         "func_desc": "Converts a decimal number to hexadecimal.",
         "is_nullary": false,
         "comp_str": "DEC2HEX(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -1005,6 +1755,12 @@
         "func_desc": "Converts a decimal number to octal.",
         "is_nullary": false,
         "comp_str": "DEC2OCT(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -1013,6 +1769,11 @@
         "func_desc": "Converts a text representation of a number in a given base into a decimal number.",
         "is_nullary": false,
         "comp_str": "DECIMAL(${1:number},${2: radix})",
+        "req_param": [
+            "number",
+            "radix"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1021,6 +1782,10 @@
         "func_desc": "Converts radians to degrees.",
         "is_nullary": false,
         "comp_str": "DEGREES(${1:angle})",
+        "req_param": [
+            "angle"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1029,6 +1794,12 @@
         "func_desc": "Tests whether two values are equal.",
         "is_nullary": false,
         "comp_str": "DELTA(${1:number1}${2:,${3: [number2]}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": false
     },
     {
@@ -1037,6 +1808,12 @@
         "func_desc": "Returns the sum of squares of deviations.",
         "is_nullary": false,
         "comp_str": "DEVSQ(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -1045,6 +1822,12 @@
         "func_desc": "Extracts from a database a single record that matches the specified criteria.",
         "is_nullary": false,
         "comp_str": "DGET(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1053,6 +1836,15 @@
         "func_desc": "Returns the discount rate for a security.",
         "is_nullary": false,
         "comp_str": "DISC(${1:settlement},${2: maturity},${3: pr},${4: redemption}${5:,${6: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "pr",
+            "redemption"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -1061,6 +1853,12 @@
         "func_desc": "Returns the maximum value from selected database entries.",
         "is_nullary": false,
         "comp_str": "DMAX(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1069,6 +1867,12 @@
         "func_desc": "Returns the minimum value from selected database entries.",
         "is_nullary": false,
         "comp_str": "DMIN(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1077,6 +1881,12 @@
         "func_desc": "Converts a number to text, using the $ (dollar) currency format.",
         "is_nullary": false,
         "comp_str": "DOLLAR(${1:number}${2:,${3: [decimals]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "decimals"
+        ],
         "ellipsis": false
     },
     {
@@ -1085,6 +1895,11 @@
         "func_desc": "Converts a dollar price, expressed as a fraction, into a dollar price, expressed as a decimal number.",
         "is_nullary": false,
         "comp_str": "DOLLARDE(${1:fractional_dollar},${2: fraction})",
+        "req_param": [
+            "fractional_dollar",
+            "fraction"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1093,6 +1908,11 @@
         "func_desc": "Converts a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction.",
         "is_nullary": false,
         "comp_str": "DOLLARFR(${1:decimal_dollar},${2: fraction})",
+        "req_param": [
+            "decimal_dollar",
+            "fraction"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1101,6 +1921,12 @@
         "func_desc": "Multiplies the values in a particular field of records that match the criteria in a database.",
         "is_nullary": false,
         "comp_str": "DPRODUCT(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1109,6 +1935,13 @@
         "func_desc": "Removes rows or columns from the start or end of an array.",
         "is_nullary": false,
         "comp_str": "DROP(${1:array},${2: rows}${3:,${4: [columns]}})",
+        "req_param": [
+            "array",
+            "rows"
+        ],
+        "opt_param": [
+            "columns"
+        ],
         "ellipsis": false
     },
     {
@@ -1117,6 +1950,12 @@
         "func_desc": "Estimates the standard deviation based on a sample of selected database entries.",
         "is_nullary": false,
         "comp_str": "DSTDEV(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1125,6 +1964,12 @@
         "func_desc": "Calculates the standard deviation based on the entire population of selected database entries.",
         "is_nullary": false,
         "comp_str": "DSTDEVP(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1133,6 +1978,12 @@
         "func_desc": "Adds the numbers in the field column of records in the database that match the criteria.",
         "is_nullary": false,
         "comp_str": "DSUM(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1141,6 +1992,16 @@
         "func_desc": "Returns the annual duration of a security with periodic interest payments.",
         "is_nullary": false,
         "comp_str": "DURATION(${1:settlement},${2: maturity},${3: coupon},${4: yld},${5: frequency}${6:,${7: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "coupon",
+            "yld",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -1149,6 +2010,12 @@
         "func_desc": "Estimates variance based on a sample from selected database entries.",
         "is_nullary": false,
         "comp_str": "DVAR(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1157,6 +2024,12 @@
         "func_desc": "Calculates variance based on the entire population of selected database entries.",
         "is_nullary": false,
         "comp_str": "DVARP(${1:database},${2: field},${3: criteria})",
+        "req_param": [
+            "database",
+            "field",
+            "criteria"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1165,6 +2038,11 @@
         "func_desc": "Returns the serial number of the date that is the indicated number of months before or after the start date.",
         "is_nullary": false,
         "comp_str": "EDATE(${1:start_date},${2: months})",
+        "req_param": [
+            "start_date",
+            "months"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1173,6 +2051,11 @@
         "func_desc": "Returns the effective annual interest rate.",
         "is_nullary": false,
         "comp_str": "EFFECT(${1:nominal_rate},${2: npery})",
+        "req_param": [
+            "nominal_rate",
+            "npery"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1181,6 +2064,10 @@
         "func_desc": "Returns a URL-encoded string. This function is not available in Excel Online.",
         "is_nullary": false,
         "comp_str": "ENCODEURL(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1189,6 +2076,11 @@
         "func_desc": "Returns the serial number of the last day of the month before or after a specified number of months.",
         "is_nullary": false,
         "comp_str": "EOMONTH(${1:start_date},${2: months})",
+        "req_param": [
+            "start_date",
+            "months"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1197,6 +2089,12 @@
         "func_desc": "Returns the error function integrated between lower_limit and upper_limit.",
         "is_nullary": false,
         "comp_str": "ERF(${1:lower_limit}${2:,${3: [upper_limit]}})",
+        "req_param": [
+            "lower_limit"
+        ],
+        "opt_param": [
+            "upper_limit"
+        ],
         "ellipsis": false
     },
     {
@@ -1205,6 +2103,10 @@
         "func_desc": "Returns the error function integrated between lower_limit and 0.",
         "is_nullary": false,
         "comp_str": "ERF.PRECISE(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1213,6 +2115,10 @@
         "func_desc": "Returns the complementary error function.",
         "is_nullary": false,
         "comp_str": "ERFC(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1221,6 +2127,10 @@
         "func_desc": "Returns the complementary ERF function integrated between x and infinity.",
         "is_nullary": false,
         "comp_str": "ERFC.PRECISE(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1229,6 +2139,10 @@
         "func_desc": "Returns a number corresponding to an error type.",
         "is_nullary": false,
         "comp_str": "ERROR.TYPE(${1:error_val})",
+        "req_param": [
+            "error_val"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1237,6 +2151,14 @@
         "func_desc": "Converts a number to euros, from euros to euro member currency, or between euro member currencies using euro as intermediary.",
         "is_nullary": false,
         "comp_str": "EUROCONVERT(${1:number},${2: source},${3: target},${4: full_precision},${5: triangulation_precision})",
+        "req_param": [
+            "number",
+            "source",
+            "target",
+            "full_precision",
+            "triangulation_precision"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1245,6 +2167,10 @@
         "func_desc": "Rounds a number up to the nearest even integer.",
         "is_nullary": false,
         "comp_str": "EVEN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1253,6 +2179,11 @@
         "func_desc": "Checks to see if two text values are identical.",
         "is_nullary": false,
         "comp_str": "EXACT(${1:text1},${2: text2})",
+        "req_param": [
+            "text1",
+            "text2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1261,6 +2192,10 @@
         "func_desc": "Returns e raised to the power of a given number.",
         "is_nullary": false,
         "comp_str": "EXP(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1269,6 +2204,14 @@
         "func_desc": "Expands an array to the specified dimensions. ",
         "is_nullary": false,
         "comp_str": "EXPAND(${1:array},${2: rows}${3:,${4: [columns]},${5: [pad_with]}})",
+        "req_param": [
+            "array",
+            "rows"
+        ],
+        "opt_param": [
+            "columns",
+            "pad_with"
+        ],
         "ellipsis": false
     },
     {
@@ -1277,6 +2220,12 @@
         "func_desc": "Returns the exponential distribution.",
         "is_nullary": false,
         "comp_str": "EXPON.DIST(${1:x},${2: lambda},${3: cumulative})",
+        "req_param": [
+            "x",
+            "lambda",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1285,6 +2234,12 @@
         "func_desc": "Returns the exponential. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "EXPONDIST(${1:x},${2: lambda},${3: cumulative})",
+        "req_param": [
+            "x",
+            "lambda",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1293,6 +2248,13 @@
         "func_desc": "Returns the (left-tailed) F probability distribution (degree of diversity) for two data sets.",
         "is_nullary": false,
         "comp_str": "F.DIST(${1:x},${2: deg_freedom1},${3: deg_freedom2},${4: cumulative})",
+        "req_param": [
+            "x",
+            "deg_freedom1",
+            "deg_freedom2",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1301,6 +2263,12 @@
         "func_desc": "Returns the (right-tailed) F probability distribution (degree of diversity) for two data sets.",
         "is_nullary": false,
         "comp_str": "F.DIST.RT(${1:x},${2: deg_freedom1},${3: deg_freedom2})",
+        "req_param": [
+            "x",
+            "deg_freedom1",
+            "deg_freedom2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1309,6 +2277,12 @@
         "func_desc": "Returns the inverse of the (left-tailed) F probability distribution.",
         "is_nullary": false,
         "comp_str": "F.INV(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
+        "req_param": [
+            "probability",
+            "deg_freedom1",
+            "deg_freedom2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1317,6 +2291,12 @@
         "func_desc": "Returns the inverse of the (right-tailed) F probability distribution.",
         "is_nullary": false,
         "comp_str": "F.INV.RT(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
+        "req_param": [
+            "probability",
+            "deg_freedom1",
+            "deg_freedom2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1325,6 +2305,11 @@
         "func_desc": "Returns the result of an F-test.",
         "is_nullary": false,
         "comp_str": "F.TEST(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1333,6 +2318,10 @@
         "func_desc": "Returns the factorial of a number.",
         "is_nullary": false,
         "comp_str": "FACT(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1341,6 +2330,10 @@
         "func_desc": "Returns the double factorial of a number.",
         "is_nullary": false,
         "comp_str": "FACTDOUBLE(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1349,6 +2342,12 @@
         "func_desc": "Returns the F probability. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "FDIST(${1:x},${2: deg_freedom1},${3: deg_freedom2})",
+        "req_param": [
+            "x",
+            "deg_freedom1",
+            "deg_freedom2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1357,6 +2356,13 @@
         "func_desc": "Filters a range of data based on criteria you define.",
         "is_nullary": false,
         "comp_str": "FILTER(${1:array},${2: include}${3:,${4: [if_empty]}})",
+        "req_param": [
+            "array",
+            "include"
+        ],
+        "opt_param": [
+            "if_empty"
+        ],
         "ellipsis": false
     },
     {
@@ -1365,6 +2371,11 @@
         "func_desc": "Returns specific data from the XML content by using the specified XPath. This function is not available in Excel Online.",
         "is_nullary": false,
         "comp_str": "FILTERXML(${1:xml},${2: xpath})",
+        "req_param": [
+            "xml",
+            "xpath"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1373,6 +2384,13 @@
         "func_desc": "Returns the position of a substring within a text string, case-sensitive.",
         "is_nullary": false,
         "comp_str": "FIND(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
+        "req_param": [
+            "find_text",
+            "within_text"
+        ],
+        "opt_param": [
+            "start_num"
+        ],
         "ellipsis": false
     },
     {
@@ -1381,6 +2399,13 @@
         "func_desc": "Returns the position of the last occurrence of a specified substring within a text string, counting by bytes.",
         "is_nullary": false,
         "comp_str": "FINDB(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
+        "req_param": [
+            "find_text",
+            "within_text"
+        ],
+        "opt_param": [
+            "start_num"
+        ],
         "ellipsis": false
     },
     {
@@ -1389,6 +2414,12 @@
         "func_desc": "Returns the inverse of the F probability distribution.",
         "is_nullary": false,
         "comp_str": "FINV(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
+        "req_param": [
+            "probability",
+            "deg_freedom1",
+            "deg_freedom2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1397,6 +2428,10 @@
         "func_desc": "Returns the Fisher transformation.",
         "is_nullary": false,
         "comp_str": "FISHER(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1405,6 +2440,10 @@
         "func_desc": "Returns the inverse of the Fisher transformation.",
         "is_nullary": false,
         "comp_str": "FISHERINV(${1:y})",
+        "req_param": [
+            "y"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1413,6 +2452,13 @@
         "func_desc": "Formats a number as text with a fixed number of decimals.",
         "is_nullary": false,
         "comp_str": "FIXED(${1:number}${2:,${3: [decimals]},${4: [no_commas]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "decimals",
+            "no_commas"
+        ],
         "ellipsis": false
     },
     {
@@ -1421,6 +2467,11 @@
         "func_desc": "Rounds a number down, toward zero. In Excel 2007 and Excel 2010, this is a Math and trigonometry function.. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "FLOOR(${1:number},${2: significance})",
+        "req_param": [
+            "number",
+            "significance"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1429,6 +2480,13 @@
         "func_desc": "Rounds a number down, to the nearest integer or to the nearest multiple of significance.",
         "is_nullary": false,
         "comp_str": "FLOOR.MATH(${1:number}${2:,${3: [significance]},${4: [mode]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "significance",
+            "mode"
+        ],
         "ellipsis": false
     },
     {
@@ -1437,6 +2495,12 @@
         "func_desc": "Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.",
         "is_nullary": false,
         "comp_str": "FLOOR.PRECISE(${1:number}${2:,${3: [significance]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "significance"
+        ],
         "ellipsis": false
     },
     {
@@ -1445,6 +2509,12 @@
         "func_desc": "Returns a value along a linear trend. In Excel 2016, this function is replaced with FORECAST.LINEAR as part of the new Forecasting functions, but it's  still available for compatibility with earlier versions.",
         "is_nullary": false,
         "comp_str": "FORECAST(${1:x},${2: known_ys},${3: known_xs})",
+        "req_param": [
+            "x",
+            "known_ys",
+            "known_xs"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1453,6 +2523,16 @@
         "func_desc": "Returns a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "FORECAST.ETS(${1:target_date},${2: values},${3: timeline}${4:,${5: [seasonality]},${6: [data_completion]},${7: [aggregation]}})",
+        "req_param": [
+            "target_date",
+            "values",
+            "timeline"
+        ],
+        "opt_param": [
+            "seasonality",
+            "data_completion",
+            "aggregation"
+        ],
         "ellipsis": false
     },
     {
@@ -1461,6 +2541,17 @@
         "func_desc": "Returns a confidence interval for the forecast value at the specified target date. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "FORECAST.ETS.CONFINT(${1:target_date},${2: values},${3: timeline}${4:,${5: [confidence_level]},${6: [seasonality]},${7: [data_completion]},${8: [aggregation]}})",
+        "req_param": [
+            "target_date",
+            "values",
+            "timeline"
+        ],
+        "opt_param": [
+            "confidence_level",
+            "seasonality",
+            "data_completion",
+            "aggregation"
+        ],
         "ellipsis": false
     },
     {
@@ -1469,6 +2560,14 @@
         "func_desc": "Returns the length of the repetitive pattern Excel detects for the specified time series. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "FORECAST.ETS.SEASONALITY(${1:values},${2: timeline}${3:,${4: [data_completion]},${5: [aggregation]}})",
+        "req_param": [
+            "values",
+            "timeline"
+        ],
+        "opt_param": [
+            "data_completion",
+            "aggregation"
+        ],
         "ellipsis": false
     },
     {
@@ -1477,6 +2576,16 @@
         "func_desc": "Returns a statistical value as a result of time series forecasting. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "FORECAST.ETS.STAT(${1:values},${2: timeline},${3: statistic_type}${4:,${5: [seasonality]},${6: [data_completion]},${7: [aggregation]}})",
+        "req_param": [
+            "values",
+            "timeline",
+            "statistic_type"
+        ],
+        "opt_param": [
+            "seasonality",
+            "data_completion",
+            "aggregation"
+        ],
         "ellipsis": false
     },
     {
@@ -1485,6 +2594,12 @@
         "func_desc": "Returns a future value based on existing values. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "FORECAST.LINEAR(${1:x},${2: known_ys},${3: known_xs})",
+        "req_param": [
+            "x",
+            "known_ys",
+            "known_xs"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1493,6 +2608,10 @@
         "func_desc": "Returns the formula at the given reference as text.",
         "is_nullary": false,
         "comp_str": "FORMULATEXT(${1:reference})",
+        "req_param": [
+            "reference"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1501,6 +2620,11 @@
         "func_desc": "Returns a frequency distribution as a vertical array.",
         "is_nullary": false,
         "comp_str": "FREQUENCY(${1:data_array},${2: bins_array})",
+        "req_param": [
+            "data_array",
+            "bins_array"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1509,6 +2633,11 @@
         "func_desc": "Returns the result of an F-test. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "FTEST(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1517,6 +2646,15 @@
         "func_desc": "Returns the future value of an investment.",
         "is_nullary": false,
         "comp_str": "FV(${1:rate},${2: nper},${3: pmt}${4:,${5: [pv]},${6: [type]}})",
+        "req_param": [
+            "rate",
+            "nper",
+            "pmt"
+        ],
+        "opt_param": [
+            "pv",
+            "type"
+        ],
         "ellipsis": false
     },
     {
@@ -1525,6 +2663,11 @@
         "func_desc": "Returns the future value of an initial principal after applying a series of compound interest rates.",
         "is_nullary": false,
         "comp_str": "FVSCHEDULE(${1:principal},${2: schedule})",
+        "req_param": [
+            "principal",
+            "schedule"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1533,6 +2676,10 @@
         "func_desc": "Returns the Gamma function value.",
         "is_nullary": false,
         "comp_str": "GAMMA(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1541,6 +2688,13 @@
         "func_desc": "Returns the gamma distribution.",
         "is_nullary": false,
         "comp_str": "GAMMA.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
+        "req_param": [
+            "x",
+            "alpha",
+            "beta",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1549,6 +2703,12 @@
         "func_desc": "Returns the inverse of the gamma cumulative distribution.",
         "is_nullary": false,
         "comp_str": "GAMMA.INV(${1:probability},${2: alpha},${3: beta})",
+        "req_param": [
+            "probability",
+            "alpha",
+            "beta"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1557,6 +2717,13 @@
         "func_desc": "Returns the gamma. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "GAMMADIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
+        "req_param": [
+            "x",
+            "alpha",
+            "beta",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1565,6 +2732,12 @@
         "func_desc": "Returns the inverse of the gamma cumulative. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "GAMMAINV(${1:probability},${2: alpha},${3: beta})",
+        "req_param": [
+            "probability",
+            "alpha",
+            "beta"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1573,6 +2746,10 @@
         "func_desc": "Returns the natural logarithm of the gamma function, \u0393(x).",
         "is_nullary": false,
         "comp_str": "GAMMALN(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1581,6 +2758,10 @@
         "func_desc": "Returns the natural logarithm of the gamma function, \u0393(x).",
         "is_nullary": false,
         "comp_str": "GAMMALN.PRECISE(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1589,6 +2770,10 @@
         "func_desc": "Returns 0.5 less than the standard normal cumulative distribution.",
         "is_nullary": false,
         "comp_str": "GAUSS(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1597,6 +2782,12 @@
         "func_desc": "Returns the greatest common divisor.",
         "is_nullary": false,
         "comp_str": "GCD(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -1605,6 +2796,12 @@
         "func_desc": "Returns the geometric mean.",
         "is_nullary": false,
         "comp_str": "GEOMEAN(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -1613,6 +2810,12 @@
         "func_desc": "Tests whether a number is greater than a threshold value.",
         "is_nullary": false,
         "comp_str": "GESTEP(${1:number}${2:,${3: [step]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "step"
+        ],
         "ellipsis": false
     },
     {
@@ -1621,6 +2824,14 @@
         "func_desc": "Returns data stored in a PivotTable report.",
         "is_nullary": false,
         "comp_str": "GETPIVOTDATA(${1:data_field},${2: pivot_table}${3:,${4: [field1]},${5: [item1], ...}})",
+        "req_param": [
+            "data_field",
+            "pivot_table"
+        ],
+        "opt_param": [
+            "field1",
+            "item1"
+        ],
         "ellipsis": true
     },
     {
@@ -1629,6 +2840,14 @@
         "func_desc": "Returns values along an exponential trend.",
         "is_nullary": false,
         "comp_str": "GROWTH(${1:known_ys}${2:,${3: [known_xs]},${4: [new_xs]},${5: [const]}})",
+        "req_param": [
+            "known_ys"
+        ],
+        "opt_param": [
+            "known_xs",
+            "new_xs",
+            "const"
+        ],
         "ellipsis": false
     },
     {
@@ -1637,6 +2856,12 @@
         "func_desc": "Returns the harmonic mean.",
         "is_nullary": false,
         "comp_str": "HARMEAN(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -1645,6 +2870,12 @@
         "func_desc": "Converts a hexadecimal number to binary.",
         "is_nullary": false,
         "comp_str": "HEX2BIN(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -1653,6 +2884,10 @@
         "func_desc": "Converts a hexadecimal number to decimal.",
         "is_nullary": false,
         "comp_str": "HEX2DEC(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1661,6 +2896,12 @@
         "func_desc": "Converts a hexadecimal number to octal.",
         "is_nullary": false,
         "comp_str": "HEX2OCT(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -1669,6 +2910,14 @@
         "func_desc": "Looks in the top row of an array and returns the value of the indicated cell.",
         "is_nullary": false,
         "comp_str": "HLOOKUP(${1:lookup_value},${2: table_array},${3: row_index_num}${4:,${5: [range_lookup]}})",
+        "req_param": [
+            "lookup_value",
+            "table_array",
+            "row_index_num"
+        ],
+        "opt_param": [
+            "range_lookup"
+        ],
         "ellipsis": false
     },
     {
@@ -1677,6 +2926,10 @@
         "func_desc": "Converts a serial number to an hour.",
         "is_nullary": false,
         "comp_str": "HOUR(${1:serial_number})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1685,6 +2938,12 @@
         "func_desc": "Horizontally combine arrays into one array.",
         "is_nullary": false,
         "comp_str": "HSTACK(${1:array1}${2:,${3: [array2], ...}})",
+        "req_param": [
+            "array1"
+        ],
+        "opt_param": [
+            "array2"
+        ],
         "ellipsis": true
     },
     {
@@ -1693,6 +2952,12 @@
         "func_desc": "Creates a shortcut or jump that opens a document stored on a network server, an intranet, or the Internet.",
         "is_nullary": false,
         "comp_str": "HYPERLINK(${1:link_location}${2:,${3: [friendly_name]}})",
+        "req_param": [
+            "link_location"
+        ],
+        "opt_param": [
+            "friendly_name"
+        ],
         "ellipsis": false
     },
     {
@@ -1701,6 +2966,14 @@
         "func_desc": "Returns the hypergeometric distribution.",
         "is_nullary": false,
         "comp_str": "HYPGEOM.DIST(${1:sample_s},${2: number_sample},${3: population_s},${4: number_pop},${5: cumulative})",
+        "req_param": [
+            "sample_s",
+            "number_sample",
+            "population_s",
+            "number_pop",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1709,6 +2982,13 @@
         "func_desc": "Returns the hypergeometric. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "HYPGEOMDIST(${1:sample_s},${2: number_sample},${3: population_s},${4: number_pop})",
+        "req_param": [
+            "sample_s",
+            "number_sample",
+            "population_s",
+            "number_pop"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1717,6 +2997,13 @@
         "func_desc": "Specifies a logical test to perform.",
         "is_nullary": false,
         "comp_str": "IF(${1:logical_test}${2:,${3: [value_if_true]},${4: [value_if_false]}})",
+        "req_param": [
+            "logical_test"
+        ],
+        "opt_param": [
+            "value_if_true",
+            "value_if_false"
+        ],
         "ellipsis": false
     },
     {
@@ -1725,6 +3012,11 @@
         "func_desc": "Returns a value you specify if a formula evaluates to an error.",
         "is_nullary": false,
         "comp_str": "IFERROR(${1:value},${2: value_if_error})",
+        "req_param": [
+            "value",
+            "value_if_error"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1733,6 +3025,11 @@
         "func_desc": "Returns the value you specify if the expression resolves to #N/A, otherwise. Returns the result of the expression.",
         "is_nullary": false,
         "comp_str": "IFNA(${1:value},${2: value_if_na})",
+        "req_param": [
+            "value",
+            "value_if_na"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1741,6 +3038,14 @@
         "func_desc": "Checks whether one or more conditions are met and returns a value that corresponds to the first TRUE condition. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "IFS(${1:logical_test1},${2: value_if_true1}${3:,${4: [logical_test2]},${5: [value_if_true2], ...}})",
+        "req_param": [
+            "logical_test1",
+            "value_if_true1"
+        ],
+        "opt_param": [
+            "logical_test2",
+            "value_if_true2"
+        ],
         "ellipsis": true
     },
     {
@@ -1749,6 +3054,10 @@
         "func_desc": "Returns the absolute value (modulus) of a complex number.",
         "is_nullary": false,
         "comp_str": "IMABS(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1757,6 +3066,15 @@
         "func_desc": "Returns an image from a given source.",
         "is_nullary": false,
         "comp_str": "IMAGE(${1:source}${2:,${3: [alt_text]},${4: [sizing]},${5: [height]},${6: [width]}})",
+        "req_param": [
+            "source"
+        ],
+        "opt_param": [
+            "alt_text",
+            "sizing",
+            "height",
+            "width"
+        ],
         "ellipsis": false
     },
     {
@@ -1765,6 +3083,10 @@
         "func_desc": "Returns the imaginary coefficient of a complex number.",
         "is_nullary": false,
         "comp_str": "IMAGINARY(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1773,6 +3095,10 @@
         "func_desc": "Returns the argument theta, an angle expressed in radians.",
         "is_nullary": false,
         "comp_str": "IMARGUMENT(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1781,6 +3107,10 @@
         "func_desc": "Returns the complex conjugate of a complex number.",
         "is_nullary": false,
         "comp_str": "IMCONJUGATE(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1789,6 +3119,10 @@
         "func_desc": "Returns the cosine of a complex number.",
         "is_nullary": false,
         "comp_str": "IMCOS(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1797,6 +3131,10 @@
         "func_desc": "Returns the hyperbolic cosine of a complex number.",
         "is_nullary": false,
         "comp_str": "IMCOSH(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1805,6 +3143,10 @@
         "func_desc": "Returns the cotangent of a complex number.",
         "is_nullary": false,
         "comp_str": "IMCOT(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1813,6 +3155,10 @@
         "func_desc": "Returns the cosecant of a complex number.",
         "is_nullary": false,
         "comp_str": "IMCSC(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1821,6 +3167,10 @@
         "func_desc": "Returns the hyperbolic cosecant of a complex number.",
         "is_nullary": false,
         "comp_str": "IMCSCH(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1829,6 +3179,11 @@
         "func_desc": "Returns the quotient of two complex numbers.",
         "is_nullary": false,
         "comp_str": "IMDIV(${1:inumber1},${2: inumber2})",
+        "req_param": [
+            "inumber1",
+            "inumber2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1837,6 +3192,10 @@
         "func_desc": "Returns the exponential of a complex number.",
         "is_nullary": false,
         "comp_str": "IMEXP(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1845,6 +3204,10 @@
         "func_desc": "Returns the natural logarithm of a complex number.",
         "is_nullary": false,
         "comp_str": "IMLN(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1853,6 +3216,10 @@
         "func_desc": "Returns the base-10 logarithm of a complex number.",
         "is_nullary": false,
         "comp_str": "IMLOG10(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1861,6 +3228,10 @@
         "func_desc": "Returns the base-2 logarithm of a complex number.",
         "is_nullary": false,
         "comp_str": "IMLOG2(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1869,6 +3240,11 @@
         "func_desc": "Returns a complex number raised to an integer power.",
         "is_nullary": false,
         "comp_str": "IMPOWER(${1:inumber},${2: number})",
+        "req_param": [
+            "inumber",
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1877,6 +3253,12 @@
         "func_desc": "Returns the product of complex numbers.",
         "is_nullary": false,
         "comp_str": "IMPRODUCT(${1:inumber1}${2:,${3: [inumber2], ...}})",
+        "req_param": [
+            "inumber1"
+        ],
+        "opt_param": [
+            "inumber2"
+        ],
         "ellipsis": true
     },
     {
@@ -1885,6 +3267,10 @@
         "func_desc": "Returns the real coefficient of a complex number.",
         "is_nullary": false,
         "comp_str": "IMREAL(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1893,6 +3279,10 @@
         "func_desc": "Returns the secant of a complex number.",
         "is_nullary": false,
         "comp_str": "IMSEC(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1901,6 +3291,10 @@
         "func_desc": "Returns the hyperbolic secant of a complex number.",
         "is_nullary": false,
         "comp_str": "IMSECH(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1909,6 +3303,10 @@
         "func_desc": "Returns the sine of a complex number.",
         "is_nullary": false,
         "comp_str": "IMSIN(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1917,6 +3315,10 @@
         "func_desc": "Returns the hyperbolic sine of a complex number.",
         "is_nullary": false,
         "comp_str": "IMSINH(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1925,6 +3327,10 @@
         "func_desc": "Returns the square root of a complex number.",
         "is_nullary": false,
         "comp_str": "IMSQRT(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1933,6 +3339,11 @@
         "func_desc": "Returns the difference between two complex numbers.",
         "is_nullary": false,
         "comp_str": "IMSUB(${1:inumber1},${2: inumber2})",
+        "req_param": [
+            "inumber1",
+            "inumber2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1941,6 +3352,12 @@
         "func_desc": "Returns the sum of complex numbers.",
         "is_nullary": false,
         "comp_str": "IMSUM(${1:inumber1}${2:,${3: [inumber2], ...}})",
+        "req_param": [
+            "inumber1"
+        ],
+        "opt_param": [
+            "inumber2"
+        ],
         "ellipsis": true
     },
     {
@@ -1949,6 +3366,10 @@
         "func_desc": "Returns the tangent of a complex number.",
         "is_nullary": false,
         "comp_str": "IMTAN(${1:inumber})",
+        "req_param": [
+            "inumber"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1957,6 +3378,13 @@
         "func_desc": "Uses an index to choose a value from a reference or array.",
         "is_nullary": false,
         "comp_str": "INDEX(${1:array},${2: row_num}${3:,${4: [column_num]}})",
+        "req_param": [
+            "array",
+            "row_num"
+        ],
+        "opt_param": [
+            "column_num"
+        ],
         "ellipsis": false
     },
     {
@@ -1965,6 +3393,12 @@
         "func_desc": "Returns a reference indicated by a text value.",
         "is_nullary": false,
         "comp_str": "INDIRECT(${1:ref_text}${2:,${3: [a1]}})",
+        "req_param": [
+            "ref_text"
+        ],
+        "opt_param": [
+            "a1"
+        ],
         "ellipsis": false
     },
     {
@@ -1973,6 +3407,10 @@
         "func_desc": "Returns information about the current operating environment. This function is not available in Excel Online.",
         "is_nullary": false,
         "comp_str": "INFO(${1:type_text})",
+        "req_param": [
+            "type_text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1981,6 +3419,10 @@
         "func_desc": "Rounds a number down to the nearest integer.",
         "is_nullary": false,
         "comp_str": "INT(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1989,6 +3431,11 @@
         "func_desc": "Returns the intercept of the linear regression line.",
         "is_nullary": false,
         "comp_str": "INTERCEPT(${1:known_ys},${2: known_xs})",
+        "req_param": [
+            "known_ys",
+            "known_xs"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -1997,6 +3444,15 @@
         "func_desc": "Returns the interest rate for a fully invested security.",
         "is_nullary": false,
         "comp_str": "INTRATE(${1:settlement},${2: maturity},${3: investment},${4: redemption}${5:,${6: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "investment",
+            "redemption"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2005,6 +3461,16 @@
         "func_desc": "Returns the interest payment for an investment for a given period.",
         "is_nullary": false,
         "comp_str": "IPMT(${1:rate},${2: per},${3: nper},${4: pv}${5:,${6: [fv]},${7: [type]}})",
+        "req_param": [
+            "rate",
+            "per",
+            "nper",
+            "pv"
+        ],
+        "opt_param": [
+            "fv",
+            "type"
+        ],
         "ellipsis": false
     },
     {
@@ -2013,6 +3479,12 @@
         "func_desc": "Returns the internal rate of return for a series of cash flows.",
         "is_nullary": false,
         "comp_str": "IRR(${1:values}${2:,${3: [guess]}})",
+        "req_param": [
+            "values"
+        ],
+        "opt_param": [
+            "guess"
+        ],
         "ellipsis": false
     },
     {
@@ -2021,6 +3493,10 @@
         "func_desc": "Returns TRUE if the value is blank.",
         "is_nullary": false,
         "comp_str": "ISBLANK(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2029,6 +3505,10 @@
         "func_desc": "Returns TRUE if the value is any error value except #N/A.",
         "is_nullary": false,
         "comp_str": "ISERR(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2037,6 +3517,10 @@
         "func_desc": "Returns TRUE if the value is any error value.",
         "is_nullary": false,
         "comp_str": "ISERROR(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2045,6 +3529,10 @@
         "func_desc": "Returns TRUE if the number is even.",
         "is_nullary": false,
         "comp_str": "ISEVEN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2053,6 +3541,10 @@
         "func_desc": "Returns TRUE if there is a reference to a cell that contains a formula.",
         "is_nullary": false,
         "comp_str": "ISFORMULA(${1:reference})",
+        "req_param": [
+            "reference"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2061,6 +3553,10 @@
         "func_desc": "Returns TRUE if the value is a logical value.",
         "is_nullary": false,
         "comp_str": "ISLOGICAL(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2069,6 +3565,10 @@
         "func_desc": "Returns TRUE if the value is the #N/A error value.",
         "is_nullary": false,
         "comp_str": "ISNA(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2077,6 +3577,10 @@
         "func_desc": "Returns TRUE if the value is not text.",
         "is_nullary": false,
         "comp_str": "ISNONTEXT(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2085,6 +3589,10 @@
         "func_desc": "Returns TRUE if the value is a number.",
         "is_nullary": false,
         "comp_str": "ISNUMBER(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2093,6 +3601,12 @@
         "func_desc": "Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance.",
         "is_nullary": false,
         "comp_str": "ISO.CEILING(${1:number}${2:,${3: [significance]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "significance"
+        ],
         "ellipsis": false
     },
     {
@@ -2101,6 +3615,10 @@
         "func_desc": "Returns TRUE if the number is odd.",
         "is_nullary": false,
         "comp_str": "ISODD(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2109,6 +3627,10 @@
         "func_desc": "Checks whether the value is omitted, and returns TRUE or FALSE.",
         "is_nullary": false,
         "comp_str": "ISOMITTED(${1:argument})",
+        "req_param": [
+            "argument"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2117,6 +3639,10 @@
         "func_desc": "Returns the number of the ISO week number of the year for a given date.",
         "is_nullary": false,
         "comp_str": "ISOWEEKNUM(${1:date})",
+        "req_param": [
+            "date"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2125,6 +3651,13 @@
         "func_desc": "Calculates the interest paid during a specific period of an investment.",
         "is_nullary": false,
         "comp_str": "ISPMT(${1:rate},${2: per},${3: nper},${4: pv})",
+        "req_param": [
+            "rate",
+            "per",
+            "nper",
+            "pv"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2133,6 +3666,10 @@
         "func_desc": "Returns TRUE if the value is a reference.",
         "is_nullary": false,
         "comp_str": "ISREF(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2141,6 +3678,10 @@
         "func_desc": "Returns TRUE if the value is text.",
         "is_nullary": false,
         "comp_str": "ISTEXT(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2149,6 +3690,10 @@
         "func_desc": "Changes half-width characters to full-width characters.",
         "is_nullary": false,
         "comp_str": "JIS(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2157,6 +3702,12 @@
         "func_desc": "Returns the kurtosis of a data set.",
         "is_nullary": false,
         "comp_str": "KURT(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2165,6 +3716,12 @@
         "func_desc": "Creates a function value, which can be called within formulas.",
         "is_nullary": false,
         "comp_str": "LAMBDA(${1:parameter_or_calculation1}${2:,${3: [parameter_or_calculation2], ...}})",
+        "req_param": [
+            "parameter_or_calculation1"
+        ],
+        "opt_param": [
+            "parameter_or_calculation2"
+        ],
         "ellipsis": true
     },
     {
@@ -2173,6 +3730,11 @@
         "func_desc": "Returns the k-th largest value in a data set.",
         "is_nullary": false,
         "comp_str": "LARGE(${1:array},${2: k})",
+        "req_param": [
+            "array",
+            "k"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2181,6 +3743,12 @@
         "func_desc": "Returns the least common multiple.",
         "is_nullary": false,
         "comp_str": "LCM(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2189,6 +3757,12 @@
         "func_desc": "Extracts a specified number of characters from the start (left) of a text string.",
         "is_nullary": false,
         "comp_str": "LEFT(${1:text}${2:,${3: [num_chars]}})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [
+            "num_chars"
+        ],
         "ellipsis": false
     },
     {
@@ -2197,6 +3771,12 @@
         "func_desc": "Returns the first character or characters in a text string based on bytes.",
         "is_nullary": false,
         "comp_str": "LEFTB(${1:text}${2:,${3: [num_bytes]}})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [
+            "num_bytes"
+        ],
         "ellipsis": false
     },
     {
@@ -2205,6 +3785,10 @@
         "func_desc": "Returns the total number of characters in a text string, including spaces.",
         "is_nullary": false,
         "comp_str": "LEN(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2213,6 +3797,10 @@
         "func_desc": "Returns the number of bytes used to represent a string.",
         "is_nullary": false,
         "comp_str": "LENB(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2221,6 +3809,14 @@
         "func_desc": "Assigns names to calculation results to allow storing intermediate calculations, values, or defining names inside a formula",
         "is_nullary": false,
         "comp_str": "LET(${1:name1},${2: name_value1},${3: calculation_or_name2}${4:,${5: [name_value2], ...}})",
+        "req_param": [
+            "name1",
+            "name_value1",
+            "calculation_or_name2"
+        ],
+        "opt_param": [
+            "name_value2"
+        ],
         "ellipsis": true
     },
     {
@@ -2229,6 +3825,14 @@
         "func_desc": "Returns the parameters of a linear trend.",
         "is_nullary": false,
         "comp_str": "LINEST(${1:known_ys}${2:,${3: [known_xs]},${4: [const]},${5: [stats]}})",
+        "req_param": [
+            "known_ys"
+        ],
+        "opt_param": [
+            "known_xs",
+            "const",
+            "stats"
+        ],
         "ellipsis": false
     },
     {
@@ -2237,6 +3841,10 @@
         "func_desc": "Returns the natural logarithm of a number.",
         "is_nullary": false,
         "comp_str": "LN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2245,6 +3853,12 @@
         "func_desc": "Returns the logarithm of a number to a specified base.",
         "is_nullary": false,
         "comp_str": "LOG(${1:number}${2:,${3: [base]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "base"
+        ],
         "ellipsis": false
     },
     {
@@ -2253,6 +3867,10 @@
         "func_desc": "Returns the base-10 logarithm of a number.",
         "is_nullary": false,
         "comp_str": "LOG10(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2261,6 +3879,14 @@
         "func_desc": "Returns the parameters of an exponential trend.",
         "is_nullary": false,
         "comp_str": "LOGEST(${1:known_ys}${2:,${3: [known_xs]},${4: [const]},${5: [stats]}})",
+        "req_param": [
+            "known_ys"
+        ],
+        "opt_param": [
+            "known_xs",
+            "const",
+            "stats"
+        ],
         "ellipsis": false
     },
     {
@@ -2269,6 +3895,12 @@
         "func_desc": "Returns the inverse of the lognormal cumulative distribution. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "LOGINV(${1:probability},${2: mean},${3: standard_dev})",
+        "req_param": [
+            "probability",
+            "mean",
+            "standard_dev"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2277,6 +3909,13 @@
         "func_desc": "Returns the lognormal distribution of x, where ln(x) is normally distributed with parameters Mean and Standard_dev.",
         "is_nullary": false,
         "comp_str": "LOGNORM.DIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
+        "req_param": [
+            "x",
+            "mean",
+            "standard_dev",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2285,6 +3924,12 @@
         "func_desc": "Returns the inverse of the lognormal cumulative distribution function of x, where ln(x) is normally distributed with parameters Mean and Standard_dev.",
         "is_nullary": false,
         "comp_str": "LOGNORM.INV(${1:probability},${2: mean},${3: standard_dev})",
+        "req_param": [
+            "probability",
+            "mean",
+            "standard_dev"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2293,6 +3938,12 @@
         "func_desc": "Returns the cumulative lognormal distribution. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "LOGNORMDIST(${1:x},${2: mean},${3: standard_dev})",
+        "req_param": [
+            "x",
+            "mean",
+            "standard_dev"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2301,6 +3952,13 @@
         "func_desc": "Looks up values in a vector or array.",
         "is_nullary": false,
         "comp_str": "LOOKUP(${1:lookup_value},${2: lookup_vector}${3:,${4: [result_vector]}})",
+        "req_param": [
+            "lookup_value",
+            "lookup_vector"
+        ],
+        "opt_param": [
+            "result_vector"
+        ],
         "ellipsis": false
     },
     {
@@ -2309,6 +3967,10 @@
         "func_desc": "Converts text to lowercase.",
         "is_nullary": false,
         "comp_str": "LOWER(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2317,6 +3979,12 @@
         "func_desc": "Returns a calculated array of a specified row and column size, by applying a LAMBDA function.",
         "is_nullary": false,
         "comp_str": "MAKEARRAY(${1:rows},${2: columns},${3: function})",
+        "req_param": [
+            "rows",
+            "columns",
+            "function"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2325,6 +3993,13 @@
         "func_desc": "Returns an array formed by 'mapping' each value in the array(s) to a new value by applying a lambda to create a new value.",
         "is_nullary": false,
         "comp_str": "MAP(${1:array},${2: lambda_or_array2}${3:,${4: [lambda_or_array3], ...}})",
+        "req_param": [
+            "array",
+            "lambda_or_array2"
+        ],
+        "opt_param": [
+            "lambda_or_array3"
+        ],
         "ellipsis": true
     },
     {
@@ -2333,6 +4008,13 @@
         "func_desc": "Looks up values in a reference or array.",
         "is_nullary": false,
         "comp_str": "MATCH(${1:lookup_value},${2: lookup_array}${3:,${4: [match_type]}})",
+        "req_param": [
+            "lookup_value",
+            "lookup_array"
+        ],
+        "opt_param": [
+            "match_type"
+        ],
         "ellipsis": false
     },
     {
@@ -2341,6 +4023,12 @@
         "func_desc": "Returns the maximum value in a list of arguments.",
         "is_nullary": false,
         "comp_str": "MAX(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2349,6 +4037,12 @@
         "func_desc": "Returns the maximum value in a list of arguments, including numbers, text, and logical values.",
         "is_nullary": false,
         "comp_str": "MAXA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -2357,6 +4051,15 @@
         "func_desc": "Returns the maximum value among cells specified by a given set of conditions or criteria. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "MAXIFS(${1:max_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
+        "req_param": [
+            "max_range",
+            "criteria_range1",
+            "criteria1"
+        ],
+        "opt_param": [
+            "criteria_range2",
+            "criteria2"
+        ],
         "ellipsis": true
     },
     {
@@ -2365,6 +4068,10 @@
         "func_desc": "Returns the matrix determinant of an array.",
         "is_nullary": false,
         "comp_str": "MDETERM(${1:array})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2373,6 +4080,16 @@
         "func_desc": "Returns the Macauley modified duration for a security with an assumed par value of $100.",
         "is_nullary": false,
         "comp_str": "MDURATION(${1:settlement},${2: maturity},${3: coupon},${4: yld},${5: frequency}${6:,${7: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "coupon",
+            "yld",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2381,6 +4098,12 @@
         "func_desc": "Returns the median of the given numbers.",
         "is_nullary": false,
         "comp_str": "MEDIAN(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2389,6 +4112,12 @@
         "func_desc": "Extracts a substring from a text string, starting at a specified position for a given length.",
         "is_nullary": false,
         "comp_str": "MID(${1:text},${2: start_num},${3: num_chars})",
+        "req_param": [
+            "text",
+            "start_num",
+            "num_chars"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2397,6 +4126,12 @@
         "func_desc": "Returns a specific number of bytes from a text string, starting at a specified position.",
         "is_nullary": false,
         "comp_str": "MIDB(${1:text},${2: start_num},${3: num_bytes})",
+        "req_param": [
+            "text",
+            "start_num",
+            "num_bytes"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2405,6 +4140,12 @@
         "func_desc": "Returns the minimum value in a list of arguments.",
         "is_nullary": false,
         "comp_str": "MIN(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2413,6 +4154,12 @@
         "func_desc": "Returns the smallest value in a list of arguments, including numbers, text, and logical values.",
         "is_nullary": false,
         "comp_str": "MINA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -2421,6 +4168,15 @@
         "func_desc": "Returns the minimum value among cells specified by a given set of conditions or criteria. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "MINIFS(${1:min_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
+        "req_param": [
+            "min_range",
+            "criteria_range1",
+            "criteria1"
+        ],
+        "opt_param": [
+            "criteria_range2",
+            "criteria2"
+        ],
         "ellipsis": true
     },
     {
@@ -2429,6 +4185,10 @@
         "func_desc": "Converts a serial number to a minute.",
         "is_nullary": false,
         "comp_str": "MINUTE(${1:serial_number})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2437,6 +4197,10 @@
         "func_desc": "Returns the matrix inverse of an array.",
         "is_nullary": false,
         "comp_str": "MINVERSE(${1:array})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2445,6 +4209,12 @@
         "func_desc": "Returns the internal rate of return where positive and negative cash flows are financed at different rates.",
         "is_nullary": false,
         "comp_str": "MIRR(${1:values},${2: finance_rate},${3: reinvest_rate})",
+        "req_param": [
+            "values",
+            "finance_rate",
+            "reinvest_rate"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2453,6 +4223,11 @@
         "func_desc": "Returns the matrix product of two arrays.",
         "is_nullary": false,
         "comp_str": "MMULT(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2461,6 +4236,11 @@
         "func_desc": "Returns the remainder from division.",
         "is_nullary": false,
         "comp_str": "MOD(${1:number},${2: divisor})",
+        "req_param": [
+            "number",
+            "divisor"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2469,6 +4249,12 @@
         "func_desc": "Returns the most common value in a data set. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "MODE(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2477,6 +4263,12 @@
         "func_desc": "Returns a vertical array of the most frequently occurring, or repetitive values in an array or range of data.",
         "is_nullary": false,
         "comp_str": "MODE.MULT(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2485,6 +4277,12 @@
         "func_desc": "Returns the most common value in a data set.",
         "is_nullary": false,
         "comp_str": "MODE.SNGL(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2493,6 +4291,10 @@
         "func_desc": "Converts a serial number to a month.",
         "is_nullary": false,
         "comp_str": "MONTH(${1:serial_number})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2501,6 +4303,11 @@
         "func_desc": "Returns a number rounded to the desired multiple.",
         "is_nullary": false,
         "comp_str": "MROUND(${1:number},${2: multiple})",
+        "req_param": [
+            "number",
+            "multiple"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2509,6 +4316,12 @@
         "func_desc": "Returns the multinomial of a set of numbers.",
         "is_nullary": false,
         "comp_str": "MULTINOMIAL(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2517,6 +4330,10 @@
         "func_desc": "Returns the unit matrix or the specified dimension.",
         "is_nullary": false,
         "comp_str": "MUNIT(${1:dimension})",
+        "req_param": [
+            "dimension"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2525,6 +4342,10 @@
         "func_desc": "Returns a value converted to a number.",
         "is_nullary": false,
         "comp_str": "N(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2532,7 +4353,8 @@
         "func_cat": "Information",
         "func_desc": "Returns the error value #N/A.",
         "is_nullary": true,
-        "comp_str": "=NA()"
+        "comp_str": "NA()",
+        "ellipsis": false
     },
     {
         "func_name": "NEGBINOM.DIST",
@@ -2540,6 +4362,13 @@
         "func_desc": "Returns the negative binomial distribution.",
         "is_nullary": false,
         "comp_str": "NEGBINOM.DIST(${1:number_f},${2: number_s},${3: probability_s},${4: cumulative})",
+        "req_param": [
+            "number_f",
+            "number_s",
+            "probability_s",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2548,6 +4377,12 @@
         "func_desc": "Returns the negative binomial. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "NEGBINOMDIST(${1:number_f},${2: number_s},${3: probability_s})",
+        "req_param": [
+            "number_f",
+            "number_s",
+            "probability_s"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2556,6 +4391,13 @@
         "func_desc": "Returns the number of whole workdays between two dates.",
         "is_nullary": false,
         "comp_str": "NETWORKDAYS(${1:start_date},${2: end_date}${3:,${4: [holidays]}})",
+        "req_param": [
+            "start_date",
+            "end_date"
+        ],
+        "opt_param": [
+            "holidays"
+        ],
         "ellipsis": false
     },
     {
@@ -2564,6 +4406,14 @@
         "func_desc": "Returns the number of whole workdays between two dates using parameters to indicate which and how many days are weekend days.",
         "is_nullary": false,
         "comp_str": "NETWORKDAYS.INTL(${1:start_date},${2: end_date}${3:,${4: [weekend]},${5: [holidays]}})",
+        "req_param": [
+            "start_date",
+            "end_date"
+        ],
+        "opt_param": [
+            "weekend",
+            "holidays"
+        ],
         "ellipsis": false
     },
     {
@@ -2572,6 +4422,11 @@
         "func_desc": "Returns the annual nominal interest rate.",
         "is_nullary": false,
         "comp_str": "NOMINAL(${1:effect_rate},${2: npery})",
+        "req_param": [
+            "effect_rate",
+            "npery"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2580,6 +4435,13 @@
         "func_desc": "Returns the normal cumulative distribution.",
         "is_nullary": false,
         "comp_str": "NORM.DIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
+        "req_param": [
+            "x",
+            "mean",
+            "standard_dev",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2588,6 +4450,12 @@
         "func_desc": "Returns the inverse of the normal cumulative. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "NORM.INV(${1:probability},${2: mean},${3: standard_dev})",
+        "req_param": [
+            "probability",
+            "mean",
+            "standard_dev"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2596,6 +4464,11 @@
         "func_desc": "Returns the standard normal cumulative distribution.",
         "is_nullary": false,
         "comp_str": "NORM.S.DIST(${1:z},${2: cumulative})",
+        "req_param": [
+            "z",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2604,6 +4477,10 @@
         "func_desc": "Returns the inverse of the standard normal cumulative distribution.",
         "is_nullary": false,
         "comp_str": "NORM.S.INV(${1:probability})",
+        "req_param": [
+            "probability"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2612,6 +4489,13 @@
         "func_desc": "Returns the normal cumulative. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "NORMDIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
+        "req_param": [
+            "x",
+            "mean",
+            "standard_dev",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2620,6 +4504,12 @@
         "func_desc": "Returns the inverse of the normal cumulative distribution.",
         "is_nullary": false,
         "comp_str": "NORMINV(${1:probability},${2: mean},${3: standard_dev})",
+        "req_param": [
+            "probability",
+            "mean",
+            "standard_dev"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2628,6 +4518,10 @@
         "func_desc": "Returns the standard normal cumulative. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "NORMSDIST(${1:z})",
+        "req_param": [
+            "z"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2636,6 +4530,10 @@
         "func_desc": "Returns the inverse of the standard normal cumulative. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "NORMSINV(${1:probability})",
+        "req_param": [
+            "probability"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2644,6 +4542,10 @@
         "func_desc": "Reverses the logic of its argument.",
         "is_nullary": false,
         "comp_str": "NOT(${1:logical})",
+        "req_param": [
+            "logical"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2651,7 +4553,8 @@
         "func_cat": "Date and time",
         "func_desc": "Returns the serial number of the current date and time.",
         "is_nullary": true,
-        "comp_str": "=NOW()"
+        "comp_str": "NOW()",
+        "ellipsis": false
     },
     {
         "func_name": "NPER",
@@ -2659,6 +4562,15 @@
         "func_desc": "Returns the number of periods for an investment.",
         "is_nullary": false,
         "comp_str": "NPER(${1:rate},${2: pmt},${3: pv}${4:,${5: [fv]},${6: [type]}})",
+        "req_param": [
+            "rate",
+            "pmt",
+            "pv"
+        ],
+        "opt_param": [
+            "fv",
+            "type"
+        ],
         "ellipsis": false
     },
     {
@@ -2667,6 +4579,13 @@
         "func_desc": "Returns the net present value of an investment based on a series of periodic cash flows and a discount rate.",
         "is_nullary": false,
         "comp_str": "NPV(${1:rate},${2: value1}${3:,${4: [value2], ...}})",
+        "req_param": [
+            "rate",
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -2675,6 +4594,13 @@
         "func_desc": "Converts text to number in a locale-independent manner.",
         "is_nullary": false,
         "comp_str": "NUMBERVALUE(${1:text}${2:,${3: [decimal_separator]},${4: [group_separator]}})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [
+            "decimal_separator",
+            "group_separator"
+        ],
         "ellipsis": false
     },
     {
@@ -2683,6 +4609,12 @@
         "func_desc": "Converts an octal number to binary.",
         "is_nullary": false,
         "comp_str": "OCT2BIN(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -2691,6 +4623,10 @@
         "func_desc": "Converts an octal number to decimal.",
         "is_nullary": false,
         "comp_str": "OCT2DEC(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2699,6 +4635,12 @@
         "func_desc": "Converts an octal number to hexadecimal.",
         "is_nullary": false,
         "comp_str": "OCT2HEX(${1:number}${2:,${3: [places]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "places"
+        ],
         "ellipsis": false
     },
     {
@@ -2707,6 +4649,10 @@
         "func_desc": "Rounds a number up to the nearest odd integer.",
         "is_nullary": false,
         "comp_str": "ODD(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2715,6 +4661,19 @@
         "func_desc": "Returns the price per $100 face value of a security with an odd first period.",
         "is_nullary": false,
         "comp_str": "ODDFPRICE(${1:settlement},${2: maturity},${3: issue},${4: first_coupon},${5: rate},${6: yld},${7: redemption},${8: frequency}${9:,${10: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "issue",
+            "first_coupon",
+            "rate",
+            "yld",
+            "redemption",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2723,6 +4682,19 @@
         "func_desc": "Returns the yield of a security with an odd first period.",
         "is_nullary": false,
         "comp_str": "ODDFYIELD(${1:settlement},${2: maturity},${3: issue},${4: first_coupon},${5: rate},${6: pr},${7: redemption},${8: frequency}${9:,${10: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "issue",
+            "first_coupon",
+            "rate",
+            "pr",
+            "redemption",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2731,6 +4703,18 @@
         "func_desc": "Returns the price per $100 face value of a security with an odd last period.",
         "is_nullary": false,
         "comp_str": "ODDLPRICE(${1:settlement},${2: maturity},${3: last_interest},${4: rate},${5: yld},${6: redemption},${7: frequency}${8:,${9: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "last_interest",
+            "rate",
+            "yld",
+            "redemption",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2739,6 +4723,18 @@
         "func_desc": "Returns the yield of a security with an odd last period.",
         "is_nullary": false,
         "comp_str": "ODDLYIELD(${1:settlement},${2: maturity},${3: last_interest},${4: rate},${5: pr},${6: redemption},${7: frequency}${8:,${9: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "last_interest",
+            "rate",
+            "pr",
+            "redemption",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2747,6 +4743,15 @@
         "func_desc": "Returns a reference offset from a given reference.",
         "is_nullary": false,
         "comp_str": "OFFSET(${1:reference},${2: rows},${3: cols}${4:,${5: [height]},${6: [width]}})",
+        "req_param": [
+            "reference",
+            "rows",
+            "cols"
+        ],
+        "opt_param": [
+            "height",
+            "width"
+        ],
         "ellipsis": false
     },
     {
@@ -2755,6 +4760,12 @@
         "func_desc": "Returns TRUE if any argument is TRUE.",
         "is_nullary": false,
         "comp_str": "OR(${1:logical1}${2:,${3: [logical2], ...}})",
+        "req_param": [
+            "logical1"
+        ],
+        "opt_param": [
+            "logical2"
+        ],
         "ellipsis": true
     },
     {
@@ -2763,6 +4774,12 @@
         "func_desc": "Returns the number of periods required by an investment to reach a specified value.",
         "is_nullary": false,
         "comp_str": "PDURATION(${1:rate},${2: py},${3: fv})",
+        "req_param": [
+            "rate",
+            "py",
+            "fv"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2771,6 +4788,11 @@
         "func_desc": "Returns the Pearson product moment correlation coefficient.",
         "is_nullary": false,
         "comp_str": "PEARSON(${1:array1},${2: array2})",
+        "req_param": [
+            "array1",
+            "array2"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2779,6 +4801,11 @@
         "func_desc": "Returns the k-th percentile of values in a range. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "PERCENTILE(${1:array},${2: k})",
+        "req_param": [
+            "array",
+            "k"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2787,6 +4814,11 @@
         "func_desc": "Returns the k-th percentile of values in a range, where k is in the range 0..1, exclusive.",
         "is_nullary": false,
         "comp_str": "PERCENTILE.EXC(${1:array},${2: k})",
+        "req_param": [
+            "array",
+            "k"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2795,6 +4827,11 @@
         "func_desc": "Returns the k-th percentile of values in a range.",
         "is_nullary": false,
         "comp_str": "PERCENTILE.INC(${1:array},${2: k})",
+        "req_param": [
+            "array",
+            "k"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2803,6 +4840,13 @@
         "func_desc": "Returns the percentage rank of a value in a data set. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "PERCENTRANK(${1:array},${2: x}${3:,${4: [significance]}})",
+        "req_param": [
+            "array",
+            "x"
+        ],
+        "opt_param": [
+            "significance"
+        ],
         "ellipsis": false
     },
     {
@@ -2811,6 +4855,13 @@
         "func_desc": "Returns the rank of a value in a data set as a percentage (0..1, exclusive) of the data set.",
         "is_nullary": false,
         "comp_str": "PERCENTRANK.EXC(${1:array},${2: x}${3:,${4: [significance]}})",
+        "req_param": [
+            "array",
+            "x"
+        ],
+        "opt_param": [
+            "significance"
+        ],
         "ellipsis": false
     },
     {
@@ -2819,6 +4870,13 @@
         "func_desc": "Returns the percentage rank of a value in a data set.",
         "is_nullary": false,
         "comp_str": "PERCENTRANK.INC(${1:array},${2: x}${3:,${4: [significance]}})",
+        "req_param": [
+            "array",
+            "x"
+        ],
+        "opt_param": [
+            "significance"
+        ],
         "ellipsis": false
     },
     {
@@ -2827,6 +4885,11 @@
         "func_desc": "Returns the number of permutations for a given number of objects.",
         "is_nullary": false,
         "comp_str": "PERMUT(${1:number},${2: number_chosen})",
+        "req_param": [
+            "number",
+            "number_chosen"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2835,6 +4898,11 @@
         "func_desc": "Returns the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects.",
         "is_nullary": false,
         "comp_str": "PERMUTATIONA(${1:number},${2: number_chosen})",
+        "req_param": [
+            "number",
+            "number_chosen"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2843,6 +4911,10 @@
         "func_desc": "Returns the value of the density function for a standard normal distribution.",
         "is_nullary": false,
         "comp_str": "PHI(${1:x})",
+        "req_param": [
+            "x"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2851,6 +4923,10 @@
         "func_desc": "Extracts the phonetic (furigana) characters from a text string.",
         "is_nullary": false,
         "comp_str": "PHONETIC(${1:reference})",
+        "req_param": [
+            "reference"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2858,7 +4934,8 @@
         "func_cat": "Math and trigonometry",
         "func_desc": "Returns the value of pi.",
         "is_nullary": true,
-        "comp_str": "=PI()"
+        "comp_str": "PI()",
+        "ellipsis": false
     },
     {
         "func_name": "PMT",
@@ -2866,6 +4943,15 @@
         "func_desc": "Returns the periodic payment for an annuity.",
         "is_nullary": false,
         "comp_str": "PMT(${1:rate},${2: nper},${3: pv}${4:,${5: [fv]},${6: [type]}})",
+        "req_param": [
+            "rate",
+            "nper",
+            "pv"
+        ],
+        "opt_param": [
+            "fv",
+            "type"
+        ],
         "ellipsis": false
     },
     {
@@ -2874,6 +4960,12 @@
         "func_desc": "Returns the Poisson. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "POISSON(${1:x},${2: mean},${3: cumulative})",
+        "req_param": [
+            "x",
+            "mean",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2882,6 +4974,12 @@
         "func_desc": "Returns the Poisson distribution.",
         "is_nullary": false,
         "comp_str": "POISSON.DIST(${1:x},${2: mean},${3: cumulative})",
+        "req_param": [
+            "x",
+            "mean",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2890,6 +4988,11 @@
         "func_desc": "Returns the result of a number raised to a power.",
         "is_nullary": false,
         "comp_str": "POWER(${1:number},${2: power})",
+        "req_param": [
+            "number",
+            "power"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2898,6 +5001,16 @@
         "func_desc": "Returns the payment on the principal for an investment for a given period.",
         "is_nullary": false,
         "comp_str": "PPMT(${1:rate},${2: per},${3: nper},${4: pv}${5:,${6: [fv]},${7: [type]}})",
+        "req_param": [
+            "rate",
+            "per",
+            "nper",
+            "pv"
+        ],
+        "opt_param": [
+            "fv",
+            "type"
+        ],
         "ellipsis": false
     },
     {
@@ -2906,6 +5019,17 @@
         "func_desc": "Returns the price per $100 face value of a security that pays periodic interest.",
         "is_nullary": false,
         "comp_str": "PRICE(${1:settlement},${2: maturity},${3: rate},${4: yld},${5: redemption},${6: frequency}${7:,${8: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "rate",
+            "yld",
+            "redemption",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2914,6 +5038,15 @@
         "func_desc": "Returns the price per $100 face value of a discounted security.",
         "is_nullary": false,
         "comp_str": "PRICEDISC(${1:settlement},${2: maturity},${3: discount},${4: redemption}${5:,${6: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "discount",
+            "redemption"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2922,6 +5055,16 @@
         "func_desc": "Returns the price per $100 face value of a security that pays interest at maturity.",
         "is_nullary": false,
         "comp_str": "PRICEMAT(${1:settlement},${2: maturity},${3: issue},${4: rate},${5: yld}${6:,${7: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "issue",
+            "rate",
+            "yld"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -2930,6 +5073,14 @@
         "func_desc": "Returns the probability that values in a range are between two limits.",
         "is_nullary": false,
         "comp_str": "PROB(${1:x_range},${2: prob_range},${3: lower_limit}${4:,${5: [upper_limit]}})",
+        "req_param": [
+            "x_range",
+            "prob_range",
+            "lower_limit"
+        ],
+        "opt_param": [
+            "upper_limit"
+        ],
         "ellipsis": false
     },
     {
@@ -2938,6 +5089,12 @@
         "func_desc": "Multiplies its arguments.",
         "is_nullary": false,
         "comp_str": "PRODUCT(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -2946,6 +5103,10 @@
         "func_desc": "Capitalizes the first letter in each word of a text value.",
         "is_nullary": false,
         "comp_str": "PROPER(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2954,6 +5115,15 @@
         "func_desc": "Returns the present value of an investment.",
         "is_nullary": false,
         "comp_str": "PV(${1:rate},${2: nper},${3: pmt}${4:,${5: [fv]},${6: [typel]}})",
+        "req_param": [
+            "rate",
+            "nper",
+            "pmt"
+        ],
+        "opt_param": [
+            "fv",
+            "typel"
+        ],
         "ellipsis": false
     },
     {
@@ -2962,6 +5132,11 @@
         "func_desc": "Returns the quartile of a data set. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "QUARTILE(${1:array},${2: quart})",
+        "req_param": [
+            "array",
+            "quart"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2970,6 +5145,11 @@
         "func_desc": "Returns the quartile of the data set, based on percentile values from 0..1, exclusive.",
         "is_nullary": false,
         "comp_str": "QUARTILE.EXC(${1:array},${2: quart})",
+        "req_param": [
+            "array",
+            "quart"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2978,6 +5158,11 @@
         "func_desc": "Returns the quartile of a data set.",
         "is_nullary": false,
         "comp_str": "QUARTILE.INC(${1:array},${2: quart})",
+        "req_param": [
+            "array",
+            "quart"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2986,6 +5171,11 @@
         "func_desc": "Returns the integer portion of a division.",
         "is_nullary": false,
         "comp_str": "QUOTIENT(${1:numerator},${2: denominator})",
+        "req_param": [
+            "numerator",
+            "denominator"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -2994,6 +5184,10 @@
         "func_desc": "Converts degrees to radians.",
         "is_nullary": false,
         "comp_str": "RADIANS(${1:angle})",
+        "req_param": [
+            "angle"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3001,7 +5195,8 @@
         "func_cat": "Math and trigonometry",
         "func_desc": "Returns a random number between 0 and 1.",
         "is_nullary": true,
-        "comp_str": "=RAND()"
+        "comp_str": "RAND()",
+        "ellipsis": false
     },
     {
         "func_name": "RANDARRAY",
@@ -3009,6 +5204,14 @@
         "func_desc": "Returns an array of random numbers between 0 and 1. However, you can specify the number of rows and columns to fill, minimum and maximum values, and whether to return whole numbers or decimal values.",
         "is_nullary": false,
         "comp_str": "RANDARRAY(${1:,${2: [rows]},${3: [columns]},${4: [min]},${5: [max]},${6: [integer]}})",
+        "req_param": [],
+        "opt_param": [
+            "rows",
+            "columns",
+            "min",
+            "max",
+            "integer"
+        ],
         "ellipsis": false
     },
     {
@@ -3017,6 +5220,11 @@
         "func_desc": "Returns a random number between the numbers you specify.",
         "is_nullary": false,
         "comp_str": "RANDBETWEEN(${1:bottom},${2: top})",
+        "req_param": [
+            "bottom",
+            "top"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3025,6 +5233,13 @@
         "func_desc": "Returns the rank of a number in a list of numbers. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "RANK(${1:number},${2: ref}${3:,${4: [order]}})",
+        "req_param": [
+            "number",
+            "ref"
+        ],
+        "opt_param": [
+            "order"
+        ],
         "ellipsis": false
     },
     {
@@ -3033,6 +5248,13 @@
         "func_desc": "Returns the rank of a number in a list of numbers. Ties take the average rank.",
         "is_nullary": false,
         "comp_str": "RANK.AVG(${1:number},${2: ref}${3:,${4: [order]}})",
+        "req_param": [
+            "number",
+            "ref"
+        ],
+        "opt_param": [
+            "order"
+        ],
         "ellipsis": false
     },
     {
@@ -3041,6 +5263,13 @@
         "func_desc": "Returns the rank of a number in a list of numbers. Ties take the top rank.",
         "is_nullary": false,
         "comp_str": "RANK.EQ(${1:number},${2: ref}${3:,${4: [order]}})",
+        "req_param": [
+            "number",
+            "ref"
+        ],
+        "opt_param": [
+            "order"
+        ],
         "ellipsis": false
     },
     {
@@ -3049,6 +5278,16 @@
         "func_desc": "Returns the interest rate per period of an annuity.",
         "is_nullary": false,
         "comp_str": "RATE(${1:nper},${2: pmt},${3: pv}${4:,${5: [fv]},${6: [type]},${7: [guess]}})",
+        "req_param": [
+            "nper",
+            "pmt",
+            "pv"
+        ],
+        "opt_param": [
+            "fv",
+            "type",
+            "guess"
+        ],
         "ellipsis": false
     },
     {
@@ -3057,6 +5296,15 @@
         "func_desc": "Returns the amount received at maturity for a fully invested security.",
         "is_nullary": false,
         "comp_str": "RECEIVED(${1:settlement},${2: maturity},${3: investment},${4: discount}${5:,${6: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "investment",
+            "discount"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -3065,6 +5313,12 @@
         "func_desc": "Reduces an array to an accumulated value by applying a LAMBDA function to each value and returning the total value in the accumulator.",
         "is_nullary": false,
         "comp_str": "REDUCE(${1:initial_value},${2: array},${3: function})",
+        "req_param": [
+            "initial_value",
+            "array",
+            "function"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3073,6 +5327,14 @@
         "func_desc": "Returns a reference to the spcified DLL or code resource.",
         "is_nullary": false,
         "comp_str": "REGISTER(${1:module_text},${2: procedure},${3: type_text}${4:,${5: [argument1], ...}})",
+        "req_param": [
+            "module_text",
+            "procedure",
+            "type_text"
+        ],
+        "opt_param": [
+            "argument1"
+        ],
         "ellipsis": true
     },
     {
@@ -3081,6 +5343,13 @@
         "func_desc": "Returns the register ID of the specified DLL or code resource.",
         "is_nullary": false,
         "comp_str": "REGISTER.ID(${1:module_text},${2: procedure}${3:,${4: [type_text]}})",
+        "req_param": [
+            "module_text",
+            "procedure"
+        ],
+        "opt_param": [
+            "type_text"
+        ],
         "ellipsis": false
     },
     {
@@ -3089,6 +5358,13 @@
         "func_desc": "Replaces part of a text string with another string, based on a given start position and length.",
         "is_nullary": false,
         "comp_str": "REPLACE(${1:old_text},${2: start_num},${3: num_chars},${4: new_text})",
+        "req_param": [
+            "old_text",
+            "start_num",
+            "num_chars",
+            "new_text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3097,6 +5373,13 @@
         "func_desc": "Replaces a specified number of bytes in a text string with another text string.",
         "is_nullary": false,
         "comp_str": "REPLACEB(${1:old_text},${2: start_num},${3: num_bytes},${4: new_text})",
+        "req_param": [
+            "old_text",
+            "start_num",
+            "num_bytes",
+            "new_text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3105,6 +5388,11 @@
         "func_desc": "Repeats text a given number of times.",
         "is_nullary": false,
         "comp_str": "REPT(${1:text},${2: number_times})",
+        "req_param": [
+            "text",
+            "number_times"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3113,6 +5401,12 @@
         "func_desc": "Extracts a specified number of characters from the end (right) of a text string.",
         "is_nullary": false,
         "comp_str": "RIGHT(${1:text}${2:,${3: [num_chars]}})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [
+            "num_chars"
+        ],
         "ellipsis": false
     },
     {
@@ -3121,6 +5415,12 @@
         "func_desc": "Returns the last character or characters in a text string based on bytes.",
         "is_nullary": false,
         "comp_str": "RIGHTB(${1:text}${2:,${3: [num_bytes]}})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [
+            "num_bytes"
+        ],
         "ellipsis": false
     },
     {
@@ -3129,6 +5429,12 @@
         "func_desc": "Converts an arabic numeral to roman, as text.",
         "is_nullary": false,
         "comp_str": "ROMAN(${1:number}${2:,${3: [form]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "form"
+        ],
         "ellipsis": false
     },
     {
@@ -3137,6 +5443,11 @@
         "func_desc": "Rounds a number to a specified number of digits.",
         "is_nullary": false,
         "comp_str": "ROUND(${1:number},${2: num_digits})",
+        "req_param": [
+            "number",
+            "num_digits"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3145,6 +5456,11 @@
         "func_desc": "Rounds a number down, toward zero.",
         "is_nullary": false,
         "comp_str": "ROUNDDOWN(${1:number},${2: num_digits})",
+        "req_param": [
+            "number",
+            "num_digits"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3153,6 +5469,11 @@
         "func_desc": "Rounds a number up, away from zero.",
         "is_nullary": false,
         "comp_str": "ROUNDUP(${1:number},${2: num_digits})",
+        "req_param": [
+            "number",
+            "num_digits"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3161,6 +5482,10 @@
         "func_desc": "Returns the row number of a reference.",
         "is_nullary": false,
         "comp_str": "ROW(${1:,${2: [reference]}})",
+        "req_param": [],
+        "opt_param": [
+            "reference"
+        ],
         "ellipsis": false
     },
     {
@@ -3169,6 +5494,10 @@
         "func_desc": "Returns the number of rows in a reference.",
         "is_nullary": false,
         "comp_str": "ROWS(${1:array})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3177,6 +5506,12 @@
         "func_desc": "Returns an equivalent interest rate for the growth of an investment.",
         "is_nullary": false,
         "comp_str": "RRI(${1:nper},${2: pv},${3: fv})",
+        "req_param": [
+            "nper",
+            "pv",
+            "fv"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3185,6 +5520,11 @@
         "func_desc": "Returns the square of the Pearson product moment correlation coefficient.",
         "is_nullary": false,
         "comp_str": "RSQ(${1:known_ys},${2: known_xs})",
+        "req_param": [
+            "known_ys",
+            "known_xs"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3193,6 +5533,14 @@
         "func_desc": "Retrieves real-time data from a program that supports COM automation.",
         "is_nullary": false,
         "comp_str": "RTD(${1:progID},${2: server},${3: topic1}${4:,${5: [topic2], ...}})",
+        "req_param": [
+            "progID",
+            "server",
+            "topic1"
+        ],
+        "opt_param": [
+            "topic2"
+        ],
         "ellipsis": true
     },
     {
@@ -3201,6 +5549,12 @@
         "func_desc": "Scans an array by applying a LAMBDA  to each value and returns an array that has each intermediate value.",
         "is_nullary": false,
         "comp_str": "SCAN(${1:initial_value},${2: array},${3: function})",
+        "req_param": [
+            "initial_value",
+            "array",
+            "function"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3209,6 +5563,13 @@
         "func_desc": "Finds the position of a substring within a text string, case-insensitive.",
         "is_nullary": false,
         "comp_str": "SEARCH(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
+        "req_param": [
+            "find_text",
+            "within_text"
+        ],
+        "opt_param": [
+            "start_num"
+        ],
         "ellipsis": false
     },
     {
@@ -3217,6 +5578,13 @@
         "func_desc": "Returns the position of a specified substring within a text string, counting by bytes.",
         "is_nullary": false,
         "comp_str": "SEARCHB(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
+        "req_param": [
+            "find_text",
+            "within_text"
+        ],
+        "opt_param": [
+            "start_num"
+        ],
         "ellipsis": false
     },
     {
@@ -3225,6 +5593,10 @@
         "func_desc": "Returns the secant of an angle.",
         "is_nullary": false,
         "comp_str": "SEC(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3233,6 +5605,10 @@
         "func_desc": "Returns the hyperbolic secant of an angle.",
         "is_nullary": false,
         "comp_str": "SECH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3241,6 +5617,10 @@
         "func_desc": "Converts a serial number to a second.",
         "is_nullary": false,
         "comp_str": "SECOND(${1:serial_number})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3249,6 +5629,14 @@
         "func_desc": "Generates a list of sequential numbers in an array, such as 1, 2, 3, 4",
         "is_nullary": false,
         "comp_str": "SEQUENCE(${1:rows}${2:,${3: [columns]},${4: [start]},${5: [step]}})",
+        "req_param": [
+            "rows"
+        ],
+        "opt_param": [
+            "columns",
+            "start",
+            "step"
+        ],
         "ellipsis": false
     },
     {
@@ -3257,6 +5645,13 @@
         "func_desc": "Returns the sum of a power series based on the formula.",
         "is_nullary": false,
         "comp_str": "SERIESSUM(${1:x},${2: n},${3: m},${4: coefficients})",
+        "req_param": [
+            "x",
+            "n",
+            "m",
+            "coefficients"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3265,6 +5660,10 @@
         "func_desc": "Returns the sheet number of the referenced sheet.",
         "is_nullary": false,
         "comp_str": "SHEET(${1:,${2: [value]}})",
+        "req_param": [],
+        "opt_param": [
+            "value"
+        ],
         "ellipsis": false
     },
     {
@@ -3273,6 +5672,10 @@
         "func_desc": "Returns the number of sheets in a reference.",
         "is_nullary": false,
         "comp_str": "SHEETS(${1:,${2: [reference]}})",
+        "req_param": [],
+        "opt_param": [
+            "reference"
+        ],
         "ellipsis": false
     },
     {
@@ -3281,6 +5684,10 @@
         "func_desc": "Returns the sign of a number.",
         "is_nullary": false,
         "comp_str": "SIGN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3289,6 +5696,10 @@
         "func_desc": "Returns the sine of the given angle.",
         "is_nullary": false,
         "comp_str": "SIN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3297,6 +5708,10 @@
         "func_desc": "Returns the hyperbolic sine of a number.",
         "is_nullary": false,
         "comp_str": "SINH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3305,6 +5720,12 @@
         "func_desc": "Returns the skewness of a distribution.",
         "is_nullary": false,
         "comp_str": "SKEW(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3313,6 +5734,12 @@
         "func_desc": "Returns the skewness of a distribution based on a population.",
         "is_nullary": false,
         "comp_str": "SKEW.P(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3321,6 +5748,12 @@
         "func_desc": "Returns the straight-line depreciation of an asset for one period.",
         "is_nullary": false,
         "comp_str": "SLN(${1:cost},${2: salvage},${3: life})",
+        "req_param": [
+            "cost",
+            "salvage",
+            "life"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3329,6 +5762,11 @@
         "func_desc": "Returns the slope of the linear regression line.",
         "is_nullary": false,
         "comp_str": "SLOPE(${1:known_ys},${2: known_xs})",
+        "req_param": [
+            "known_ys",
+            "known_xs"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3337,6 +5775,11 @@
         "func_desc": "Returns the k-th smallest value in a data set.",
         "is_nullary": false,
         "comp_str": "SMALL(${1:array},${2: k})",
+        "req_param": [
+            "array",
+            "k"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3345,6 +5788,14 @@
         "func_desc": "Sorts the contents of a range or array",
         "is_nullary": false,
         "comp_str": "SORT(${1:array}${2:,${3: [sort_index]},${4: [sort_order]},${5: [by_col]}})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [
+            "sort_index",
+            "sort_order",
+            "by_col"
+        ],
         "ellipsis": false
     },
     {
@@ -3353,6 +5804,13 @@
         "func_desc": "Sorts the contents of a range or array based on the values in a corresponding range or array",
         "is_nullary": false,
         "comp_str": "SORTBY(${1:array},${2: by_array1}${3:,${4: [sort_order1], ...}})",
+        "req_param": [
+            "array",
+            "by_array1"
+        ],
+        "opt_param": [
+            "sort_order1"
+        ],
         "ellipsis": true
     },
     {
@@ -3361,6 +5819,10 @@
         "func_desc": "Returns a positive square root.",
         "is_nullary": false,
         "comp_str": "SQRT(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3369,6 +5831,10 @@
         "func_desc": "Returns the square root of (number * pi).",
         "is_nullary": false,
         "comp_str": "SQRTPI(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3377,6 +5843,12 @@
         "func_desc": "Returns a normalized value.",
         "is_nullary": false,
         "comp_str": "STANDARDIZE(${1:x},${2: mean},${3: standard_dev})",
+        "req_param": [
+            "x",
+            "mean",
+            "standard_dev"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3385,6 +5857,12 @@
         "func_desc": "Estimates standard deviation based on a sample. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "STDEV(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3393,6 +5871,12 @@
         "func_desc": "Calculates standard deviation based on the entire population.",
         "is_nullary": false,
         "comp_str": "STDEV.P(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3401,6 +5885,12 @@
         "func_desc": "Estimates standard deviation based on a sample.",
         "is_nullary": false,
         "comp_str": "STDEV.S(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3409,6 +5899,12 @@
         "func_desc": "Estimates standard deviation based on a sample, including numbers, text, and logical values.",
         "is_nullary": false,
         "comp_str": "STDEVA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -3417,6 +5913,12 @@
         "func_desc": "Calculates standard deviation based on the entire population. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "STDEVP(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3425,6 +5927,12 @@
         "func_desc": "Calculates standard deviation based on the entire population, including numbers, text, and logical values.",
         "is_nullary": false,
         "comp_str": "STDEVPA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -3433,6 +5941,11 @@
         "func_desc": "Returns the standard error of the predicted y-value for each x in the regression.",
         "is_nullary": false,
         "comp_str": "STEYX(${1:known_ys},${2: known_xs})",
+        "req_param": [
+            "known_ys",
+            "known_xs"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3441,6 +5954,16 @@
         "func_desc": "Retrieves historical data about a financial instrument.",
         "is_nullary": false,
         "comp_str": "STOCKHISTORY(${1:stock},${2: start_date}${3:,${4: [end_date]},${5: [interval]},${6: [headers]},${7: [properties], ...}})",
+        "req_param": [
+            "stock",
+            "start_date"
+        ],
+        "opt_param": [
+            "end_date",
+            "interval",
+            "headers",
+            "properties"
+        ],
         "ellipsis": true
     },
     {
@@ -3449,6 +5972,14 @@
         "func_desc": "Substitutes new text for old text in a text string.",
         "is_nullary": false,
         "comp_str": "SUBSTITUTE(${1:text},${2: old_text},${3: new_text}${4:,${5: [instance_num]}})",
+        "req_param": [
+            "text",
+            "old_text",
+            "new_text"
+        ],
+        "opt_param": [
+            "instance_num"
+        ],
         "ellipsis": false
     },
     {
@@ -3457,6 +5988,13 @@
         "func_desc": "Returns a subtotal in a list or database.",
         "is_nullary": false,
         "comp_str": "SUBTOTAL(${1:function_num},${2: ref1}${3:,${4: [ref2], ...}})",
+        "req_param": [
+            "function_num",
+            "ref1"
+        ],
+        "opt_param": [
+            "ref2"
+        ],
         "ellipsis": true
     },
     {
@@ -3465,6 +6003,12 @@
         "func_desc": "Adds its arguments.",
         "is_nullary": false,
         "comp_str": "SUM(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3473,6 +6017,13 @@
         "func_desc": "Adds the cells specified by a given criteria.",
         "is_nullary": false,
         "comp_str": "SUMIF(${1:range},${2: criteria}${3:,${4: [sum_range]}})",
+        "req_param": [
+            "range",
+            "criteria"
+        ],
+        "opt_param": [
+            "sum_range"
+        ],
         "ellipsis": false
     },
     {
@@ -3481,6 +6032,15 @@
         "func_desc": "Adds the cells in a range that meet multiple criteria.",
         "is_nullary": false,
         "comp_str": "SUMIFS(${1:sum_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
+        "req_param": [
+            "sum_range",
+            "criteria_range1",
+            "criteria1"
+        ],
+        "opt_param": [
+            "criteria_range2",
+            "criteria2"
+        ],
         "ellipsis": true
     },
     {
@@ -3489,6 +6049,13 @@
         "func_desc": "Returns the sum of the products of corresponding array components.",
         "is_nullary": false,
         "comp_str": "SUMPRODUCT(${1:array1}${2:,${3: [array2]},${4: [array3], ...}})",
+        "req_param": [
+            "array1"
+        ],
+        "opt_param": [
+            "array2",
+            "array3"
+        ],
         "ellipsis": true
     },
     {
@@ -3497,6 +6064,12 @@
         "func_desc": "Returns the sum of the squares of the arguments.",
         "is_nullary": false,
         "comp_str": "SUMSQ(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3505,6 +6078,11 @@
         "func_desc": "Returns the sum of the difference of squares of corresponding values in two arrays.",
         "is_nullary": false,
         "comp_str": "SUMX2MY2(${1:array_x},${2: array_y})",
+        "req_param": [
+            "array_x",
+            "array_y"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3513,6 +6091,11 @@
         "func_desc": "Returns the sum of the sum of squares of corresponding values in two arrays.",
         "is_nullary": false,
         "comp_str": "SUMX2PY2(${1:array_x},${2: array_y})",
+        "req_param": [
+            "array_x",
+            "array_y"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3521,6 +6104,11 @@
         "func_desc": "Returns the sum of squares of differences of corresponding values in two arrays.",
         "is_nullary": false,
         "comp_str": "SUMXMY2(${1:array_x},${2: array_y})",
+        "req_param": [
+            "array_x",
+            "array_y"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3529,6 +6117,15 @@
         "func_desc": "Evaluates an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an optional default value may be returned. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "SWITCH(${1:expression},${2: value1},${3: result1}${4:,${5: [default_or_value2]},${6: [result2], ...}})",
+        "req_param": [
+            "expression",
+            "value1",
+            "result1"
+        ],
+        "opt_param": [
+            "default_or_value2",
+            "result2"
+        ],
         "ellipsis": true
     },
     {
@@ -3537,6 +6134,13 @@
         "func_desc": "Returns the sum-of-years' digits depreciation of an asset for a specified period.",
         "is_nullary": false,
         "comp_str": "SYD(${1:cost},${2: salvage},${3: life},${4: per})",
+        "req_param": [
+            "cost",
+            "salvage",
+            "life",
+            "per"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3545,6 +6149,10 @@
         "func_desc": "Converts its arguments to text.",
         "is_nullary": false,
         "comp_str": "T(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3553,6 +6161,12 @@
         "func_desc": "Returns the left-tailed Student t-distribution.",
         "is_nullary": false,
         "comp_str": "T.DIST(${1:x},${2: deg_freedom},${3: cumulative})",
+        "req_param": [
+            "x",
+            "deg_freedom",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3561,6 +6175,11 @@
         "func_desc": "Returns the two-tailed Student t-distribution.",
         "is_nullary": false,
         "comp_str": "T.DIST.2T(${1:x},${2: deg_freedom})",
+        "req_param": [
+            "x",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3569,6 +6188,11 @@
         "func_desc": "Returns the right-tailed Student's t-distribution.",
         "is_nullary": false,
         "comp_str": "T.DIST.RT(${1:x},${2: deg_freedom})",
+        "req_param": [
+            "x",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3577,6 +6201,11 @@
         "func_desc": "Returns the left-tailed inverse of the Student's t-distribution.",
         "is_nullary": false,
         "comp_str": "T.INV(${1:probability},${2: deg_freedom})",
+        "req_param": [
+            "probability",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3585,6 +6214,11 @@
         "func_desc": "Returns the two-tailed inverse of the Student's t-distribution.",
         "is_nullary": false,
         "comp_str": "T.INV.2T(${1:probability},${2: deg_freedom})",
+        "req_param": [
+            "probability",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3593,6 +6227,13 @@
         "func_desc": "Returns the probability associated with a Student's t-test.",
         "is_nullary": false,
         "comp_str": "T.TEST(${1:array1},${2: array2},${3: tails},${4: type})",
+        "req_param": [
+            "array1",
+            "array2",
+            "tails",
+            "type"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3601,6 +6242,13 @@
         "func_desc": "Returns rows or columns from the start or end of an array.",
         "is_nullary": false,
         "comp_str": "TAKE(${1:array},${2: rows}${3:,${4: [columns]}})",
+        "req_param": [
+            "array",
+            "rows"
+        ],
+        "opt_param": [
+            "columns"
+        ],
         "ellipsis": false
     },
     {
@@ -3609,6 +6257,10 @@
         "func_desc": "Returns the tangent of a number.",
         "is_nullary": false,
         "comp_str": "TAN(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3617,6 +6269,10 @@
         "func_desc": "Returns the hyperbolic tangent of a number.",
         "is_nullary": false,
         "comp_str": "TANH(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3625,6 +6281,12 @@
         "func_desc": "Returns the bond-equivalent yield for a Treasury bill.",
         "is_nullary": false,
         "comp_str": "TBILLEQ(${1:settlement},${2: maturity},${3: discount})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "discount"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3633,6 +6295,12 @@
         "func_desc": "Returns the price per $100 face value for a Treasury bill.",
         "is_nullary": false,
         "comp_str": "TBILLPRICE(${1:settlement},${2: maturity},${3: discount})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "discount"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3641,6 +6309,12 @@
         "func_desc": "Returns the yield for a Treasury bill.",
         "is_nullary": false,
         "comp_str": "TBILLYIELD(${1:settlement},${2: maturity},${3: pr})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "pr"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3649,6 +6323,12 @@
         "func_desc": "Returns the Student's t-distribution. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "TDIST(${1:x},${2: deg_freedom},${3: tails})",
+        "req_param": [
+            "x",
+            "deg_freedom",
+            "tails"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3657,6 +6337,11 @@
         "func_desc": "Formats a number and converts it to text.",
         "is_nullary": false,
         "comp_str": "TEXT(${1:value},${2: format_text})",
+        "req_param": [
+            "value",
+            "format_text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3665,6 +6350,16 @@
         "func_desc": "Returns text that's after delimiting characters.",
         "is_nullary": false,
         "comp_str": "TEXTAFTER(${1:text},${2: delimiter}${3:,${4: [instance_num]},${5: [match_mode]},${6: [match_end]},${7: [if_not_found]}})",
+        "req_param": [
+            "text",
+            "delimiter"
+        ],
+        "opt_param": [
+            "instance_num",
+            "match_mode",
+            "match_end",
+            "if_not_found"
+        ],
         "ellipsis": false
     },
     {
@@ -3673,6 +6368,16 @@
         "func_desc": "Returns text that's before delimiting characters.",
         "is_nullary": false,
         "comp_str": "TEXTBEFORE(${1:text},${2: delimiter}${3:,${4: [instance_num]},${5: [match_mode]},${6: [match_end]},${7: [if_not_found]}})",
+        "req_param": [
+            "text",
+            "delimiter"
+        ],
+        "opt_param": [
+            "instance_num",
+            "match_mode",
+            "match_end",
+            "if_not_found"
+        ],
         "ellipsis": false
     },
     {
@@ -3681,6 +6386,14 @@
         "func_desc": "Combines the text from multiple ranges and/or strings, and includes a delimiter you specify between each text value that will be combined. If the delimiter is an empty text string, this function will effectively concatenate the ranges. This function isn't available in Excel 2016 for Mac.",
         "is_nullary": false,
         "comp_str": "TEXTJOIN(${1:delimiter},${2: ignore_empty},${3: text1}${4:,${5: [text2], ...}})",
+        "req_param": [
+            "delimiter",
+            "ignore_empty",
+            "text1"
+        ],
+        "opt_param": [
+            "text2"
+        ],
         "ellipsis": true
     },
     {
@@ -3689,6 +6402,16 @@
         "func_desc": "Splits text into rows or columns using delimiters.",
         "is_nullary": false,
         "comp_str": "TEXTSPLIT(${1:text},${2: col_delimiter}${3:,${4: [row_delimiter]},${5: [ignore_empty]},${6: [match_mode]},${7: [pad_with]}})",
+        "req_param": [
+            "text",
+            "col_delimiter"
+        ],
+        "opt_param": [
+            "row_delimiter",
+            "ignore_empty",
+            "match_mode",
+            "pad_with"
+        ],
         "ellipsis": false
     },
     {
@@ -3697,6 +6420,12 @@
         "func_desc": "Returns the serial number of a particular time.",
         "is_nullary": false,
         "comp_str": "TIME(${1:hour},${2: minute},${3: second})",
+        "req_param": [
+            "hour",
+            "minute",
+            "second"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3705,6 +6434,10 @@
         "func_desc": "Converts a time in the form of text to a serial number.",
         "is_nullary": false,
         "comp_str": "TIMEVALUE(${1:time_text})",
+        "req_param": [
+            "time_text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3713,6 +6446,11 @@
         "func_desc": "Returns the inverse of the Student's t-distribution. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "TINV(${1:probability},${2: deg_freedom})",
+        "req_param": [
+            "probability",
+            "deg_freedom"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3721,6 +6459,13 @@
         "func_desc": "Returns the array as a column.",
         "is_nullary": false,
         "comp_str": "TOCOL(${1:array}${2:,${3: [ignore]},${4: [scan_by_column]}})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [
+            "ignore",
+            "scan_by_column"
+        ],
         "ellipsis": false
     },
     {
@@ -3728,7 +6473,8 @@
         "func_cat": "Date and time",
         "func_desc": "Returns the serial number of today's date.",
         "is_nullary": true,
-        "comp_str": "=TODAY()"
+        "comp_str": "TODAY()",
+        "ellipsis": false
     },
     {
         "func_name": "TOROW",
@@ -3736,6 +6482,13 @@
         "func_desc": "Returns the array as a row.",
         "is_nullary": false,
         "comp_str": "TOROW(${1:array}${2:,${3: [ignore]},${4: [scan_by_column]}})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [
+            "ignore",
+            "scan_by_column"
+        ],
         "ellipsis": false
     },
     {
@@ -3744,6 +6497,10 @@
         "func_desc": "Returns the transpose of an array.",
         "is_nullary": false,
         "comp_str": "TRANSPOSE(${1:array})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3752,6 +6509,14 @@
         "func_desc": "Returns values along a linear trend.",
         "is_nullary": false,
         "comp_str": "TREND(${1:known_ys}${2:,${3: [known_xs]},${4: [new_xs]},${5: [const]}})",
+        "req_param": [
+            "known_ys"
+        ],
+        "opt_param": [
+            "known_xs",
+            "new_xs",
+            "const"
+        ],
         "ellipsis": false
     },
     {
@@ -3760,6 +6525,10 @@
         "func_desc": "Removes spaces from text.",
         "is_nullary": false,
         "comp_str": "TRIM(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3768,6 +6537,11 @@
         "func_desc": "Returns the mean of the interior of a data set.",
         "is_nullary": false,
         "comp_str": "TRIMMEAN(${1:array},${2: percent})",
+        "req_param": [
+            "array",
+            "percent"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3776,6 +6550,12 @@
         "func_desc": "Truncates a number to an integer.",
         "is_nullary": false,
         "comp_str": "TRUNC(${1:number}${2:,${3: [num_digits]}})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [
+            "num_digits"
+        ],
         "ellipsis": false
     },
     {
@@ -3784,6 +6564,13 @@
         "func_desc": "Returns the probability associated with a Student's t-test. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "TTEST(${1:array1},${2: array2},${3: tails},${4: type})",
+        "req_param": [
+            "array1",
+            "array2",
+            "tails",
+            "type"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3792,6 +6579,10 @@
         "func_desc": "Returns a number indicating the data type of a value.",
         "is_nullary": false,
         "comp_str": "TYPE(${1:value})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3800,6 +6591,10 @@
         "func_desc": "Returns the Unicode character that is references by the given numeric value.",
         "is_nullary": false,
         "comp_str": "UNICHAR(${1:number})",
+        "req_param": [
+            "number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3808,6 +6603,10 @@
         "func_desc": "Returns the number (code point) that corresponds to the first character of the text.",
         "is_nullary": false,
         "comp_str": "UNICODE(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3816,6 +6615,13 @@
         "func_desc": "Returns a list of unique values in a list or range",
         "is_nullary": false,
         "comp_str": "UNIQUE(${1:array}${2:,${3: [by_col]},${4: [exactly_once]}})",
+        "req_param": [
+            "array"
+        ],
+        "opt_param": [
+            "by_col",
+            "exactly_once"
+        ],
         "ellipsis": false
     },
     {
@@ -3824,6 +6630,10 @@
         "func_desc": "Removes the registration of a DLL or code resource.",
         "is_nullary": false,
         "comp_str": "UNREGISTER(${1:register_id})",
+        "req_param": [
+            "register_id"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3832,6 +6642,10 @@
         "func_desc": "Converts text to uppercase.",
         "is_nullary": false,
         "comp_str": "UPPER(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3840,6 +6654,10 @@
         "func_desc": "Converts a text argument to a number.",
         "is_nullary": false,
         "comp_str": "VALUE(${1:text})",
+        "req_param": [
+            "text"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3848,6 +6666,12 @@
         "func_desc": "Returns text from any specified value",
         "is_nullary": false,
         "comp_str": "VALUETOTEXT(${1:value}${2:,${3: [format]}})",
+        "req_param": [
+            "value"
+        ],
+        "opt_param": [
+            "format"
+        ],
         "ellipsis": false
     },
     {
@@ -3856,6 +6680,12 @@
         "func_desc": "Estimates variance based on a sample. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "VAR(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3864,6 +6694,12 @@
         "func_desc": "Calculates variance based on the entire population.",
         "is_nullary": false,
         "comp_str": "VAR.P(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3872,6 +6708,12 @@
         "func_desc": "Estimates variance based on a sample.",
         "is_nullary": false,
         "comp_str": "VAR.S(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3880,6 +6722,12 @@
         "func_desc": "Estimates variance based on a sample, including numbers, text, and logical values.",
         "is_nullary": false,
         "comp_str": "VARA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -3888,6 +6736,12 @@
         "func_desc": "Calculates variance based on the entire population. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "VARP(${1:number1}${2:,${3: [number2], ...}})",
+        "req_param": [
+            "number1"
+        ],
+        "opt_param": [
+            "number2"
+        ],
         "ellipsis": true
     },
     {
@@ -3896,6 +6750,12 @@
         "func_desc": "Calculates variance based on the entire population, including numbers, text, and logical values.",
         "is_nullary": false,
         "comp_str": "VARPA(${1:value1}${2:,${3: [value2], ...}})",
+        "req_param": [
+            "value1"
+        ],
+        "opt_param": [
+            "value2"
+        ],
         "ellipsis": true
     },
     {
@@ -3904,6 +6764,17 @@
         "func_desc": "Returns the depreciation of an asset for a specified or partial period by using a declining balance method.",
         "is_nullary": false,
         "comp_str": "VDB(${1:cost},${2: salvage},${3: life},${4: start_period},${5: end_period}${6:,${7: [factor]},${8: [no_switch]}})",
+        "req_param": [
+            "cost",
+            "salvage",
+            "life",
+            "start_period",
+            "end_period"
+        ],
+        "opt_param": [
+            "factor",
+            "no_switch"
+        ],
         "ellipsis": false
     },
     {
@@ -3912,6 +6783,14 @@
         "func_desc": "Looks in the first column of an array and moves across the row to return the value of a cell.",
         "is_nullary": false,
         "comp_str": "VLOOKUP(${1:lookup_value},${2: table_array},${3: col_index_num}${4:,${5: [range_lookup]}})",
+        "req_param": [
+            "lookup_value",
+            "table_array",
+            "col_index_num"
+        ],
+        "opt_param": [
+            "range_lookup"
+        ],
         "ellipsis": false
     },
     {
@@ -3920,6 +6799,12 @@
         "func_desc": "Vertically combine arrays into one array.",
         "is_nullary": false,
         "comp_str": "VSTACK(${1:array1}${2:,${3: [array2], ...}})",
+        "req_param": [
+            "array1"
+        ],
+        "opt_param": [
+            "array2"
+        ],
         "ellipsis": true
     },
     {
@@ -3928,6 +6813,10 @@
         "func_desc": "Returns data from a web service. This function is not available in Excel Online.",
         "is_nullary": false,
         "comp_str": "WEBSERVICE(${1:url})",
+        "req_param": [
+            "url"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3936,6 +6825,12 @@
         "func_desc": "Converts a serial number to a day of the week.",
         "is_nullary": false,
         "comp_str": "WEEKDAY(${1:serial_number}${2:,${3: [return_type]}})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [
+            "return_type"
+        ],
         "ellipsis": false
     },
     {
@@ -3944,6 +6839,12 @@
         "func_desc": "Converts a serial number to a number representing where the week falls numerically with a year.",
         "is_nullary": false,
         "comp_str": "WEEKNUM(${1:serial_number}${2:,${3: [return_type]}})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [
+            "return_type"
+        ],
         "ellipsis": false
     },
     {
@@ -3952,6 +6853,13 @@
         "func_desc": "Calculates variance based on the entire population, including numbers, text, and logical values. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "WEIBULL(${1:x},${2: alpha},${3: beta},${4: cumulative})",
+        "req_param": [
+            "x",
+            "alpha",
+            "beta",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3960,6 +6868,13 @@
         "func_desc": "Returns the Weibull distribution.",
         "is_nullary": false,
         "comp_str": "WEIBULL.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
+        "req_param": [
+            "x",
+            "alpha",
+            "beta",
+            "cumulative"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -3968,6 +6883,13 @@
         "func_desc": "Returns the serial number of the date before or after a specified number of workdays.",
         "is_nullary": false,
         "comp_str": "WORKDAY(${1:start_date},${2: days}${3:,${4: [holidays]}})",
+        "req_param": [
+            "start_date",
+            "days"
+        ],
+        "opt_param": [
+            "holidays"
+        ],
         "ellipsis": false
     },
     {
@@ -3976,6 +6898,14 @@
         "func_desc": "Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days.",
         "is_nullary": false,
         "comp_str": "WORKDAY.INTL(${1:start_date},${2: days}${3:,${4: [weekend]},${5: [holidays]}})",
+        "req_param": [
+            "start_date",
+            "days"
+        ],
+        "opt_param": [
+            "weekend",
+            "holidays"
+        ],
         "ellipsis": false
     },
     {
@@ -3984,6 +6914,13 @@
         "func_desc": "Wraps a row or column to a specified height.",
         "is_nullary": false,
         "comp_str": "WRAPCOLS(${1:vector},${2: wrap_count}${3:,${4: [pad_with]}})",
+        "req_param": [
+            "vector",
+            "wrap_count"
+        ],
+        "opt_param": [
+            "pad_with"
+        ],
         "ellipsis": false
     },
     {
@@ -3992,6 +6929,13 @@
         "func_desc": "Wraps a row or column to a specified width.",
         "is_nullary": false,
         "comp_str": "WRAPROWS(${1:vector},${2: wrap_count}${3:,${4: [pad_with]}})",
+        "req_param": [
+            "vector",
+            "wrap_count"
+        ],
+        "opt_param": [
+            "pad_with"
+        ],
         "ellipsis": false
     },
     {
@@ -4000,6 +6944,13 @@
         "func_desc": "Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.",
         "is_nullary": false,
         "comp_str": "XIRR(${1:values},${2: dates}${3:,${4: [guess]}})",
+        "req_param": [
+            "values",
+            "dates"
+        ],
+        "opt_param": [
+            "guess"
+        ],
         "ellipsis": false
     },
     {
@@ -4008,6 +6959,16 @@
         "func_desc": "Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist,then XLOOKUP can return the closest (approximate) match.",
         "is_nullary": false,
         "comp_str": "XLOOKUP(${1:lookup_value},${2: lookup_array},${3: return_array}${4:,${5: [if_not_found]},${6: [match_mode]},${7: [search_mode]}})",
+        "req_param": [
+            "lookup_value",
+            "lookup_array",
+            "return_array"
+        ],
+        "opt_param": [
+            "if_not_found",
+            "match_mode",
+            "search_mode"
+        ],
         "ellipsis": false
     },
     {
@@ -4016,6 +6977,14 @@
         "func_desc": "Returns the relative position of an item in an array or range of cells.",
         "is_nullary": false,
         "comp_str": "XMATCH(${1:lookup_value},${2: lookup_array}${3:,${4: [match_mode]},${5: [search_mode]}})",
+        "req_param": [
+            "lookup_value",
+            "lookup_array"
+        ],
+        "opt_param": [
+            "match_mode",
+            "search_mode"
+        ],
         "ellipsis": false
     },
     {
@@ -4024,6 +6993,12 @@
         "func_desc": "Returns the net present value for a schedule of cash flows that is not necessarily periodic.",
         "is_nullary": false,
         "comp_str": "XNPV(${1:rate},${2: values},${3: dates})",
+        "req_param": [
+            "rate",
+            "values",
+            "dates"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -4032,6 +7007,12 @@
         "func_desc": "Returns a logical exclusive OR of all arguments.",
         "is_nullary": false,
         "comp_str": "XOR(${1:logical1}${2:,${3: [logical2], ...}})",
+        "req_param": [
+            "logical1"
+        ],
+        "opt_param": [
+            "logical2"
+        ],
         "ellipsis": true
     },
     {
@@ -4040,6 +7021,10 @@
         "func_desc": "Converts a serial number to a year.",
         "is_nullary": false,
         "comp_str": "YEAR(${1:serial_number})",
+        "req_param": [
+            "serial_number"
+        ],
+        "opt_param": [],
         "ellipsis": false
     },
     {
@@ -4048,6 +7033,13 @@
         "func_desc": "Returns the year fraction representing the number of whole days between start_date and end_date.",
         "is_nullary": false,
         "comp_str": "YEARFRAC(${1:start_date},${2: end_date}${3:,${4: [basis]}})",
+        "req_param": [
+            "start_date",
+            "end_date"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -4056,6 +7048,17 @@
         "func_desc": "Returns the yield on a security that pays periodic interest.",
         "is_nullary": false,
         "comp_str": "YIELD(${1:settlement},${2: maturity},${3: rate},${4: pr},${5: redemption},${6: frequency}${7:,${8: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "rate",
+            "pr",
+            "redemption",
+            "frequency"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -4064,6 +7067,15 @@
         "func_desc": "Returns the annual yield for a discounted security.",
         "is_nullary": false,
         "comp_str": "YIELDDISC(${1:settlement},${2: maturity},${3: pr},${4: redemption}${5:,${6: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "pr",
+            "redemption"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -4072,6 +7084,16 @@
         "func_desc": "Returns the annual yield of a security that pays interest at maturity.",
         "is_nullary": false,
         "comp_str": "YIELDMAT(${1:settlement},${2: maturity},${3: issue},${4: rate},${5: pr}${6:,${7: [basis]}})",
+        "req_param": [
+            "settlement",
+            "maturity",
+            "issue",
+            "rate",
+            "pr"
+        ],
+        "opt_param": [
+            "basis"
+        ],
         "ellipsis": false
     },
     {
@@ -4080,6 +7102,13 @@
         "func_desc": "Returns the one-tailed probability-value of a z-test.",
         "is_nullary": false,
         "comp_str": "Z.TEST(${1:array},${2: x}${3:,${4: [sigma]}})",
+        "req_param": [
+            "array",
+            "x"
+        ],
+        "opt_param": [
+            "sigma"
+        ],
         "ellipsis": false
     },
     {
@@ -4088,6 +7117,13 @@
         "func_desc": "Returns the one-tailed probability-value of a z-test. In Excel 2007, this is a Statistical function.",
         "is_nullary": false,
         "comp_str": "ZTEST(${1:array},${2: x}${3:,${4: [sigma]}})",
+        "req_param": [
+            "array",
+            "x"
+        ],
+        "opt_param": [
+            "sigma"
+        ],
         "ellipsis": false
     }
 ]
