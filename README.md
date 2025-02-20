@@ -6,7 +6,7 @@ and LibreOffice Calc formulae.
 
 The Excel variant of this syntax (see [Usage](#usage)) can also be used as a rough syntax highlighter
 for DAX code used in Power Pivot and Power BI. I haven't run into any major issues using
-it for that purpose so far. It will occassionally miss a keyword here and there, like the NOT in
+it for that purpose so far. It will occassionally miss a keyword here and there, like the `NOT` in
 `NOT ISBLANK(...`.
 
 ## Features
