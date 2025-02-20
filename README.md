@@ -4,6 +4,11 @@ Spreadsheet formula syntax highlighting for Sublime Text. This syntax was origin
 intended to only provide support for Excel formulae, but now also supports both Google Sheets
 and LibreOffice Calc formulae.
 
+The Excel variant (see [Usage](#usage)) of this syntax can also be used as a rough syntax highlighter
+for DAX code used in Power Pivot and Power BI. I haven't run into any major issues using
+it for that purpose so far. It will occassionally miss a keyword here and there, like the NOT in
+`NOT ISBLANK(...`.
+
 ## Features
 
 - Syntax highlighting for spreadsheet formulae used in Excel, Google Sheets, and LibreOffice Calc
