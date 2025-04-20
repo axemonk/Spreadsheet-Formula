@@ -102,6 +102,12 @@ contexts:
         3: storage.type.google
       push: after-reference
 
+  constants:
+    - meta_prepend: true
+
+    - match: '#ERROR!'
+      scope: constant.language.google
+
 ###############################################################################
 
 variables:

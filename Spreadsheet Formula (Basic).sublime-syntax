@@ -301,7 +301,7 @@ contexts:
     - match: (?:#NUM!|#DIV/0!)
       scope: constant.language.nan.sheet
 
-    - match: (?:#VALUE!|#REF!|#NAME\?|#GETTING_DATA|#N/A)
+    - match: (?:#VALUE!|#REF!|#NAME\?|#N/A)
       scope: constant.language.sheet
 
     - match: \b(?i)TRUE\b

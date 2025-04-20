@@ -12,8 +12,14 @@
 
 'R1C1 range without dynamics
 =R[1]C[1]:R[1]C[2]
+'^^^^^^^^ meta.reference.range.cell.sheet storage.type.sheet
+'         ^^^^^^^^ meta.reference.range.cell.sheet storage.type.sheet
+'        ^ meta.reference.range.cell.sheet punctuation.separator.sequence.sheet 
 
 =RC[2]:R[1]C[2]
+'^^^^^ meta.reference.range.cell.sheet storage.type.sheet
+'      ^^^^^^^^ meta.reference.range.cell.sheet storage.type.sheet
+'     ^ meta.reference.range.cell.sheet punctuation.separator.sequence.sheet
 
 =R[1]C:R[1]C[2]
 
@@ -31,6 +37,26 @@
 
 =RC[1]:R[1]C[2] R[1]C:R[1]C
 
+=R1C1:R1C2
+
+=RC2:R1C2
+
+=R1C:R1C2
+
+=R1C1:RC2
+
+=R1C1:R1C
+
+=R1C:R1C
+
+=R1C:RC1
+
+=RC1:R1C
+
+=RC1:RC2
+
+=RC1:R1C2 R1C:R1C
+
 =LET(r1chello,test)
 
 =LET(4hello, 1, 4hello)
@@ -44,7 +70,7 @@
 '    ^^^^^^^^^^^^^^ variable.other.readwrite.sheet
 '                     ^^^^^^^^^^^^^^ variable.other.readwrite.sheet
 ' Without something to match all numbers greater than the max row index,
-' this otherwise valid formula will highlight like it was invalid.
+' the otherwise valid formula below will highlight like it was invalid.
 ' This test would fail if it was highlighted correctly.
 =LET(R9999999,1,R9999999)
 

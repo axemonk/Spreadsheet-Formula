@@ -181,6 +181,12 @@ contexts:
     - match: '[#@]'
       scope: keyword.operator.reference.excel
 
+  constants:
+    - meta_prepend: true
+
+    - match: '(?:#GETTING_DATA|#SPILL!|#CONNECT!|#BLOCKED!|#UNKNOWN!|#FIELD!|#CALC!|#PYTHON!|#TIMEOUT!)'
+      scope: constant.language.excel
+
 ###############################################################################
 
 variables:

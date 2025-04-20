@@ -304,6 +304,30 @@ TEXTJOIN(";",FALSE,valmax)
 =#GETTING_DATA
 ' <- keyword.operator.assignment
 '^^^^^^^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#SPILL!
+' <- keyword.operator.assignment
+'^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#CONNECT!
+' <- keyword.operator.assignment
+'^^^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#BLOCKED!
+' <- keyword.operator.assignment
+'^^^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#UNKNOWN!
+' <- keyword.operator.assignment
+'^^^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#FIELD!
+' <- keyword.operator.assignment
+'^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#CALC!
+' <- keyword.operator.assignment
+'^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#PYTHON!
+' <- keyword.operator.assignment
+'^^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#TIMEOUT!
+' <- keyword.operator.assignment
+'^^^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
 =TRUE
 '^^^^ constant.language.boolean.true.sheet
 =FALSE

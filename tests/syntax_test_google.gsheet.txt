@@ -324,9 +324,8 @@ TEXTJOIN(";",FALSE,valmax)
 =#NAME?
 ' <- keyword.operator.assignment
 '^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
-=#GETTING_DATA
-' <- keyword.operator.assignment
-'^^^^^^^^^^^^^ constant.language.sheet - constant.language.nan - constant.language.null
+=#ERROR!
+'^^^^^^^ constant.language.nan.google
 =TRUE
 '^^^^ constant.language.boolean.true.sheet
 =FALSE
