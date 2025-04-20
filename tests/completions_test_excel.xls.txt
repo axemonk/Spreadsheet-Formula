@@ -25,7 +25,7 @@
 ' A takes the value of 3 ('[opt_param1]'), but the regex forces it to become ', ' since .+ matches the entirity of '[opt_param1]'
 ' The idea is for this to then be removed if 3: is reduced to a blank string.
 
-' However, deleted optional parameters need to become ',' when deleted:
+' However, optional parameters need to become ',' when deleted:
 
 =TEST.FUNC(req_param1,, [opt_param2], [opt_param3])
 
@@ -33,9 +33,6 @@
 
 =TEST.FUNC(req_param1, , [opt_param2], [opt_param3])
 
-
-' (?-m:$^) matches nothing in oniguruma (I think). perl reg is weird and hard to test in this context, esp.
-'    regarding whether -m is even supported or relevant.
 
 
 ' Build strings based on number of parameters?
@@ -78,7 +75,7 @@ TEST(1, 1)
 
 
 ' Potentially exploitable behavior, so long as there is a way to both deduplicate "Hello World"
-' and a way to still two different strings from the expression conditionally.
+' and a way to still display two different strings from the expression conditionally.
 '       "contents": "${1/(?<FOO>o)*+/(?{FOO}bar:hiss)/}${1:Hello World}",
 
 =hissHello World*Hello World*
@@ -106,14 +103,11 @@ TEST(1, 1)
 ' instead of 'a', press 'DEL'
 =
 
-' One remaining case to solve:
-
-=TEST(req_param1, , 1, opt_param3)
-
-=TEST(worldhello)
-
-=TEST(worldhello)
-
-=TEST(req_param1boo,,opt_param1, opt_param2, opt_param3)
-
-=TEST(req_param1,,opt_param1, opt_param2, opt_param3)
+'  Two current problems:
+'    TEST(1, *opt_param1*, opt_param2, opt_param3) ->     DEL -> TEST(1, , opt_param2, opt_param3)
+'                                                     Desired -> TEST(1,, opt_param2, opt_param3)
+'      
+'               TEST(1, opt_param1,, *opt_param3*) ->     DEL -> TEST(1, opt_param1,)
+'                                                     Desired -> TEST(1, opt_param1)
+'                                                     OR
+'                                                     Desired -> TEST(1, opt_param1,,)
