@@ -103,7 +103,7 @@ class SpreadsheetFunction(object):
 
     def to_sublime_snippet_completion(self) -> dict[str,str]:
         return {
-            "trigger": self.name.lower(),
+            "trigger": self.name,
             "contents": self.to_completion_arg_string(),
             "annotation": self.family,
             "details": self.description,
