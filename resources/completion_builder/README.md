@@ -1,5 +1,10 @@
 # Function completion builder
 
+## Dependencies
+- `openpyxl`
+- `pandas`
+- `argparse`
+
 ## Scripts
 
 General operations performed by the scripts found in this directory:
