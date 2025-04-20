@@ -48,7 +48,3 @@ Convert the function metadata found in *\*\_funcs\_ref.xlsx* to JSON
     Before running this script, clean formulas in *\*\_funcs\_data\_list.txt*
     that look like the second line to look like the first, using your best
     judgement. Find them using: `[^\]],\.{3}`
-
-- TODO: Allow this entire directory to switch between application specific
-    information like the `scope` found in this file and the file names used by
-    all scripts instead of having to refactor a bunch of stuff every time.

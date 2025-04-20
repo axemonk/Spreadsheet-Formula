@@ -1,5 +1,6 @@
 {
-    "scope": "source.sheet.excel - string - comment",
+    // "scope": "source.sheet.excel - string - comment",
+    "scope": "source.sheet.excel - source.sheet.excel",
     "completions": [
         {
             "trigger": "abs",
