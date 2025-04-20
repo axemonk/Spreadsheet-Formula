@@ -178,7 +178,8 @@ contexts:
 
     # Naked cell reference
     # A1
-    - match: ({{cell}})(?![:#])
+    # NOTE: `\d` in the negative lookahead class prevents the second `1` in `A11:` or `A11:B` from matching as a constant
+    - match: ({{cell}})(?![\d:#])
       scope: meta.reference.cell.sheet storage.type.sheet
       push: after-reference
 

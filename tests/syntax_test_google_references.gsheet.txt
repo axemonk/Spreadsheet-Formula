@@ -42,6 +42,11 @@
 '^^ storage.type.google
 '  ^ punctuation.separator.sequence.google
 '   ^ storage.type.google
+=A11:B
+'^^^^^ meta.reference.range.column.google
+'^^^ storage.type.google
+'   ^ punctuation.separator.sequence.google
+'    ^ storage.type.google
 =A1:2
 '^^^^ meta.reference.range.row.google
 '^^ storage.type.google
