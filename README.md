@@ -13,9 +13,10 @@ When used for DAX, it will occassionally miss a keyword here and there, like the
 ## Features
 
 - Syntax highlighting for spreadsheet formulae used in Excel, Google Sheets, and LibreOffice Calc
-- Built-in function completions
 - Support for [locale-specific separators](#localization)
+- Built-in function completions
 - SQL highlighting when using the `QUERY()` function in Google Sheets
+- Psuedo comments using `'` at start of line for visually organizing and documenting multiple formulas in a single file
 
 ## Installation
 
