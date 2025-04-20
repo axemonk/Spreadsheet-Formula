@@ -1,3586 +1,3585 @@
 {
-    // "scope": "source.sheet.excel - string - comment",
     "scope": "source.sheet.excel - source.sheet.excel",
     "completions": [
         {
-            "trigger": "abs",
+            "trigger": "ABS",
             "contents": "ABS(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the absolute value of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "accrint",
+            "trigger": "ACCRINT",
             "contents": "ACCRINT(${1:issue},${2: first_interest},${3: settlement},${4: rate},${5: par},${6: frequency}${7:,${8: [basis]},${9: [calc_method]}})",
             "annotation": "Financial",
             "details": "Returns the accrued interest for a security that pays periodic interest.",
             "kind": "snippet"
         },
         {
-            "trigger": "accrintm",
+            "trigger": "ACCRINTM",
             "contents": "ACCRINTM(${1:issue},${2: settlement},${3: rate},${4: par}${5:,${6: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the accrued interest for a security that pays interest at maturity.",
             "kind": "snippet"
         },
         {
-            "trigger": "acos",
+            "trigger": "ACOS",
             "contents": "ACOS(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the arccosine of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "acosh",
+            "trigger": "ACOSH",
             "contents": "ACOSH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the inverse hyperbolic cosine of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "acot",
+            "trigger": "ACOT",
             "contents": "ACOT(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the arccotangent of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "acoth",
+            "trigger": "ACOTH",
             "contents": "ACOTH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the hyperbolic arccotangent of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "address",
+            "trigger": "ADDRESS",
             "contents": "ADDRESS(${1:row_num},${2: column_num}${3:,${4: [abs_num]},${5: [a1]},${6: [sheet_text]}})",
             "annotation": "Lookup and reference",
             "details": "Returns a reference as text to a single cell in a worksheet.",
             "kind": "snippet"
         },
         {
-            "trigger": "aggregate",
+            "trigger": "AGGREGATE",
             "contents": "AGGREGATE(${1:function_num},${2: options},${3: array}${4:,${5: [k]}})",
             "annotation": "Math and trigonometry",
             "details": "Returns an aggregate in a list or database.",
             "kind": "snippet"
         },
         {
-            "trigger": "amordegrc",
+            "trigger": "AMORDEGRC",
             "contents": "AMORDEGRC(${1:cost},${2: date_purchased},${3: first_period},${4: salvage},${5: period},${6: rate}${7:,${8: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the depreciation for each accounting period by using a depreciation coefficient.",
             "kind": "snippet"
         },
         {
-            "trigger": "amorlinc",
+            "trigger": "AMORLINC",
             "contents": "AMORLINC(${1:cost},${2: date_purchased},${3: first_period},${4: salvage},${5: period},${6: rate}${7:,${8: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the depreciation for each accounting period.",
             "kind": "snippet"
         },
         {
-            "trigger": "and",
+            "trigger": "AND",
             "contents": "AND(${1:logical1}${2:,${3: [logical2], ...}})",
             "annotation": "Logical",
             "details": "Returns TRUE if all of its arguments are TRUE.",
             "kind": "snippet"
         },
         {
-            "trigger": "arabic",
+            "trigger": "ARABIC",
             "contents": "ARABIC(${1:text})",
             "annotation": "Math and trigonometry",
             "details": "Converts a Roman number to Arabic, as a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "areas",
+            "trigger": "AREAS",
             "contents": "AREAS(${1:reference})",
             "annotation": "Lookup and reference",
             "details": "Returns the number of areas in a reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "arraytotext",
+            "trigger": "ARRAYTOTEXT",
             "contents": "ARRAYTOTEXT(${1:array}${2:,${3: [format]}})",
             "annotation": "Text",
             "details": "Returns an array of text values from any specified range.",
             "kind": "snippet"
         },
         {
-            "trigger": "asc",
+            "trigger": "ASC",
             "contents": "ASC(${1:text})",
             "annotation": "Text",
             "details": "Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters.",
             "kind": "snippet"
         },
         {
-            "trigger": "asin",
+            "trigger": "ASIN",
             "contents": "ASIN(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the arcsine of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "asinh",
+            "trigger": "ASINH",
             "contents": "ASINH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the inverse hyperbolic sine of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "atan",
+            "trigger": "ATAN",
             "contents": "ATAN(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the arctangent of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "atan2",
+            "trigger": "ATAN2",
             "contents": "ATAN2(${1:x_num},${2: y_num})",
             "annotation": "Math and trigonometry",
             "details": "Returns the arctangent from x- and y-coordinates.",
             "kind": "snippet"
         },
         {
-            "trigger": "atanh",
+            "trigger": "ATANH",
             "contents": "ATANH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the inverse hyperbolic tangent of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "avedev",
+            "trigger": "AVEDEV",
             "contents": "AVEDEV(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the average of the absolute deviations of data points from their mean.",
             "kind": "snippet"
         },
         {
-            "trigger": "average",
+            "trigger": "AVERAGE",
             "contents": "AVERAGE(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the average of its arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "averagea",
+            "trigger": "AVERAGEA",
             "contents": "AVERAGEA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the average of its arguments, including numbers, text, and logical values.",
             "kind": "snippet"
         },
         {
-            "trigger": "averageif",
+            "trigger": "AVERAGEIF",
             "contents": "AVERAGEIF(${1:range},${2: criteria}${3:,${4: [average_range]}})",
             "annotation": "Statistical",
             "details": "Returns the average (arithmetic mean) of all the cells in a range that meet a given criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "averageifs",
+            "trigger": "AVERAGEIFS",
             "contents": "AVERAGEIFS(${1:average_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the average (arithmetic mean) of all cells that meet multiple criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "bahttext",
+            "trigger": "BAHTTEXT",
             "contents": "BAHTTEXT(${1:number})",
             "annotation": "Text",
             "details": "Converts a number to text, using the \u00df (baht) currency format.",
             "kind": "snippet"
         },
         {
-            "trigger": "base",
+            "trigger": "BASE",
             "contents": "BASE(${1:number},${2: radix}${3:,${4: [min_length]}})",
             "annotation": "Math and trigonometry",
             "details": "Converts a number into a text representation with the given radix (base).",
             "kind": "snippet"
         },
         {
-            "trigger": "besseli",
+            "trigger": "BESSELI",
             "contents": "BESSELI(${1:x},${2: n})",
             "annotation": "Engineering",
             "details": "Returns the modified Bessel function In(x).",
             "kind": "snippet"
         },
         {
-            "trigger": "besselj",
+            "trigger": "BESSELJ",
             "contents": "BESSELJ(${1:x},${2: n})",
             "annotation": "Engineering",
             "details": "Returns the Bessel function Jn(x).",
             "kind": "snippet"
         },
         {
-            "trigger": "besselk",
+            "trigger": "BESSELK",
             "contents": "BESSELK(${1:x},${2: n})",
             "annotation": "Engineering",
             "details": "Returns the modified Bessel function Kn(x).",
             "kind": "snippet"
         },
         {
-            "trigger": "bessely",
+            "trigger": "BESSELY",
             "contents": "BESSELY(${1:x},${2: n})",
             "annotation": "Engineering",
             "details": "Returns the Bessel function Yn(x).",
             "kind": "snippet"
         },
         {
-            "trigger": "beta.dist",
+            "trigger": "BETA.DIST",
             "contents": "BETA.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative}${5:,${6: [A]},${7: [B]}})",
             "annotation": "Statistical",
             "details": "Returns the beta cumulative distribution function.",
             "kind": "snippet"
         },
         {
-            "trigger": "beta.inv",
+            "trigger": "BETA.INV",
             "contents": "BETA.INV(${1:probability},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the cumulative distribution function for a specified beta distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "betadist",
+            "trigger": "BETADIST",
             "contents": "BETADIST(${1:x},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
             "annotation": "Compatibility",
             "details": "Returns the beta cumulative distribution function. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "betainv",
+            "trigger": "BETAINV",
             "contents": "BETAINV(${1:probability},${2: alpha},${3: beta}${4:,${5: [A]},${6: [B]}})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the cumulative distribution function for a specified beta. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "bin2dec",
+            "trigger": "BIN2DEC",
             "contents": "BIN2DEC(${1:number})",
             "annotation": "Engineering",
             "details": "Converts a binary number to decimal.",
             "kind": "snippet"
         },
         {
-            "trigger": "bin2hex",
+            "trigger": "BIN2HEX",
             "contents": "BIN2HEX(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts a binary number to hexadecimal.",
             "kind": "snippet"
         },
         {
-            "trigger": "bin2oct",
+            "trigger": "BIN2OCT",
             "contents": "BIN2OCT(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts a binary number to octal.",
             "kind": "snippet"
         },
         {
-            "trigger": "binom.dist",
+            "trigger": "BINOM.DIST",
             "contents": "BINOM.DIST(${1:number_s},${2: trials},${3: probability_s},${4: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the individual term binomial distribution probability.",
             "kind": "snippet"
         },
         {
-            "trigger": "binom.dist.range",
+            "trigger": "BINOM.DIST.RANGE",
             "contents": "BINOM.DIST.RANGE(${1:trials},${2: probability_s},${3: number_s}${4:,${5: [number_s2]}})",
             "annotation": "Statistical",
             "details": "Returns the probability of a trial result using a binomial distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "binom.inv",
+            "trigger": "BINOM.INV",
             "contents": "BINOM.INV(${1:trials},${2: probability_s},${3: alpha})",
             "annotation": "Statistical",
             "details": "Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value.",
             "kind": "snippet"
         },
         {
-            "trigger": "binomdist",
+            "trigger": "BINOMDIST",
             "contents": "BINOMDIST(${1:number_s},${2: trials},${3: probability_s},${4: cumulative})",
             "annotation": "Compatibility",
             "details": "Returns the individual term binomial distribution probability. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "bitand",
+            "trigger": "BITAND",
             "contents": "BITAND(${1:number1},${2: number2})",
             "annotation": "Engineering",
             "details": "Returns a 'Bitwise And' of two numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "bitlshift",
+            "trigger": "BITLSHIFT",
             "contents": "BITLSHIFT(${1:number},${2: shift_amount})",
             "annotation": "Engineering",
             "details": "Returns a value number shifted left by shift_amount bits.",
             "kind": "snippet"
         },
         {
-            "trigger": "bitor",
+            "trigger": "BITOR",
             "contents": "BITOR(${1:number1},${2: number2})",
             "annotation": "Engineering",
             "details": "Returns a bitwise OR of 2 numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "bitrshift",
+            "trigger": "BITRSHIFT",
             "contents": "BITRSHIFT(${1:number},${2: shift_amount})",
             "annotation": "Engineering",
             "details": "Returns a value number shifted right by shift_amount bits.",
             "kind": "snippet"
         },
         {
-            "trigger": "bitxor",
+            "trigger": "BITXOR",
             "contents": "BITXOR(${1:number1},${2: number2})",
             "annotation": "Engineering",
             "details": "Returns a bitwise 'Exclusive Or' of two numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "bycol",
+            "trigger": "BYCOL",
             "contents": "BYCOL(${1:array}${2:,${3: [function]}})",
             "annotation": "Array",
             "details": "Applies a LAMBDA to each column and returns an array of the results.",
             "kind": "snippet"
         },
         {
-            "trigger": "byrow",
+            "trigger": "BYROW",
             "contents": "BYROW(${1:array}${2:,${3: [function]}})",
             "annotation": "Array",
             "details": "Applies a LAMBDA to each row and returns an array of the results.",
             "kind": "snippet"
         },
         {
-            "trigger": "call",
+            "trigger": "CALL",
             "contents": "CALL(${1:register_id}${2:,${3: [argument1], ...}})",
             "annotation": "Add-in",
             "details": "Calls a procedure in a specified DLL or code resource.",
             "kind": "snippet"
         },
         {
-            "trigger": "ceiling",
+            "trigger": "CEILING",
             "contents": "CEILING(${1:number},${2: significance})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number to the nearest integer or to the nearest multiple of significance.",
             "kind": "snippet"
         },
         {
-            "trigger": "ceiling.math",
+            "trigger": "CEILING.MATH",
             "contents": "CEILING.MATH(${1:number}${2:,${3: [significance]},${4: [mode]}})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number up, to the nearest integer or to the nearest multiple of significance.",
             "kind": "snippet"
         },
         {
-            "trigger": "ceiling.precise",
+            "trigger": "CEILING.PRECISE",
             "contents": "CEILING.PRECISE(${1:number}${2:,${3: [significance]}})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.",
             "kind": "snippet"
         },
         {
-            "trigger": "cell",
+            "trigger": "CELL",
             "contents": "CELL(${1:info_type}${2:,${3: [reference]}})",
             "annotation": "Information",
             "details": "Returns information about the formatting, location, or contents of a cell. This function is not available in Excel Online.",
             "kind": "snippet"
         },
         {
-            "trigger": "char",
+            "trigger": "CHAR",
             "contents": "CHAR(${1:number})",
             "annotation": "Text",
             "details": "Returns the character specified by the code number.",
             "kind": "snippet"
         },
         {
-            "trigger": "chidist",
+            "trigger": "CHIDIST",
             "contents": "CHIDIST(${1:x},${2: deg_freedom})",
             "annotation": "Compatibility",
             "details": "Returns the one-tailed probability of the chi-squared. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "chiinv",
+            "trigger": "CHIINV",
             "contents": "CHIINV(${1:probability},${2: deg_freedom})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the one-tailed probability of the chi-squared. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "chisq.dist",
+            "trigger": "CHISQ.DIST",
             "contents": "CHISQ.DIST(${1:x},${2: deg_freedom},${3: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the left-tailed probability of the chi-squared distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "chisq.dist.rt",
+            "trigger": "CHISQ.DIST.RT",
             "contents": "CHISQ.DIST.RT(${1:x},${2: deg_freedom})",
             "annotation": "Statistical",
             "details": "Returns the right-tailed probability of the chi-squared distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "chisq.inv",
+            "trigger": "CHISQ.INV",
             "contents": "CHISQ.INV(${1:probability},${2: deg_freedom})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the left-tailed probability of the chi-squared distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "chisq.inv.rt",
+            "trigger": "CHISQ.INV.RT",
             "contents": "CHISQ.INV.RT(${1:probability},${2: deg_freedom})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the right-tailed probability of the chi-squared distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "chisq.test",
+            "trigger": "CHISQ.TEST",
             "contents": "CHISQ.TEST(${1:actual_range},${2: expected_range})",
             "annotation": "Statistical",
             "details": "Returns the test for independence: the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.",
             "kind": "snippet"
         },
         {
-            "trigger": "chitest",
+            "trigger": "CHITEST",
             "contents": "CHITEST(${1:actual_range},${2: expected_range})",
             "annotation": "Compatibility",
             "details": "Returns the test for independence. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "choose",
+            "trigger": "CHOOSE",
             "contents": "CHOOSE(${1:index_num},${2: value1}${3:,${4: [value2], ...}})",
             "annotation": "Lookup and reference",
             "details": "Chooses a value from a list of values.",
             "kind": "snippet"
         },
         {
-            "trigger": "choosecols",
+            "trigger": "CHOOSECOLS",
             "contents": "CHOOSECOLS(${1:array},${2: col_num1}${3:,${4: [col_num2], ...}})",
             "annotation": "Array",
             "details": "Returns columns from an array or reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "chooserows",
+            "trigger": "CHOOSEROWS",
             "contents": "CHOOSEROWS(${1:array},${2: row_num1}${3:,${4: [row_num2], ...}})",
             "annotation": "Array",
             "details": "Returns rows from an array of reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "clean",
+            "trigger": "CLEAN",
             "contents": "CLEAN(${1:text})",
             "annotation": "Text",
             "details": "Removes all nonprintable characters from text.",
             "kind": "snippet"
         },
         {
-            "trigger": "code",
+            "trigger": "CODE",
             "contents": "CODE(${1:text})",
             "annotation": "Text",
             "details": "Returns a numeric code for the first character in a text string.",
             "kind": "snippet"
         },
         {
-            "trigger": "column",
+            "trigger": "COLUMN",
             "contents": "COLUMN(${1:,${2: [reference]}})",
             "annotation": "Lookup and reference",
             "details": "Returns the column number of a reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "columns",
+            "trigger": "COLUMNS",
             "contents": "COLUMNS(${1:array})",
             "annotation": "Lookup and reference",
             "details": "Returns the number of columns in a reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "combin",
+            "trigger": "COMBIN",
             "contents": "COMBIN(${1:number},${2: number_chosen})",
             "annotation": "Math and trigonometry",
             "details": "Returns the number of combinations for a given number of objects.",
             "kind": "snippet"
         },
         {
-            "trigger": "combina",
+            "trigger": "COMBINA",
             "contents": "COMBINA(${1:number},${2: number_chosen})",
             "annotation": "Math and trigonometry",
             "details": "Returns the number of combinations with repetitions for a given number of items.",
             "kind": "snippet"
         },
         {
-            "trigger": "complex",
+            "trigger": "COMPLEX",
             "contents": "COMPLEX(${1:real_num},${2: i_num}${3:,${4: [suffix]}})",
             "annotation": "Engineering",
             "details": "Converts real and imaginary coefficients into a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "concat",
+            "trigger": "CONCAT",
             "contents": "CONCAT(${1:text1}${2:,${3: [text2], ...}})",
             "annotation": "Text",
             "details": "Combines the text from multiple ranges and/or strings, but it doesn't provide the delimiter or IgnoreEmpty arguments. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "concatenate",
+            "trigger": "CONCATENATE",
             "contents": "CONCATENATE(${1:text1}${2:,${3: [text2], ...}})",
             "annotation": "Text",
             "details": "Joins several text items into one text item.",
             "kind": "snippet"
         },
         {
-            "trigger": "confidence",
+            "trigger": "CONFIDENCE",
             "contents": "CONFIDENCE(${1:alpha},${2: standard_dev},${3: size})",
             "annotation": "Compatibility",
             "details": "Returns the confidence interval for a population mean. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "confidence.norm",
+            "trigger": "CONFIDENCE.NORM",
             "contents": "CONFIDENCE.NORM(${1:alpha},${2: standard_dev},${3: size})",
             "annotation": "Statistical",
             "details": "Returns the confidence interval for a population mean.",
             "kind": "snippet"
         },
         {
-            "trigger": "confidence.t",
+            "trigger": "CONFIDENCE.T",
             "contents": "CONFIDENCE.T(${1:alpha},${2: standard_dev},${3: size})",
             "annotation": "Statistical",
             "details": "Returns the confidence interval for a population mean, using a Student's t distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "convert",
+            "trigger": "CONVERT",
             "contents": "CONVERT(${1:number},${2: from_unit},${3: to_unit})",
             "annotation": "Engineering",
             "details": "Converts a number from one measurement system to another.",
             "kind": "snippet"
         },
         {
-            "trigger": "correl",
+            "trigger": "CORREL",
             "contents": "CORREL(${1:array1},${2: array2})",
             "annotation": "Statistical",
             "details": "Returns the correlation coefficient between two data sets.",
             "kind": "snippet"
         },
         {
-            "trigger": "cos",
+            "trigger": "COS",
             "contents": "COS(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the cosine of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "cosh",
+            "trigger": "COSH",
             "contents": "COSH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the hyperbolic cosine of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "cot",
+            "trigger": "COT",
             "contents": "COT(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the cotangent of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "coth",
+            "trigger": "COTH",
             "contents": "COTH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the cotangent of an angle.",
             "kind": "snippet"
         },
         {
-            "trigger": "count",
+            "trigger": "COUNT",
             "contents": "COUNT(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Counts how many numbers are in the list of arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "counta",
+            "trigger": "COUNTA",
             "contents": "COUNTA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Counts how many values are in the list of arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "countblank",
+            "trigger": "COUNTBLANK",
             "contents": "COUNTBLANK(${1:range})",
             "annotation": "Statistical",
             "details": "Counts the number of blank cells within a range.",
             "kind": "snippet"
         },
         {
-            "trigger": "countif",
+            "trigger": "COUNTIF",
             "contents": "COUNTIF(${1:range},${2: criteria})",
             "annotation": "Statistical",
             "details": "Counts the number of cells within a range that meet the given criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "countifs",
+            "trigger": "COUNTIFS",
             "contents": "COUNTIFS(${1:criteria_range1},${2: criteria1}${3:,${4: [criteria_range2]},${5: [criteria2], ...}})",
             "annotation": "Statistical",
             "details": "Counts the number of cells within a range that meet multiple criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "coupdaybs",
+            "trigger": "COUPDAYBS",
             "contents": "COUPDAYBS(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the number of days from the beginning of the coupon period to the settlement date.",
             "kind": "snippet"
         },
         {
-            "trigger": "coupdays",
+            "trigger": "COUPDAYS",
             "contents": "COUPDAYS(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the number of days in the coupon period that contains the settlement date.",
             "kind": "snippet"
         },
         {
-            "trigger": "coupdaysnc",
+            "trigger": "COUPDAYSNC",
             "contents": "COUPDAYSNC(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the number of days from the settlement date to the next coupon date.",
             "kind": "snippet"
         },
         {
-            "trigger": "coupncd",
+            "trigger": "COUPNCD",
             "contents": "COUPNCD(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the next coupon date after the settlement date.",
             "kind": "snippet"
         },
         {
-            "trigger": "coupnum",
+            "trigger": "COUPNUM",
             "contents": "COUPNUM(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the number of coupons payable between the settlement date and maturity date.",
             "kind": "snippet"
         },
         {
-            "trigger": "couppcd",
+            "trigger": "COUPPCD",
             "contents": "COUPPCD(${1:settlement},${2: maturity},${3: frequency}${4:,${5: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the previous coupon date before the settlement date.",
             "kind": "snippet"
         },
         {
-            "trigger": "covar",
+            "trigger": "COVAR",
             "contents": "COVAR(${1:array1},${2: array2})",
             "annotation": "Compatibility",
             "details": "Returns covariance, the average of the products of paired deviations. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "covariance.p",
+            "trigger": "COVARIANCE.P",
             "contents": "COVARIANCE.P(${1:array1},${2: array2})",
             "annotation": "Statistical",
             "details": "Returns covariance, the average of the products of paired deviations.",
             "kind": "snippet"
         },
         {
-            "trigger": "covariance.s",
+            "trigger": "COVARIANCE.S",
             "contents": "COVARIANCE.S(${1:array1},${2: array2})",
             "annotation": "Statistical",
             "details": "Returns the sample covariance, the average of the products deviations for each data point pair in two data sets.",
             "kind": "snippet"
         },
         {
-            "trigger": "critbinom",
+            "trigger": "CRITBINOM",
             "contents": "CRITBINOM(${1:trials},${2: probability_s},${3: alpha})",
             "annotation": "Compatibility",
             "details": "Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "csc",
+            "trigger": "CSC",
             "contents": "CSC(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the cosecant of an angle.",
             "kind": "snippet"
         },
         {
-            "trigger": "csch",
+            "trigger": "CSCH",
             "contents": "CSCH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the hyperbolic cosecant of an angle.",
             "kind": "snippet"
         },
         {
-            "trigger": "cubekpimember",
+            "trigger": "CUBEKPIMEMBER",
             "contents": "CUBEKPIMEMBER(${1:connection},${2: kpi_name},${3: kpi_property}${4:,${5: [caption]}})",
             "annotation": "Cube",
             "details": "Returns a key performance  (KPI) name, property, and measure, and displays the name and property in the cell. A KPI is a quantifiable measurement, such as monthly gross profit or quarterly employee turnover, used to monitor an organization's performance.",
             "kind": "snippet"
         },
         {
-            "trigger": "cubemember",
+            "trigger": "CUBEMEMBER",
             "contents": "CUBEMEMBER(${1:connection},${2: member_expression}${3:,${4: [caption]}})",
             "annotation": "Cube",
             "details": "Returns a member or tuple in a cube hierarchy. Use to validate that the member or tuple exists in the cube.",
             "kind": "snippet"
         },
         {
-            "trigger": "cubememberproperty",
+            "trigger": "CUBEMEMBERPROPERTY",
             "contents": "CUBEMEMBERPROPERTY(${1:connection},${2: member_expression},${3: property})",
             "annotation": "Cube",
             "details": "Returns the value of a member property in the cube. Use to validate that a member name exists within the cube and to return the specified property for this member.",
             "kind": "snippet"
         },
         {
-            "trigger": "cuberankedmember",
+            "trigger": "CUBERANKEDMEMBER",
             "contents": "CUBERANKEDMEMBER(${1:connection},${2: set_expression},${3: rank}${4:,${5: [caption]}})",
             "annotation": "Cube",
             "details": "Returns the nth, or ranked, member in a set. Use to return one or more elements in a set, such as the top sales performer or top 10 students.",
             "kind": "snippet"
         },
         {
-            "trigger": "cubeset",
+            "trigger": "CUBESET",
             "contents": "CUBESET(${1:connection},${2: set_expression}${3:,${4: [caption]},${5: [sort_order]},${6: [sort_by]}})",
             "annotation": "Cube",
             "details": "Defines a calculated set of members or tuples by sending a set expression to the cube on the server, which creates the set, and then returns that set to Microsoft Office Excel.",
             "kind": "snippet"
         },
         {
-            "trigger": "cubesetcount",
+            "trigger": "CUBESETCOUNT",
             "contents": "CUBESETCOUNT(${1:set})",
             "annotation": "Cube",
             "details": "Returns the number of items in a set.",
             "kind": "snippet"
         },
         {
-            "trigger": "cubevalue",
+            "trigger": "CUBEVALUE",
             "contents": "CUBEVALUE(${1:connection}${2:,${3: [member_expression1], ...}})",
             "annotation": "Cube",
             "details": "Returns an aggregated value from a cube.",
             "kind": "snippet"
         },
         {
-            "trigger": "cumipmt",
+            "trigger": "CUMIPMT",
             "contents": "CUMIPMT(${1:rate},${2: nper},${3: pv},${4: start_period},${5: end_period},${6: type})",
             "annotation": "Financial",
             "details": "Returns the cumulative interest paid between two periods.",
             "kind": "snippet"
         },
         {
-            "trigger": "cumprinc",
+            "trigger": "CUMPRINC",
             "contents": "CUMPRINC(${1:rate},${2: nper},${3: pv},${4: start_period},${5: end_period},${6: type})",
             "annotation": "Financial",
             "details": "Returns the cumulative principal paid on a loan between two periods.",
             "kind": "snippet"
         },
         {
-            "trigger": "date",
+            "trigger": "DATE",
             "contents": "DATE(${1:year},${2: month},${3: day})",
             "annotation": "Date and time",
             "details": "Returns the serial number of a particular date.",
             "kind": "snippet"
         },
         {
-            "trigger": "datedif",
+            "trigger": "DATEDIF",
             "contents": "DATEDIF(${1:start_date},${2: end_date},${3: unit})",
             "annotation": "Date and time",
             "details": "Calculates the number of days, months, or years between two dates. This is useful in formulas where you need to calculate an age.",
             "kind": "snippet"
         },
         {
-            "trigger": "datevalue",
+            "trigger": "DATEVALUE",
             "contents": "DATEVALUE(${1:date_text})",
             "annotation": "Date and time",
             "details": "Converts a date in the form of text to a serial number.",
             "kind": "snippet"
         },
         {
-            "trigger": "daverage",
+            "trigger": "DAVERAGE",
             "contents": "DAVERAGE(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Returns the average of selected database entries.",
             "kind": "snippet"
         },
         {
-            "trigger": "day",
+            "trigger": "DAY",
             "contents": "DAY(${1:serial_number})",
             "annotation": "Date and time",
             "details": "Converts a serial number to a day of the month.",
             "kind": "snippet"
         },
         {
-            "trigger": "days",
+            "trigger": "DAYS",
             "contents": "DAYS(${1:end_date},${2: start_date})",
             "annotation": "Date and time",
             "details": "Returns the number of days between two dates.",
             "kind": "snippet"
         },
         {
-            "trigger": "days360",
+            "trigger": "DAYS360",
             "contents": "DAYS360(${1:start_date},${2: end_date}${3:,${4: [method]}})",
             "annotation": "Date and time",
             "details": "Calculates the number of days between two dates based on a 360-day year.",
             "kind": "snippet"
         },
         {
-            "trigger": "db",
+            "trigger": "DB",
             "contents": "DB(${1:cost},${2: salvage},${3: life},${4: period}${5:,${6: [month]}})",
             "annotation": "Financial",
             "details": "Returns the depreciation of an asset for a specified period by using the fixed-declining balance method.",
             "kind": "snippet"
         },
         {
-            "trigger": "dbcs",
+            "trigger": "DBCS",
             "contents": "DBCS(${1:text})",
             "annotation": "Text",
             "details": "Changes half-width (single-byte) English letters or katakana within a character string to full-width (double-byte) characters.",
             "kind": "snippet"
         },
         {
-            "trigger": "dcount",
+            "trigger": "DCOUNT",
             "contents": "DCOUNT(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Counts the cells that contain numbers in a database.",
             "kind": "snippet"
         },
         {
-            "trigger": "dcounta",
+            "trigger": "DCOUNTA",
             "contents": "DCOUNTA(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Counts nonblank cells in a database.",
             "kind": "snippet"
         },
         {
-            "trigger": "ddb",
+            "trigger": "DDB",
             "contents": "DDB(${1:cost},${2: salvage},${3: life},${4: period}${5:,${6: [factor]}})",
             "annotation": "Financial",
             "details": "Returns the depreciation of an asset for a specified period by using the double-declining balance method or some other method that you specify.",
             "kind": "snippet"
         },
         {
-            "trigger": "dec2bin",
+            "trigger": "DEC2BIN",
             "contents": "DEC2BIN(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts a decimal number to binary.",
             "kind": "snippet"
         },
         {
-            "trigger": "dec2hex",
+            "trigger": "DEC2HEX",
             "contents": "DEC2HEX(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts a decimal number to hexadecimal.",
             "kind": "snippet"
         },
         {
-            "trigger": "dec2oct",
+            "trigger": "DEC2OCT",
             "contents": "DEC2OCT(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts a decimal number to octal.",
             "kind": "snippet"
         },
         {
-            "trigger": "decimal",
+            "trigger": "DECIMAL",
             "contents": "DECIMAL(${1:number},${2: radix})",
             "annotation": "Math and trigonometry",
             "details": "Converts a text representation of a number in a given base into a decimal number.",
             "kind": "snippet"
         },
         {
-            "trigger": "degrees",
+            "trigger": "DEGREES",
             "contents": "DEGREES(${1:angle})",
             "annotation": "Math and trigonometry",
             "details": "Converts radians to degrees.",
             "kind": "snippet"
         },
         {
-            "trigger": "delta",
+            "trigger": "DELTA",
             "contents": "DELTA(${1:number1}${2:,${3: [number2]}})",
             "annotation": "Engineering",
             "details": "Tests whether two values are equal.",
             "kind": "snippet"
         },
         {
-            "trigger": "devsq",
+            "trigger": "DEVSQ",
             "contents": "DEVSQ(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the sum of squares of deviations.",
             "kind": "snippet"
         },
         {
-            "trigger": "dget",
+            "trigger": "DGET",
             "contents": "DGET(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Extracts from a database a single record that matches the specified criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "disc",
+            "trigger": "DISC",
             "contents": "DISC(${1:settlement},${2: maturity},${3: pr},${4: redemption}${5:,${6: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the discount rate for a security.",
             "kind": "snippet"
         },
         {
-            "trigger": "dmax",
+            "trigger": "DMAX",
             "contents": "DMAX(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Returns the maximum value from selected database entries.",
             "kind": "snippet"
         },
         {
-            "trigger": "dmin",
+            "trigger": "DMIN",
             "contents": "DMIN(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Returns the minimum value from selected database entries.",
             "kind": "snippet"
         },
         {
-            "trigger": "dollar",
+            "trigger": "DOLLAR",
             "contents": "DOLLAR(${1:number}${2:,${3: [decimals]}})",
             "annotation": "Text",
             "details": "Converts a number to text, using the $ (dollar) currency format.",
             "kind": "snippet"
         },
         {
-            "trigger": "dollarde",
+            "trigger": "DOLLARDE",
             "contents": "DOLLARDE(${1:fractional_dollar},${2: fraction})",
             "annotation": "Financial",
             "details": "Converts a dollar price, expressed as a fraction, into a dollar price, expressed as a decimal number.",
             "kind": "snippet"
         },
         {
-            "trigger": "dollarfr",
+            "trigger": "DOLLARFR",
             "contents": "DOLLARFR(${1:decimal_dollar},${2: fraction})",
             "annotation": "Financial",
             "details": "Converts a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction.",
             "kind": "snippet"
         },
         {
-            "trigger": "dproduct",
+            "trigger": "DPRODUCT",
             "contents": "DPRODUCT(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Multiplies the values in a particular field of records that match the criteria in a database.",
             "kind": "snippet"
         },
         {
-            "trigger": "drop",
+            "trigger": "DROP",
             "contents": "DROP(${1:array},${2: rows}${3:,${4: [columns]}})",
             "annotation": "Array",
             "details": "Removes rows or columns from the start or end of an array.",
             "kind": "snippet"
         },
         {
-            "trigger": "dstdev",
+            "trigger": "DSTDEV",
             "contents": "DSTDEV(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Estimates the standard deviation based on a sample of selected database entries.",
             "kind": "snippet"
         },
         {
-            "trigger": "dstdevp",
+            "trigger": "DSTDEVP",
             "contents": "DSTDEVP(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Calculates the standard deviation based on the entire population of selected database entries.",
             "kind": "snippet"
         },
         {
-            "trigger": "dsum",
+            "trigger": "DSUM",
             "contents": "DSUM(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Adds the numbers in the field column of records in the database that match the criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "duration",
+            "trigger": "DURATION",
             "contents": "DURATION(${1:settlement},${2: maturity},${3: coupon},${4: yld},${5: frequency}${6:,${7: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the annual duration of a security with periodic interest payments.",
             "kind": "snippet"
         },
         {
-            "trigger": "dvar",
+            "trigger": "DVAR",
             "contents": "DVAR(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Estimates variance based on a sample from selected database entries.",
             "kind": "snippet"
         },
         {
-            "trigger": "dvarp",
+            "trigger": "DVARP",
             "contents": "DVARP(${1:database},${2: field},${3: criteria})",
             "annotation": "Database",
             "details": "Calculates variance based on the entire population of selected database entries.",
             "kind": "snippet"
         },
         {
-            "trigger": "edate",
+            "trigger": "EDATE",
             "contents": "EDATE(${1:start_date},${2: months})",
             "annotation": "Date and time",
             "details": "Returns the serial number of the date that is the indicated number of months before or after the start date.",
             "kind": "snippet"
         },
         {
-            "trigger": "effect",
+            "trigger": "EFFECT",
             "contents": "EFFECT(${1:nominal_rate},${2: npery})",
             "annotation": "Financial",
             "details": "Returns the effective annual interest rate.",
             "kind": "snippet"
         },
         {
-            "trigger": "encodeurl",
+            "trigger": "ENCODEURL",
             "contents": "ENCODEURL(${1:text})",
             "annotation": "Web",
             "details": "Returns a URL-encoded string. This function is not available in Excel Online.",
             "kind": "snippet"
         },
         {
-            "trigger": "eomonth",
+            "trigger": "EOMONTH",
             "contents": "EOMONTH(${1:start_date},${2: months})",
             "annotation": "Date and time",
             "details": "Returns the serial number of the last day of the month before or after a specified number of months.",
             "kind": "snippet"
         },
         {
-            "trigger": "erf",
+            "trigger": "ERF",
             "contents": "ERF(${1:lower_limit}${2:,${3: [upper_limit]}})",
             "annotation": "Engineering",
             "details": "Returns the error function integrated between lower_limit and upper_limit.",
             "kind": "snippet"
         },
         {
-            "trigger": "erf.precise",
+            "trigger": "ERF.PRECISE",
             "contents": "ERF.PRECISE(${1:x})",
             "annotation": "Engineering",
             "details": "Returns the error function integrated between lower_limit and 0.",
             "kind": "snippet"
         },
         {
-            "trigger": "erfc",
+            "trigger": "ERFC",
             "contents": "ERFC(${1:x})",
             "annotation": "Engineering",
             "details": "Returns the complementary error function.",
             "kind": "snippet"
         },
         {
-            "trigger": "erfc.precise",
+            "trigger": "ERFC.PRECISE",
             "contents": "ERFC.PRECISE(${1:x})",
             "annotation": "Engineering",
             "details": "Returns the complementary ERF function integrated between x and infinity.",
             "kind": "snippet"
         },
         {
-            "trigger": "error.type",
+            "trigger": "ERROR.TYPE",
             "contents": "ERROR.TYPE(${1:error_val})",
             "annotation": "Information",
             "details": "Returns a number corresponding to an error type.",
             "kind": "snippet"
         },
         {
-            "trigger": "euroconvert",
+            "trigger": "EUROCONVERT",
             "contents": "EUROCONVERT(${1:number},${2: source},${3: target},${4: full_precision},${5: triangulation_precision})",
             "annotation": "Add-in",
             "details": "Converts a number to euros, from euros to euro member currency, or between euro member currencies using euro as intermediary.",
             "kind": "snippet"
         },
         {
-            "trigger": "even",
+            "trigger": "EVEN",
             "contents": "EVEN(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number up to the nearest even integer.",
             "kind": "snippet"
         },
         {
-            "trigger": "exact",
+            "trigger": "EXACT",
             "contents": "EXACT(${1:text1},${2: text2})",
             "annotation": "Text",
             "details": "Checks to see if two text values are identical.",
             "kind": "snippet"
         },
         {
-            "trigger": "exp",
+            "trigger": "EXP",
             "contents": "EXP(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns e raised to the power of a given number.",
             "kind": "snippet"
         },
         {
-            "trigger": "expand",
+            "trigger": "EXPAND",
             "contents": "EXPAND(${1:array},${2: rows}${3:,${4: [columns]},${5: [pad_with]}})",
             "annotation": "Array",
             "details": "Expands an array to the specified dimensions. ",
             "kind": "snippet"
         },
         {
-            "trigger": "expon.dist",
+            "trigger": "EXPON.DIST",
             "contents": "EXPON.DIST(${1:x},${2: lambda},${3: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the exponential distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "expondist",
+            "trigger": "EXPONDIST",
             "contents": "EXPONDIST(${1:x},${2: lambda},${3: cumulative})",
             "annotation": "Compatibility",
             "details": "Returns the exponential. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "f.dist",
+            "trigger": "F.DIST",
             "contents": "F.DIST(${1:x},${2: deg_freedom1},${3: deg_freedom2},${4: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the (left-tailed) F probability distribution (degree of diversity) for two data sets.",
             "kind": "snippet"
         },
         {
-            "trigger": "f.dist.rt",
+            "trigger": "F.DIST.RT",
             "contents": "F.DIST.RT(${1:x},${2: deg_freedom1},${3: deg_freedom2})",
             "annotation": "Statistical",
             "details": "Returns the (right-tailed) F probability distribution (degree of diversity) for two data sets.",
             "kind": "snippet"
         },
         {
-            "trigger": "f.inv",
+            "trigger": "F.INV",
             "contents": "F.INV(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the (left-tailed) F probability distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "f.inv.rt",
+            "trigger": "F.INV.RT",
             "contents": "F.INV.RT(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the (right-tailed) F probability distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "f.test",
+            "trigger": "F.TEST",
             "contents": "F.TEST(${1:array1},${2: array2})",
             "annotation": "Statistical",
             "details": "Returns the result of an F-test.",
             "kind": "snippet"
         },
         {
-            "trigger": "fact",
+            "trigger": "FACT",
             "contents": "FACT(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the factorial of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "factdouble",
+            "trigger": "FACTDOUBLE",
             "contents": "FACTDOUBLE(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the double factorial of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "fdist",
+            "trigger": "FDIST",
             "contents": "FDIST(${1:x},${2: deg_freedom1},${3: deg_freedom2})",
             "annotation": "Compatibility",
             "details": "Returns the F probability. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "filter",
+            "trigger": "FILTER",
             "contents": "FILTER(${1:array},${2: include}${3:,${4: [if_empty]}})",
             "annotation": "Lookup and reference",
             "details": "Filters a range of data based on criteria you define.",
             "kind": "snippet"
         },
         {
-            "trigger": "filterxml",
+            "trigger": "FILTERXML",
             "contents": "FILTERXML(${1:xml},${2: xpath})",
             "annotation": "Web",
             "details": "Returns specific data from the XML content by using the specified XPath. This function is not available in Excel Online.",
             "kind": "snippet"
         },
         {
-            "trigger": "find",
+            "trigger": "FIND",
             "contents": "FIND(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
             "annotation": "Text",
             "details": "Returns the position of a substring within a text string, case-sensitive.",
             "kind": "snippet"
         },
         {
-            "trigger": "findb",
+            "trigger": "FINDB",
             "contents": "FINDB(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
             "annotation": "Text",
             "details": "Returns the position of the last occurrence of a specified substring within a text string, counting by bytes.",
             "kind": "snippet"
         },
         {
-            "trigger": "finv",
+            "trigger": "FINV",
             "contents": "FINV(${1:probability},${2: deg_freedom1},${3: deg_freedom2})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the F probability distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "fisher",
+            "trigger": "FISHER",
             "contents": "FISHER(${1:x})",
             "annotation": "Statistical",
             "details": "Returns the Fisher transformation.",
             "kind": "snippet"
         },
         {
-            "trigger": "fisherinv",
+            "trigger": "FISHERINV",
             "contents": "FISHERINV(${1:y})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the Fisher transformation.",
             "kind": "snippet"
         },
         {
-            "trigger": "fixed",
+            "trigger": "FIXED",
             "contents": "FIXED(${1:number}${2:,${3: [decimals]},${4: [no_commas]}})",
             "annotation": "Text",
             "details": "Formats a number as text with a fixed number of decimals.",
             "kind": "snippet"
         },
         {
-            "trigger": "floor",
+            "trigger": "FLOOR",
             "contents": "FLOOR(${1:number},${2: significance})",
             "annotation": "Compatibility",
             "details": "Rounds a number down, toward zero. In Excel 2007 and Excel 2010, this is a Math and trigonometry function.. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "floor.math",
+            "trigger": "FLOOR.MATH",
             "contents": "FLOOR.MATH(${1:number}${2:,${3: [significance]},${4: [mode]}})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number down, to the nearest integer or to the nearest multiple of significance.",
             "kind": "snippet"
         },
         {
-            "trigger": "floor.precise",
+            "trigger": "FLOOR.PRECISE",
             "contents": "FLOOR.PRECISE(${1:number}${2:,${3: [significance]}})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.",
             "kind": "snippet"
         },
         {
-            "trigger": "forecast",
+            "trigger": "FORECAST",
             "contents": "FORECAST(${1:x},${2: known_ys},${3: known_xs})",
             "annotation": "Statistical",
             "details": "Returns a value along a linear trend. In Excel 2016, this function is replaced with FORECAST.LINEAR as part of the new Forecasting functions, but it's  still available for compatibility with earlier versions.",
             "kind": "snippet"
         },
         {
-            "trigger": "forecast.ets",
+            "trigger": "FORECAST.ETS",
             "contents": "FORECAST.ETS(${1:target_date},${2: values},${3: timeline}${4:,${5: [seasonality]},${6: [data_completion]},${7: [aggregation]}})",
             "annotation": "Statistical",
             "details": "Returns a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "forecast.ets.confint",
+            "trigger": "FORECAST.ETS.CONFINT",
             "contents": "FORECAST.ETS.CONFINT(${1:target_date},${2: values},${3: timeline}${4:,${5: [confidence_level]},${6: [seasonality]},${7: [data_completion]},${8: [aggregation]}})",
             "annotation": "Statistical",
             "details": "Returns a confidence interval for the forecast value at the specified target date. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "forecast.ets.seasonality",
+            "trigger": "FORECAST.ETS.SEASONALITY",
             "contents": "FORECAST.ETS.SEASONALITY(${1:values},${2: timeline}${3:,${4: [data_completion]},${5: [aggregation]}})",
             "annotation": "Statistical",
             "details": "Returns the length of the repetitive pattern Excel detects for the specified time series. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "forecast.ets.stat",
+            "trigger": "FORECAST.ETS.STAT",
             "contents": "FORECAST.ETS.STAT(${1:values},${2: timeline},${3: statistic_type}${4:,${5: [seasonality]},${6: [data_completion]},${7: [aggregation]}})",
             "annotation": "Statistical",
             "details": "Returns a statistical value as a result of time series forecasting. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "forecast.linear",
+            "trigger": "FORECAST.LINEAR",
             "contents": "FORECAST.LINEAR(${1:x},${2: known_ys},${3: known_xs})",
             "annotation": "Statistical",
             "details": "Returns a future value based on existing values. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "formulatext",
+            "trigger": "FORMULATEXT",
             "contents": "FORMULATEXT(${1:reference})",
             "annotation": "Lookup and reference",
             "details": "Returns the formula at the given reference as text.",
             "kind": "snippet"
         },
         {
-            "trigger": "frequency",
+            "trigger": "FREQUENCY",
             "contents": "FREQUENCY(${1:data_array},${2: bins_array})",
             "annotation": "Statistical",
             "details": "Returns a frequency distribution as a vertical array.",
             "kind": "snippet"
         },
         {
-            "trigger": "ftest",
+            "trigger": "FTEST",
             "contents": "FTEST(${1:array1},${2: array2})",
             "annotation": "Compatibility",
             "details": "Returns the result of an F-test. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "fv",
+            "trigger": "FV",
             "contents": "FV(${1:rate},${2: nper},${3: pmt}${4:,${5: [pv]},${6: [type]}})",
             "annotation": "Financial",
             "details": "Returns the future value of an investment.",
             "kind": "snippet"
         },
         {
-            "trigger": "fvschedule",
+            "trigger": "FVSCHEDULE",
             "contents": "FVSCHEDULE(${1:principal},${2: schedule})",
             "annotation": "Financial",
             "details": "Returns the future value of an initial principal after applying a series of compound interest rates.",
             "kind": "snippet"
         },
         {
-            "trigger": "gamma",
+            "trigger": "GAMMA",
             "contents": "GAMMA(${1:x})",
             "annotation": "Statistical",
             "details": "Returns the Gamma function value.",
             "kind": "snippet"
         },
         {
-            "trigger": "gamma.dist",
+            "trigger": "GAMMA.DIST",
             "contents": "GAMMA.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the gamma distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "gamma.inv",
+            "trigger": "GAMMA.INV",
             "contents": "GAMMA.INV(${1:probability},${2: alpha},${3: beta})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the gamma cumulative distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "gammadist",
+            "trigger": "GAMMADIST",
             "contents": "GAMMADIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
             "annotation": "Compatibility",
             "details": "Returns the gamma. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "gammainv",
+            "trigger": "GAMMAINV",
             "contents": "GAMMAINV(${1:probability},${2: alpha},${3: beta})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the gamma cumulative. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "gammaln",
+            "trigger": "GAMMALN",
             "contents": "GAMMALN(${1:x})",
             "annotation": "Statistical",
             "details": "Returns the natural logarithm of the gamma function, \u0393(x).",
             "kind": "snippet"
         },
         {
-            "trigger": "gammaln.precise",
+            "trigger": "GAMMALN.PRECISE",
             "contents": "GAMMALN.PRECISE(${1:x})",
             "annotation": "Statistical",
             "details": "Returns the natural logarithm of the gamma function, \u0393(x).",
             "kind": "snippet"
         },
         {
-            "trigger": "gauss",
+            "trigger": "GAUSS",
             "contents": "GAUSS(${1:x})",
             "annotation": "Statistical",
             "details": "Returns 0.5 less than the standard normal cumulative distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "gcd",
+            "trigger": "GCD",
             "contents": "GCD(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Returns the greatest common divisor.",
             "kind": "snippet"
         },
         {
-            "trigger": "geomean",
+            "trigger": "GEOMEAN",
             "contents": "GEOMEAN(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the geometric mean.",
             "kind": "snippet"
         },
         {
-            "trigger": "gestep",
+            "trigger": "GESTEP",
             "contents": "GESTEP(${1:number}${2:,${3: [step]}})",
             "annotation": "Engineering",
             "details": "Tests whether a number is greater than a threshold value.",
             "kind": "snippet"
         },
         {
-            "trigger": "getpivotdata",
+            "trigger": "GETPIVOTDATA",
             "contents": "GETPIVOTDATA(${1:data_field},${2: pivot_table}${3:,${4: [field1]},${5: [item1], ...}})",
             "annotation": "Add-in and Automation",
             "details": "Returns data stored in a PivotTable report.",
             "kind": "snippet"
         },
         {
-            "trigger": "growth",
+            "trigger": "GROWTH",
             "contents": "GROWTH(${1:known_ys}${2:,${3: [known_xs]},${4: [new_xs]},${5: [const]}})",
             "annotation": "Statistical",
             "details": "Returns values along an exponential trend.",
             "kind": "snippet"
         },
         {
-            "trigger": "harmean",
+            "trigger": "HARMEAN",
             "contents": "HARMEAN(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the harmonic mean.",
             "kind": "snippet"
         },
         {
-            "trigger": "hex2bin",
+            "trigger": "HEX2BIN",
             "contents": "HEX2BIN(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts a hexadecimal number to binary.",
             "kind": "snippet"
         },
         {
-            "trigger": "hex2dec",
+            "trigger": "HEX2DEC",
             "contents": "HEX2DEC(${1:number})",
             "annotation": "Engineering",
             "details": "Converts a hexadecimal number to decimal.",
             "kind": "snippet"
         },
         {
-            "trigger": "hex2oct",
+            "trigger": "HEX2OCT",
             "contents": "HEX2OCT(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts a hexadecimal number to octal.",
             "kind": "snippet"
         },
         {
-            "trigger": "hlookup",
+            "trigger": "HLOOKUP",
             "contents": "HLOOKUP(${1:lookup_value},${2: table_array},${3: row_index_num}${4:,${5: [range_lookup]}})",
             "annotation": "Lookup and reference",
             "details": "Looks in the top row of an array and returns the value of the indicated cell.",
             "kind": "snippet"
         },
         {
-            "trigger": "hour",
+            "trigger": "HOUR",
             "contents": "HOUR(${1:serial_number})",
             "annotation": "Date and time",
             "details": "Converts a serial number to an hour.",
             "kind": "snippet"
         },
         {
-            "trigger": "hstack",
+            "trigger": "HSTACK",
             "contents": "HSTACK(${1:array1}${2:,${3: [array2], ...}})",
             "annotation": "Array",
             "details": "Horizontally combine arrays into one array.",
             "kind": "snippet"
         },
         {
-            "trigger": "hyperlink",
+            "trigger": "HYPERLINK",
             "contents": "HYPERLINK(${1:link_location}${2:,${3: [friendly_name]}})",
             "annotation": "Lookup and reference",
             "details": "Creates a shortcut or jump that opens a document stored on a network server, an intranet, or the Internet.",
             "kind": "snippet"
         },
         {
-            "trigger": "hypgeom.dist",
+            "trigger": "HYPGEOM.DIST",
             "contents": "HYPGEOM.DIST(${1:sample_s},${2: number_sample},${3: population_s},${4: number_pop},${5: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the hypergeometric distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "hypgeomdist",
+            "trigger": "HYPGEOMDIST",
             "contents": "HYPGEOMDIST(${1:sample_s},${2: number_sample},${3: population_s},${4: number_pop})",
             "annotation": "Compatibility",
             "details": "Returns the hypergeometric. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "if",
+            "trigger": "IF",
             "contents": "IF(${1:logical_test}${2:,${3: [value_if_true]},${4: [value_if_false]}})",
             "annotation": "Logical",
             "details": "Specifies a logical test to perform.",
             "kind": "snippet"
         },
         {
-            "trigger": "iferror",
+            "trigger": "IFERROR",
             "contents": "IFERROR(${1:value},${2: value_if_error})",
             "annotation": "Logical",
             "details": "Returns a value you specify if a formula evaluates to an error.",
             "kind": "snippet"
         },
         {
-            "trigger": "ifna",
+            "trigger": "IFNA",
             "contents": "IFNA(${1:value},${2: value_if_na})",
             "annotation": "Logical",
             "details": "Returns the value you specify if the expression resolves to #N/A, otherwise. Returns the result of the expression.",
             "kind": "snippet"
         },
         {
-            "trigger": "ifs",
+            "trigger": "IFS",
             "contents": "IFS(${1:logical_test1},${2: value_if_true1}${3:,${4: [logical_test2]},${5: [value_if_true2], ...}})",
             "annotation": "Logical",
             "details": "Checks whether one or more conditions are met and returns a value that corresponds to the first TRUE condition. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "imabs",
+            "trigger": "IMABS",
             "contents": "IMABS(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the absolute value (modulus) of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "image",
+            "trigger": "IMAGE",
             "contents": "IMAGE(${1:source}${2:,${3: [alt_text]},${4: [sizing]},${5: [height]},${6: [width]}})",
             "annotation": "Lookup and reference",
             "details": "Returns an image from a given source.",
             "kind": "snippet"
         },
         {
-            "trigger": "imaginary",
+            "trigger": "IMAGINARY",
             "contents": "IMAGINARY(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the imaginary coefficient of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imargument",
+            "trigger": "IMARGUMENT",
             "contents": "IMARGUMENT(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the argument theta, an angle expressed in radians.",
             "kind": "snippet"
         },
         {
-            "trigger": "imconjugate",
+            "trigger": "IMCONJUGATE",
             "contents": "IMCONJUGATE(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the complex conjugate of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imcos",
+            "trigger": "IMCOS",
             "contents": "IMCOS(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the cosine of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imcosh",
+            "trigger": "IMCOSH",
             "contents": "IMCOSH(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the hyperbolic cosine of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imcot",
+            "trigger": "IMCOT",
             "contents": "IMCOT(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the cotangent of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imcsc",
+            "trigger": "IMCSC",
             "contents": "IMCSC(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the cosecant of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imcsch",
+            "trigger": "IMCSCH",
             "contents": "IMCSCH(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the hyperbolic cosecant of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imdiv",
+            "trigger": "IMDIV",
             "contents": "IMDIV(${1:inumber1},${2: inumber2})",
             "annotation": "Engineering",
             "details": "Returns the quotient of two complex numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "imexp",
+            "trigger": "IMEXP",
             "contents": "IMEXP(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the exponential of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imln",
+            "trigger": "IMLN",
             "contents": "IMLN(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the natural logarithm of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imlog10",
+            "trigger": "IMLOG10",
             "contents": "IMLOG10(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the base-10 logarithm of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imlog2",
+            "trigger": "IMLOG2",
             "contents": "IMLOG2(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the base-2 logarithm of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "impower",
+            "trigger": "IMPOWER",
             "contents": "IMPOWER(${1:inumber},${2: number})",
             "annotation": "Engineering",
             "details": "Returns a complex number raised to an integer power.",
             "kind": "snippet"
         },
         {
-            "trigger": "improduct",
+            "trigger": "IMPRODUCT",
             "contents": "IMPRODUCT(${1:inumber1}${2:,${3: [inumber2], ...}})",
             "annotation": "Engineering",
             "details": "Returns the product of complex numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "imreal",
+            "trigger": "IMREAL",
             "contents": "IMREAL(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the real coefficient of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imsec",
+            "trigger": "IMSEC",
             "contents": "IMSEC(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the secant of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imsech",
+            "trigger": "IMSECH",
             "contents": "IMSECH(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the hyperbolic secant of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imsin",
+            "trigger": "IMSIN",
             "contents": "IMSIN(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the sine of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imsinh",
+            "trigger": "IMSINH",
             "contents": "IMSINH(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the hyperbolic sine of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imsqrt",
+            "trigger": "IMSQRT",
             "contents": "IMSQRT(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the square root of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "imsub",
+            "trigger": "IMSUB",
             "contents": "IMSUB(${1:inumber1},${2: inumber2})",
             "annotation": "Engineering",
             "details": "Returns the difference between two complex numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "imsum",
+            "trigger": "IMSUM",
             "contents": "IMSUM(${1:inumber1}${2:,${3: [inumber2], ...}})",
             "annotation": "Engineering",
             "details": "Returns the sum of complex numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "imtan",
+            "trigger": "IMTAN",
             "contents": "IMTAN(${1:inumber})",
             "annotation": "Engineering",
             "details": "Returns the tangent of a complex number.",
             "kind": "snippet"
         },
         {
-            "trigger": "index",
+            "trigger": "INDEX",
             "contents": "INDEX(${1:array},${2: row_num}${3:,${4: [column_num]}})",
             "annotation": "Lookup and reference",
             "details": "Uses an index to choose a value from a reference or array.",
             "kind": "snippet"
         },
         {
-            "trigger": "indirect",
+            "trigger": "INDIRECT",
             "contents": "INDIRECT(${1:ref_text}${2:,${3: [a1]}})",
             "annotation": "Lookup and reference",
             "details": "Returns a reference indicated by a text value.",
             "kind": "snippet"
         },
         {
-            "trigger": "info",
+            "trigger": "INFO",
             "contents": "INFO(${1:type_text})",
             "annotation": "Information",
             "details": "Returns information about the current operating environment. This function is not available in Excel Online.",
             "kind": "snippet"
         },
         {
-            "trigger": "int",
+            "trigger": "INT",
             "contents": "INT(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number down to the nearest integer.",
             "kind": "snippet"
         },
         {
-            "trigger": "intercept",
+            "trigger": "INTERCEPT",
             "contents": "INTERCEPT(${1:known_ys},${2: known_xs})",
             "annotation": "Statistical",
             "details": "Returns the intercept of the linear regression line.",
             "kind": "snippet"
         },
         {
-            "trigger": "intrate",
+            "trigger": "INTRATE",
             "contents": "INTRATE(${1:settlement},${2: maturity},${3: investment},${4: redemption}${5:,${6: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the interest rate for a fully invested security.",
             "kind": "snippet"
         },
         {
-            "trigger": "ipmt",
+            "trigger": "IPMT",
             "contents": "IPMT(${1:rate},${2: per},${3: nper},${4: pv}${5:,${6: [fv]},${7: [type]}})",
             "annotation": "Financial",
             "details": "Returns the interest payment for an investment for a given period.",
             "kind": "snippet"
         },
         {
-            "trigger": "irr",
+            "trigger": "IRR",
             "contents": "IRR(${1:values}${2:,${3: [guess]}})",
             "annotation": "Financial",
             "details": "Returns the internal rate of return for a series of cash flows.",
             "kind": "snippet"
         },
         {
-            "trigger": "isblank",
+            "trigger": "ISBLANK",
             "contents": "ISBLANK(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is blank.",
             "kind": "snippet"
         },
         {
-            "trigger": "iserr",
+            "trigger": "ISERR",
             "contents": "ISERR(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is any error value except #N/A.",
             "kind": "snippet"
         },
         {
-            "trigger": "iserror",
+            "trigger": "ISERROR",
             "contents": "ISERROR(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is any error value.",
             "kind": "snippet"
         },
         {
-            "trigger": "iseven",
+            "trigger": "ISEVEN",
             "contents": "ISEVEN(${1:number})",
             "annotation": "Information",
             "details": "Returns TRUE if the number is even.",
             "kind": "snippet"
         },
         {
-            "trigger": "isformula",
+            "trigger": "ISFORMULA",
             "contents": "ISFORMULA(${1:reference})",
             "annotation": "Information",
             "details": "Returns TRUE if there is a reference to a cell that contains a formula.",
             "kind": "snippet"
         },
         {
-            "trigger": "islogical",
+            "trigger": "ISLOGICAL",
             "contents": "ISLOGICAL(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is a logical value.",
             "kind": "snippet"
         },
         {
-            "trigger": "isna",
+            "trigger": "ISNA",
             "contents": "ISNA(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is the #N/A error value.",
             "kind": "snippet"
         },
         {
-            "trigger": "isnontext",
+            "trigger": "ISNONTEXT",
             "contents": "ISNONTEXT(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is not text.",
             "kind": "snippet"
         },
         {
-            "trigger": "isnumber",
+            "trigger": "ISNUMBER",
             "contents": "ISNUMBER(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "iso.ceiling",
+            "trigger": "ISO.CEILING",
             "contents": "ISO.CEILING(${1:number}${2:,${3: [significance]}})",
             "annotation": "Math and trigonometry",
             "details": "Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance.",
             "kind": "snippet"
         },
         {
-            "trigger": "isodd",
+            "trigger": "ISODD",
             "contents": "ISODD(${1:number})",
             "annotation": "Information",
             "details": "Returns TRUE if the number is odd.",
             "kind": "snippet"
         },
         {
-            "trigger": "isomitted",
+            "trigger": "ISOMITTED",
             "contents": "ISOMITTED(${1:argument})",
             "annotation": "Information",
             "details": "Checks whether the value is omitted, and returns TRUE or FALSE.",
             "kind": "snippet"
         },
         {
-            "trigger": "isoweeknum",
+            "trigger": "ISOWEEKNUM",
             "contents": "ISOWEEKNUM(${1:date})",
             "annotation": "Date and time",
             "details": "Returns the number of the ISO week number of the year for a given date.",
             "kind": "snippet"
         },
         {
-            "trigger": "ispmt",
+            "trigger": "ISPMT",
             "contents": "ISPMT(${1:rate},${2: per},${3: nper},${4: pv})",
             "annotation": "Financial",
             "details": "Calculates the interest paid during a specific period of an investment.",
             "kind": "snippet"
         },
         {
-            "trigger": "isref",
+            "trigger": "ISREF",
             "contents": "ISREF(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is a reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "istext",
+            "trigger": "ISTEXT",
             "contents": "ISTEXT(${1:value})",
             "annotation": "Information",
             "details": "Returns TRUE if the value is text.",
             "kind": "snippet"
         },
         {
-            "trigger": "jis",
+            "trigger": "JIS",
             "contents": "JIS(${1:text})",
             "annotation": "Text",
             "details": "Changes half-width characters to full-width characters.",
             "kind": "snippet"
         },
         {
-            "trigger": "kurt",
+            "trigger": "KURT",
             "contents": "KURT(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the kurtosis of a data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "lambda",
+            "trigger": "LAMBDA",
             "contents": "LAMBDA(${1:parameter_or_calculation1}${2:,${3: [parameter_or_calculation2], ...}})",
             "annotation": "Formulas",
             "details": "Creates a function value, which can be called within formulas.",
             "kind": "snippet"
         },
         {
-            "trigger": "large",
+            "trigger": "LARGE",
             "contents": "LARGE(${1:array},${2: k})",
             "annotation": "Statistical",
             "details": "Returns the k-th largest value in a data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "lcm",
+            "trigger": "LCM",
             "contents": "LCM(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Returns the least common multiple.",
             "kind": "snippet"
         },
         {
-            "trigger": "left",
+            "trigger": "LEFT",
             "contents": "LEFT(${1:text}${2:,${3: [num_chars]}})",
             "annotation": "Text",
             "details": "Extracts a specified number of characters from the start (left) of a text string.",
             "kind": "snippet"
         },
         {
-            "trigger": "leftb",
+            "trigger": "LEFTB",
             "contents": "LEFTB(${1:text}${2:,${3: [num_bytes]}})",
             "annotation": "Text",
             "details": "Returns the first character or characters in a text string based on bytes.",
             "kind": "snippet"
         },
         {
-            "trigger": "len",
+            "trigger": "LEN",
             "contents": "LEN(${1:text})",
             "annotation": "Text",
             "details": "Returns the total number of characters in a text string, including spaces.",
             "kind": "snippet"
         },
         {
-            "trigger": "lenb",
+            "trigger": "LENB",
             "contents": "LENB(${1:text})",
             "annotation": "Text",
             "details": "Returns the number of bytes used to represent a string.",
             "kind": "snippet"
         },
         {
-            "trigger": "let",
+            "trigger": "LET",
             "contents": "LET(${1:name1},${2: name_value1},${3: calculation_or_name2}${4:,${5: [name_value2], ...}})",
             "annotation": "Formulas",
             "details": "Assigns names to calculation results to allow storing intermediate calculations, values, or defining names inside a formula",
             "kind": "snippet"
         },
         {
-            "trigger": "linest",
+            "trigger": "LINEST",
             "contents": "LINEST(${1:known_ys}${2:,${3: [known_xs]},${4: [const]},${5: [stats]}})",
             "annotation": "Statistical",
             "details": "Returns the parameters of a linear trend.",
             "kind": "snippet"
         },
         {
-            "trigger": "ln",
+            "trigger": "LN",
             "contents": "LN(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the natural logarithm of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "log",
+            "trigger": "LOG",
             "contents": "LOG(${1:number}${2:,${3: [base]}})",
             "annotation": "Math and trigonometry",
             "details": "Returns the logarithm of a number to a specified base.",
             "kind": "snippet"
         },
         {
-            "trigger": "log10",
+            "trigger": "LOG10",
             "contents": "LOG10(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the base-10 logarithm of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "logest",
+            "trigger": "LOGEST",
             "contents": "LOGEST(${1:known_ys}${2:,${3: [known_xs]},${4: [const]},${5: [stats]}})",
             "annotation": "Statistical",
             "details": "Returns the parameters of an exponential trend.",
             "kind": "snippet"
         },
         {
-            "trigger": "loginv",
+            "trigger": "LOGINV",
             "contents": "LOGINV(${1:probability},${2: mean},${3: standard_dev})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the lognormal cumulative distribution. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "lognorm.dist",
+            "trigger": "LOGNORM.DIST",
             "contents": "LOGNORM.DIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the lognormal distribution of x, where ln(x) is normally distributed with parameters Mean and Standard_dev.",
             "kind": "snippet"
         },
         {
-            "trigger": "lognorm.inv",
+            "trigger": "LOGNORM.INV",
             "contents": "LOGNORM.INV(${1:probability},${2: mean},${3: standard_dev})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the lognormal cumulative distribution function of x, where ln(x) is normally distributed with parameters Mean and Standard_dev.",
             "kind": "snippet"
         },
         {
-            "trigger": "lognormdist",
+            "trigger": "LOGNORMDIST",
             "contents": "LOGNORMDIST(${1:x},${2: mean},${3: standard_dev})",
             "annotation": "Compatibility",
             "details": "Returns the cumulative lognormal distribution. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "lookup",
+            "trigger": "LOOKUP",
             "contents": "LOOKUP(${1:lookup_value},${2: lookup_vector}${3:,${4: [result_vector]}})",
             "annotation": "Lookup and reference",
             "details": "Looks up values in a vector or array.",
             "kind": "snippet"
         },
         {
-            "trigger": "lower",
+            "trigger": "LOWER",
             "contents": "LOWER(${1:text})",
             "annotation": "Text",
             "details": "Converts text to lowercase.",
             "kind": "snippet"
         },
         {
-            "trigger": "makearray",
+            "trigger": "MAKEARRAY",
             "contents": "MAKEARRAY(${1:rows},${2: columns},${3: function})",
             "annotation": "Array",
             "details": "Returns a calculated array of a specified row and column size, by applying a LAMBDA function.",
             "kind": "snippet"
         },
         {
-            "trigger": "map",
+            "trigger": "MAP",
             "contents": "MAP(${1:array},${2: lambda_or_array2}${3:,${4: [lambda_or_array3], ...}})",
             "annotation": "Array",
             "details": "Returns an array formed by 'mapping' each value in the array(s) to a new value by applying a lambda to create a new value.",
             "kind": "snippet"
         },
         {
-            "trigger": "match",
+            "trigger": "MATCH",
             "contents": "MATCH(${1:lookup_value},${2: lookup_array}${3:,${4: [match_type]}})",
             "annotation": "Lookup and reference",
             "details": "Looks up values in a reference or array.",
             "kind": "snippet"
         },
         {
-            "trigger": "max",
+            "trigger": "MAX",
             "contents": "MAX(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the maximum value in a list of arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "maxa",
+            "trigger": "MAXA",
             "contents": "MAXA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the maximum value in a list of arguments, including numbers, text, and logical values.",
             "kind": "snippet"
         },
         {
-            "trigger": "maxifs",
+            "trigger": "MAXIFS",
             "contents": "MAXIFS(${1:max_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the maximum value among cells specified by a given set of conditions or criteria. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "mdeterm",
+            "trigger": "MDETERM",
             "contents": "MDETERM(${1:array})",
             "annotation": "Math and trigonometry",
             "details": "Returns the matrix determinant of an array.",
             "kind": "snippet"
         },
         {
-            "trigger": "mduration",
+            "trigger": "MDURATION",
             "contents": "MDURATION(${1:settlement},${2: maturity},${3: coupon},${4: yld},${5: frequency}${6:,${7: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the Macauley modified duration for a security with an assumed par value of $100.",
             "kind": "snippet"
         },
         {
-            "trigger": "median",
+            "trigger": "MEDIAN",
             "contents": "MEDIAN(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the median of the given numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "mid",
+            "trigger": "MID",
             "contents": "MID(${1:text},${2: start_num},${3: num_chars})",
             "annotation": "Text",
             "details": "Extracts a substring from a text string, starting at a specified position for a given length.",
             "kind": "snippet"
         },
         {
-            "trigger": "midb",
+            "trigger": "MIDB",
             "contents": "MIDB(${1:text},${2: start_num},${3: num_bytes})",
             "annotation": "Text",
             "details": "Returns a specific number of bytes from a text string, starting at a specified position.",
             "kind": "snippet"
         },
         {
-            "trigger": "min",
+            "trigger": "MIN",
             "contents": "MIN(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the minimum value in a list of arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "mina",
+            "trigger": "MINA",
             "contents": "MINA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the smallest value in a list of arguments, including numbers, text, and logical values.",
             "kind": "snippet"
         },
         {
-            "trigger": "minifs",
+            "trigger": "MINIFS",
             "contents": "MINIFS(${1:min_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the minimum value among cells specified by a given set of conditions or criteria. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "minute",
+            "trigger": "MINUTE",
             "contents": "MINUTE(${1:serial_number})",
             "annotation": "Date and time",
             "details": "Converts a serial number to a minute.",
             "kind": "snippet"
         },
         {
-            "trigger": "minverse",
+            "trigger": "MINVERSE",
             "contents": "MINVERSE(${1:array})",
             "annotation": "Math and trigonometry",
             "details": "Returns the matrix inverse of an array.",
             "kind": "snippet"
         },
         {
-            "trigger": "mirr",
+            "trigger": "MIRR",
             "contents": "MIRR(${1:values},${2: finance_rate},${3: reinvest_rate})",
             "annotation": "Financial",
             "details": "Returns the internal rate of return where positive and negative cash flows are financed at different rates.",
             "kind": "snippet"
         },
         {
-            "trigger": "mmult",
+            "trigger": "MMULT",
             "contents": "MMULT(${1:array1},${2: array2})",
             "annotation": "Math and trigonometry",
             "details": "Returns the matrix product of two arrays.",
             "kind": "snippet"
         },
         {
-            "trigger": "mod",
+            "trigger": "MOD",
             "contents": "MOD(${1:number},${2: divisor})",
             "annotation": "Math and trigonometry",
             "details": "Returns the remainder from division.",
             "kind": "snippet"
         },
         {
-            "trigger": "mode",
+            "trigger": "MODE",
             "contents": "MODE(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Compatibility",
             "details": "Returns the most common value in a data set. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "mode.mult",
+            "trigger": "MODE.MULT",
             "contents": "MODE.MULT(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns a vertical array of the most frequently occurring, or repetitive values in an array or range of data.",
             "kind": "snippet"
         },
         {
-            "trigger": "mode.sngl",
+            "trigger": "MODE.SNGL",
             "contents": "MODE.SNGL(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the most common value in a data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "month",
+            "trigger": "MONTH",
             "contents": "MONTH(${1:serial_number})",
             "annotation": "Date and time",
             "details": "Converts a serial number to a month.",
             "kind": "snippet"
         },
         {
-            "trigger": "mround",
+            "trigger": "MROUND",
             "contents": "MROUND(${1:number},${2: multiple})",
             "annotation": "Math and trigonometry",
             "details": "Returns a number rounded to the desired multiple.",
             "kind": "snippet"
         },
         {
-            "trigger": "multinomial",
+            "trigger": "MULTINOMIAL",
             "contents": "MULTINOMIAL(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Returns the multinomial of a set of numbers.",
             "kind": "snippet"
         },
         {
-            "trigger": "munit",
+            "trigger": "MUNIT",
             "contents": "MUNIT(${1:dimension})",
             "annotation": "Math and trigonometry",
             "details": "Returns the unit matrix or the specified dimension.",
             "kind": "snippet"
         },
         {
-            "trigger": "n",
+            "trigger": "N",
             "contents": "N(${1:value})",
             "annotation": "Information",
             "details": "Returns a value converted to a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "na",
+            "trigger": "NA",
             "contents": "NA()",
             "annotation": "Information",
             "details": "Returns the error value #N/A.",
             "kind": "snippet"
         },
         {
-            "trigger": "negbinom.dist",
+            "trigger": "NEGBINOM.DIST",
             "contents": "NEGBINOM.DIST(${1:number_f},${2: number_s},${3: probability_s},${4: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the negative binomial distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "negbinomdist",
+            "trigger": "NEGBINOMDIST",
             "contents": "NEGBINOMDIST(${1:number_f},${2: number_s},${3: probability_s})",
             "annotation": "Compatibility",
             "details": "Returns the negative binomial. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "networkdays",
+            "trigger": "NETWORKDAYS",
             "contents": "NETWORKDAYS(${1:start_date},${2: end_date}${3:,${4: [holidays]}})",
             "annotation": "Date and time",
             "details": "Returns the number of whole workdays between two dates.",
             "kind": "snippet"
         },
         {
-            "trigger": "networkdays.intl",
+            "trigger": "NETWORKDAYS.INTL",
             "contents": "NETWORKDAYS.INTL(${1:start_date},${2: end_date}${3:,${4: [weekend]},${5: [holidays]}})",
             "annotation": "Date and time",
             "details": "Returns the number of whole workdays between two dates using parameters to indicate which and how many days are weekend days.",
             "kind": "snippet"
         },
         {
-            "trigger": "nominal",
+            "trigger": "NOMINAL",
             "contents": "NOMINAL(${1:effect_rate},${2: npery})",
             "annotation": "Financial",
             "details": "Returns the annual nominal interest rate.",
             "kind": "snippet"
         },
         {
-            "trigger": "norm.dist",
+            "trigger": "NORM.DIST",
             "contents": "NORM.DIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the normal cumulative distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "norm.inv",
+            "trigger": "NORM.INV",
             "contents": "NORM.INV(${1:probability},${2: mean},${3: standard_dev})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the normal cumulative. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "norm.s.dist",
+            "trigger": "NORM.S.DIST",
             "contents": "NORM.S.DIST(${1:z},${2: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the standard normal cumulative distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "norm.s.inv",
+            "trigger": "NORM.S.INV",
             "contents": "NORM.S.INV(${1:probability})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the standard normal cumulative distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "normdist",
+            "trigger": "NORMDIST",
             "contents": "NORMDIST(${1:x},${2: mean},${3: standard_dev},${4: cumulative})",
             "annotation": "Compatibility",
             "details": "Returns the normal cumulative. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "norminv",
+            "trigger": "NORMINV",
             "contents": "NORMINV(${1:probability},${2: mean},${3: standard_dev})",
             "annotation": "Statistical",
             "details": "Returns the inverse of the normal cumulative distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "normsdist",
+            "trigger": "NORMSDIST",
             "contents": "NORMSDIST(${1:z})",
             "annotation": "Compatibility",
             "details": "Returns the standard normal cumulative. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "normsinv",
+            "trigger": "NORMSINV",
             "contents": "NORMSINV(${1:probability})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the standard normal cumulative. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "not",
+            "trigger": "NOT",
             "contents": "NOT(${1:logical})",
             "annotation": "Logical",
             "details": "Reverses the logic of its argument.",
             "kind": "snippet"
         },
         {
-            "trigger": "now",
+            "trigger": "NOW",
             "contents": "NOW()",
             "annotation": "Date and time",
             "details": "Returns the serial number of the current date and time.",
             "kind": "snippet"
         },
         {
-            "trigger": "nper",
+            "trigger": "NPER",
             "contents": "NPER(${1:rate},${2: pmt},${3: pv}${4:,${5: [fv]},${6: [type]}})",
             "annotation": "Financial",
             "details": "Returns the number of periods for an investment.",
             "kind": "snippet"
         },
         {
-            "trigger": "npv",
+            "trigger": "NPV",
             "contents": "NPV(${1:rate},${2: value1}${3:,${4: [value2], ...}})",
             "annotation": "Financial",
             "details": "Returns the net present value of an investment based on a series of periodic cash flows and a discount rate.",
             "kind": "snippet"
         },
         {
-            "trigger": "numbervalue",
+            "trigger": "NUMBERVALUE",
             "contents": "NUMBERVALUE(${1:text}${2:,${3: [decimal_separator]},${4: [group_separator]}})",
             "annotation": "Text",
             "details": "Converts text to number in a locale-independent manner.",
             "kind": "snippet"
         },
         {
-            "trigger": "oct2bin",
+            "trigger": "OCT2BIN",
             "contents": "OCT2BIN(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts an octal number to binary.",
             "kind": "snippet"
         },
         {
-            "trigger": "oct2dec",
+            "trigger": "OCT2DEC",
             "contents": "OCT2DEC(${1:number})",
             "annotation": "Engineering",
             "details": "Converts an octal number to decimal.",
             "kind": "snippet"
         },
         {
-            "trigger": "oct2hex",
+            "trigger": "OCT2HEX",
             "contents": "OCT2HEX(${1:number}${2:,${3: [places]}})",
             "annotation": "Engineering",
             "details": "Converts an octal number to hexadecimal.",
             "kind": "snippet"
         },
         {
-            "trigger": "odd",
+            "trigger": "ODD",
             "contents": "ODD(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number up to the nearest odd integer.",
             "kind": "snippet"
         },
         {
-            "trigger": "oddfprice",
+            "trigger": "ODDFPRICE",
             "contents": "ODDFPRICE(${1:settlement},${2: maturity},${3: issue},${4: first_coupon},${5: rate},${6: yld},${7: redemption},${8: frequency}${9:,${10: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the price per $100 face value of a security with an odd first period.",
             "kind": "snippet"
         },
         {
-            "trigger": "oddfyield",
+            "trigger": "ODDFYIELD",
             "contents": "ODDFYIELD(${1:settlement},${2: maturity},${3: issue},${4: first_coupon},${5: rate},${6: pr},${7: redemption},${8: frequency}${9:,${10: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the yield of a security with an odd first period.",
             "kind": "snippet"
         },
         {
-            "trigger": "oddlprice",
+            "trigger": "ODDLPRICE",
             "contents": "ODDLPRICE(${1:settlement},${2: maturity},${3: last_interest},${4: rate},${5: yld},${6: redemption},${7: frequency}${8:,${9: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the price per $100 face value of a security with an odd last period.",
             "kind": "snippet"
         },
         {
-            "trigger": "oddlyield",
+            "trigger": "ODDLYIELD",
             "contents": "ODDLYIELD(${1:settlement},${2: maturity},${3: last_interest},${4: rate},${5: pr},${6: redemption},${7: frequency}${8:,${9: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the yield of a security with an odd last period.",
             "kind": "snippet"
         },
         {
-            "trigger": "offset",
+            "trigger": "OFFSET",
             "contents": "OFFSET(${1:reference},${2: rows},${3: cols}${4:,${5: [height]},${6: [width]}})",
             "annotation": "Lookup and reference",
             "details": "Returns a reference offset from a given reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "or",
+            "trigger": "OR",
             "contents": "OR(${1:logical1}${2:,${3: [logical2], ...}})",
             "annotation": "Logical",
             "details": "Returns TRUE if any argument is TRUE.",
             "kind": "snippet"
         },
         {
-            "trigger": "pduration",
+            "trigger": "PDURATION",
             "contents": "PDURATION(${1:rate},${2: py},${3: fv})",
             "annotation": "Financial",
             "details": "Returns the number of periods required by an investment to reach a specified value.",
             "kind": "snippet"
         },
         {
-            "trigger": "pearson",
+            "trigger": "PEARSON",
             "contents": "PEARSON(${1:array1},${2: array2})",
             "annotation": "Statistical",
             "details": "Returns the Pearson product moment correlation coefficient.",
             "kind": "snippet"
         },
         {
-            "trigger": "percentile",
+            "trigger": "PERCENTILE",
             "contents": "PERCENTILE(${1:array},${2: k})",
             "annotation": "Compatibility",
             "details": "Returns the k-th percentile of values in a range. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "percentile.exc",
+            "trigger": "PERCENTILE.EXC",
             "contents": "PERCENTILE.EXC(${1:array},${2: k})",
             "annotation": "Statistical",
             "details": "Returns the k-th percentile of values in a range, where k is in the range 0..1, exclusive.",
             "kind": "snippet"
         },
         {
-            "trigger": "percentile.inc",
+            "trigger": "PERCENTILE.INC",
             "contents": "PERCENTILE.INC(${1:array},${2: k})",
             "annotation": "Statistical",
             "details": "Returns the k-th percentile of values in a range.",
             "kind": "snippet"
         },
         {
-            "trigger": "percentrank",
+            "trigger": "PERCENTRANK",
             "contents": "PERCENTRANK(${1:array},${2: x}${3:,${4: [significance]}})",
             "annotation": "Compatibility",
             "details": "Returns the percentage rank of a value in a data set. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "percentrank.exc",
+            "trigger": "PERCENTRANK.EXC",
             "contents": "PERCENTRANK.EXC(${1:array},${2: x}${3:,${4: [significance]}})",
             "annotation": "Statistical",
             "details": "Returns the rank of a value in a data set as a percentage (0..1, exclusive) of the data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "percentrank.inc",
+            "trigger": "PERCENTRANK.INC",
             "contents": "PERCENTRANK.INC(${1:array},${2: x}${3:,${4: [significance]}})",
             "annotation": "Statistical",
             "details": "Returns the percentage rank of a value in a data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "permut",
+            "trigger": "PERMUT",
             "contents": "PERMUT(${1:number},${2: number_chosen})",
             "annotation": "Statistical",
             "details": "Returns the number of permutations for a given number of objects.",
             "kind": "snippet"
         },
         {
-            "trigger": "permutationa",
+            "trigger": "PERMUTATIONA",
             "contents": "PERMUTATIONA(${1:number},${2: number_chosen})",
             "annotation": "Statistical",
             "details": "Returns the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects.",
             "kind": "snippet"
         },
         {
-            "trigger": "phi",
+            "trigger": "PHI",
             "contents": "PHI(${1:x})",
             "annotation": "Statistical",
             "details": "Returns the value of the density function for a standard normal distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "phonetic",
+            "trigger": "PHONETIC",
             "contents": "PHONETIC(${1:reference})",
             "annotation": "Text",
             "details": "Extracts the phonetic (furigana) characters from a text string.",
             "kind": "snippet"
         },
         {
-            "trigger": "pi",
+            "trigger": "PI",
             "contents": "PI()",
             "annotation": "Math and trigonometry",
             "details": "Returns the value of pi.",
             "kind": "snippet"
         },
         {
-            "trigger": "pmt",
+            "trigger": "PMT",
             "contents": "PMT(${1:rate},${2: nper},${3: pv}${4:,${5: [fv]},${6: [type]}})",
             "annotation": "Financial",
             "details": "Returns the periodic payment for an annuity.",
             "kind": "snippet"
         },
         {
-            "trigger": "poisson",
+            "trigger": "POISSON",
             "contents": "POISSON(${1:x},${2: mean},${3: cumulative})",
             "annotation": "Compatibility",
             "details": "Returns the Poisson. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "poisson.dist",
+            "trigger": "POISSON.DIST",
             "contents": "POISSON.DIST(${1:x},${2: mean},${3: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the Poisson distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "power",
+            "trigger": "POWER",
             "contents": "POWER(${1:number},${2: power})",
             "annotation": "Math and trigonometry",
             "details": "Returns the result of a number raised to a power.",
             "kind": "snippet"
         },
         {
-            "trigger": "ppmt",
+            "trigger": "PPMT",
             "contents": "PPMT(${1:rate},${2: per},${3: nper},${4: pv}${5:,${6: [fv]},${7: [type]}})",
             "annotation": "Financial",
             "details": "Returns the payment on the principal for an investment for a given period.",
             "kind": "snippet"
         },
         {
-            "trigger": "price",
+            "trigger": "PRICE",
             "contents": "PRICE(${1:settlement},${2: maturity},${3: rate},${4: yld},${5: redemption},${6: frequency}${7:,${8: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the price per $100 face value of a security that pays periodic interest.",
             "kind": "snippet"
         },
         {
-            "trigger": "pricedisc",
+            "trigger": "PRICEDISC",
             "contents": "PRICEDISC(${1:settlement},${2: maturity},${3: discount},${4: redemption}${5:,${6: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the price per $100 face value of a discounted security.",
             "kind": "snippet"
         },
         {
-            "trigger": "pricemat",
+            "trigger": "PRICEMAT",
             "contents": "PRICEMAT(${1:settlement},${2: maturity},${3: issue},${4: rate},${5: yld}${6:,${7: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the price per $100 face value of a security that pays interest at maturity.",
             "kind": "snippet"
         },
         {
-            "trigger": "prob",
+            "trigger": "PROB",
             "contents": "PROB(${1:x_range},${2: prob_range},${3: lower_limit}${4:,${5: [upper_limit]}})",
             "annotation": "Statistical",
             "details": "Returns the probability that values in a range are between two limits.",
             "kind": "snippet"
         },
         {
-            "trigger": "product",
+            "trigger": "PRODUCT",
             "contents": "PRODUCT(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Multiplies its arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "proper",
+            "trigger": "PROPER",
             "contents": "PROPER(${1:text})",
             "annotation": "Text",
             "details": "Capitalizes the first letter in each word of a text value.",
             "kind": "snippet"
         },
         {
-            "trigger": "pv",
+            "trigger": "PV",
             "contents": "PV(${1:rate},${2: nper},${3: pmt}${4:,${5: [fv]},${6: [typel]}})",
             "annotation": "Financial",
             "details": "Returns the present value of an investment.",
             "kind": "snippet"
         },
         {
-            "trigger": "quartile",
+            "trigger": "QUARTILE",
             "contents": "QUARTILE(${1:array},${2: quart})",
             "annotation": "Compatibility",
             "details": "Returns the quartile of a data set. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "quartile.exc",
+            "trigger": "QUARTILE.EXC",
             "contents": "QUARTILE.EXC(${1:array},${2: quart})",
             "annotation": "Statistical",
             "details": "Returns the quartile of the data set, based on percentile values from 0..1, exclusive.",
             "kind": "snippet"
         },
         {
-            "trigger": "quartile.inc",
+            "trigger": "QUARTILE.INC",
             "contents": "QUARTILE.INC(${1:array},${2: quart})",
             "annotation": "Statistical",
             "details": "Returns the quartile of a data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "quotient",
+            "trigger": "QUOTIENT",
             "contents": "QUOTIENT(${1:numerator},${2: denominator})",
             "annotation": "Math and trigonometry",
             "details": "Returns the integer portion of a division.",
             "kind": "snippet"
         },
         {
-            "trigger": "radians",
+            "trigger": "RADIANS",
             "contents": "RADIANS(${1:angle})",
             "annotation": "Math and trigonometry",
             "details": "Converts degrees to radians.",
             "kind": "snippet"
         },
         {
-            "trigger": "rand",
+            "trigger": "RAND",
             "contents": "RAND()",
             "annotation": "Math and trigonometry",
             "details": "Returns a random number between 0 and 1.",
             "kind": "snippet"
         },
         {
-            "trigger": "randarray",
+            "trigger": "RANDARRAY",
             "contents": "RANDARRAY(${1:,${2: [rows]},${3: [columns]},${4: [min]},${5: [max]},${6: [integer]}})",
             "annotation": "Math and trigonometry",
             "details": "Returns an array of random numbers between 0 and 1. However, you can specify the number of rows and columns to fill, minimum and maximum values, and whether to return whole numbers or decimal values.",
             "kind": "snippet"
         },
         {
-            "trigger": "randbetween",
+            "trigger": "RANDBETWEEN",
             "contents": "RANDBETWEEN(${1:bottom},${2: top})",
             "annotation": "Math and trigonometry",
             "details": "Returns a random number between the numbers you specify.",
             "kind": "snippet"
         },
         {
-            "trigger": "rank",
+            "trigger": "RANK",
             "contents": "RANK(${1:number},${2: ref}${3:,${4: [order]}})",
             "annotation": "Compatibility",
             "details": "Returns the rank of a number in a list of numbers. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "rank.avg",
+            "trigger": "RANK.AVG",
             "contents": "RANK.AVG(${1:number},${2: ref}${3:,${4: [order]}})",
             "annotation": "Statistical",
             "details": "Returns the rank of a number in a list of numbers. Ties take the average rank.",
             "kind": "snippet"
         },
         {
-            "trigger": "rank.eq",
+            "trigger": "RANK.EQ",
             "contents": "RANK.EQ(${1:number},${2: ref}${3:,${4: [order]}})",
             "annotation": "Statistical",
             "details": "Returns the rank of a number in a list of numbers. Ties take the top rank.",
             "kind": "snippet"
         },
         {
-            "trigger": "rate",
+            "trigger": "RATE",
             "contents": "RATE(${1:nper},${2: pmt},${3: pv}${4:,${5: [fv]},${6: [type]},${7: [guess]}})",
             "annotation": "Financial",
             "details": "Returns the interest rate per period of an annuity.",
             "kind": "snippet"
         },
         {
-            "trigger": "received",
+            "trigger": "RECEIVED",
             "contents": "RECEIVED(${1:settlement},${2: maturity},${3: investment},${4: discount}${5:,${6: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the amount received at maturity for a fully invested security.",
             "kind": "snippet"
         },
         {
-            "trigger": "reduce",
+            "trigger": "REDUCE",
             "contents": "REDUCE(${1:initial_value},${2: array},${3: function})",
             "annotation": "Array",
             "details": "Reduces an array to an accumulated value by applying a LAMBDA function to each value and returning the total value in the accumulator.",
             "kind": "snippet"
         },
         {
-            "trigger": "register",
+            "trigger": "REGISTER",
             "contents": "REGISTER(${1:module_text},${2: procedure},${3: type_text}${4:,${5: [argument1], ...}})",
             "annotation": "Add-in",
             "details": "Returns a reference to the spcified DLL or code resource.",
             "kind": "snippet"
         },
         {
-            "trigger": "register.id",
+            "trigger": "REGISTER.ID",
             "contents": "REGISTER.ID(${1:module_text},${2: procedure}${3:,${4: [type_text]}})",
             "annotation": "Add-in",
             "details": "Returns the register ID of the specified DLL or code resource.",
             "kind": "snippet"
         },
         {
-            "trigger": "replace",
+            "trigger": "REPLACE",
             "contents": "REPLACE(${1:old_text},${2: start_num},${3: num_chars},${4: new_text})",
             "annotation": "Text",
             "details": "Replaces part of a text string with another string, based on a given start position and length.",
             "kind": "snippet"
         },
         {
-            "trigger": "replaceb",
+            "trigger": "REPLACEB",
             "contents": "REPLACEB(${1:old_text},${2: start_num},${3: num_bytes},${4: new_text})",
             "annotation": "Text",
             "details": "Replaces a specified number of bytes in a text string with another text string.",
             "kind": "snippet"
         },
         {
-            "trigger": "rept",
+            "trigger": "REPT",
             "contents": "REPT(${1:text},${2: number_times})",
             "annotation": "Text",
             "details": "Repeats text a given number of times.",
             "kind": "snippet"
         },
         {
-            "trigger": "right",
+            "trigger": "RIGHT",
             "contents": "RIGHT(${1:text}${2:,${3: [num_chars]}})",
             "annotation": "Text",
             "details": "Extracts a specified number of characters from the end (right) of a text string.",
             "kind": "snippet"
         },
         {
-            "trigger": "rightb",
+            "trigger": "RIGHTB",
             "contents": "RIGHTB(${1:text}${2:,${3: [num_bytes]}})",
             "annotation": "Text",
             "details": "Returns the last character or characters in a text string based on bytes.",
             "kind": "snippet"
         },
         {
-            "trigger": "roman",
+            "trigger": "ROMAN",
             "contents": "ROMAN(${1:number}${2:,${3: [form]}})",
             "annotation": "Math and trigonometry",
             "details": "Converts an arabic numeral to roman, as text.",
             "kind": "snippet"
         },
         {
-            "trigger": "round",
+            "trigger": "ROUND",
             "contents": "ROUND(${1:number},${2: num_digits})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number to a specified number of digits.",
             "kind": "snippet"
         },
         {
-            "trigger": "rounddown",
+            "trigger": "ROUNDDOWN",
             "contents": "ROUNDDOWN(${1:number},${2: num_digits})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number down, toward zero.",
             "kind": "snippet"
         },
         {
-            "trigger": "roundup",
+            "trigger": "ROUNDUP",
             "contents": "ROUNDUP(${1:number},${2: num_digits})",
             "annotation": "Math and trigonometry",
             "details": "Rounds a number up, away from zero.",
             "kind": "snippet"
         },
         {
-            "trigger": "row",
+            "trigger": "ROW",
             "contents": "ROW(${1:,${2: [reference]}})",
             "annotation": "Lookup and reference",
             "details": "Returns the row number of a reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "rows",
+            "trigger": "ROWS",
             "contents": "ROWS(${1:array})",
             "annotation": "Lookup and reference",
             "details": "Returns the number of rows in a reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "rri",
+            "trigger": "RRI",
             "contents": "RRI(${1:nper},${2: pv},${3: fv})",
             "annotation": "Financial",
             "details": "Returns an equivalent interest rate for the growth of an investment.",
             "kind": "snippet"
         },
         {
-            "trigger": "rsq",
+            "trigger": "RSQ",
             "contents": "RSQ(${1:known_ys},${2: known_xs})",
             "annotation": "Statistical",
             "details": "Returns the square of the Pearson product moment correlation coefficient.",
             "kind": "snippet"
         },
         {
-            "trigger": "rtd",
+            "trigger": "RTD",
             "contents": "RTD(${1:progID},${2: server},${3: topic1}${4:,${5: [topic2], ...}})",
             "annotation": "Lookup and reference",
             "details": "Retrieves real-time data from a program that supports COM automation.",
             "kind": "snippet"
         },
         {
-            "trigger": "scan",
+            "trigger": "SCAN",
             "contents": "SCAN(${1:initial_value},${2: array},${3: function})",
             "annotation": "Array",
             "details": "Scans an array by applying a LAMBDA  to each value and returns an array that has each intermediate value.",
             "kind": "snippet"
         },
         {
-            "trigger": "search",
+            "trigger": "SEARCH",
             "contents": "SEARCH(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
             "annotation": "Text",
             "details": "Finds the position of a substring within a text string, case-insensitive.",
             "kind": "snippet"
         },
         {
-            "trigger": "searchb",
+            "trigger": "SEARCHB",
             "contents": "SEARCHB(${1:find_text},${2: within_text}${3:,${4: [start_num]}})",
             "annotation": "Text",
             "details": "Returns the position of a specified substring within a text string, counting by bytes.",
             "kind": "snippet"
         },
         {
-            "trigger": "sec",
+            "trigger": "SEC",
             "contents": "SEC(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the secant of an angle.",
             "kind": "snippet"
         },
         {
-            "trigger": "sech",
+            "trigger": "SECH",
             "contents": "SECH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the hyperbolic secant of an angle.",
             "kind": "snippet"
         },
         {
-            "trigger": "second",
+            "trigger": "SECOND",
             "contents": "SECOND(${1:serial_number})",
             "annotation": "Date and time",
             "details": "Converts a serial number to a second.",
             "kind": "snippet"
         },
         {
-            "trigger": "sequence",
+            "trigger": "SEQUENCE",
             "contents": "SEQUENCE(${1:rows}${2:,${3: [columns]},${4: [start]},${5: [step]}})",
             "annotation": "Math and trigonometry",
             "details": "Generates a list of sequential numbers in an array, such as 1, 2, 3, 4",
             "kind": "snippet"
         },
         {
-            "trigger": "seriessum",
+            "trigger": "SERIESSUM",
             "contents": "SERIESSUM(${1:x},${2: n},${3: m},${4: coefficients})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sum of a power series based on the formula.",
             "kind": "snippet"
         },
         {
-            "trigger": "sheet",
+            "trigger": "SHEET",
             "contents": "SHEET(${1:,${2: [value]}})",
             "annotation": "Information",
             "details": "Returns the sheet number of the referenced sheet.",
             "kind": "snippet"
         },
         {
-            "trigger": "sheets",
+            "trigger": "SHEETS",
             "contents": "SHEETS(${1:,${2: [reference]}})",
             "annotation": "Information",
             "details": "Returns the number of sheets in a reference.",
             "kind": "snippet"
         },
         {
-            "trigger": "sign",
+            "trigger": "SIGN",
             "contents": "SIGN(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sign of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "sin",
+            "trigger": "SIN",
             "contents": "SIN(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sine of the given angle.",
             "kind": "snippet"
         },
         {
-            "trigger": "sinh",
+            "trigger": "SINH",
             "contents": "SINH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the hyperbolic sine of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "skew",
+            "trigger": "SKEW",
             "contents": "SKEW(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the skewness of a distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "skew.p",
+            "trigger": "SKEW.P",
             "contents": "SKEW.P(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Returns the skewness of a distribution based on a population.",
             "kind": "snippet"
         },
         {
-            "trigger": "sln",
+            "trigger": "SLN",
             "contents": "SLN(${1:cost},${2: salvage},${3: life})",
             "annotation": "Financial",
             "details": "Returns the straight-line depreciation of an asset for one period.",
             "kind": "snippet"
         },
         {
-            "trigger": "slope",
+            "trigger": "SLOPE",
             "contents": "SLOPE(${1:known_ys},${2: known_xs})",
             "annotation": "Statistical",
             "details": "Returns the slope of the linear regression line.",
             "kind": "snippet"
         },
         {
-            "trigger": "small",
+            "trigger": "SMALL",
             "contents": "SMALL(${1:array},${2: k})",
             "annotation": "Statistical",
             "details": "Returns the k-th smallest value in a data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "sort",
+            "trigger": "SORT",
             "contents": "SORT(${1:array}${2:,${3: [sort_index]},${4: [sort_order]},${5: [by_col]}})",
             "annotation": "Lookup and reference",
             "details": "Sorts the contents of a range or array",
             "kind": "snippet"
         },
         {
-            "trigger": "sortby",
+            "trigger": "SORTBY",
             "contents": "SORTBY(${1:array},${2: by_array1}${3:,${4: [sort_order1], ...}})",
             "annotation": "Lookup and reference",
             "details": "Sorts the contents of a range or array based on the values in a corresponding range or array",
             "kind": "snippet"
         },
         {
-            "trigger": "sqrt",
+            "trigger": "SQRT",
             "contents": "SQRT(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns a positive square root.",
             "kind": "snippet"
         },
         {
-            "trigger": "sqrtpi",
+            "trigger": "SQRTPI",
             "contents": "SQRTPI(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the square root of (number * pi).",
             "kind": "snippet"
         },
         {
-            "trigger": "standardize",
+            "trigger": "STANDARDIZE",
             "contents": "STANDARDIZE(${1:x},${2: mean},${3: standard_dev})",
             "annotation": "Statistical",
             "details": "Returns a normalized value.",
             "kind": "snippet"
         },
         {
-            "trigger": "stdev",
+            "trigger": "STDEV",
             "contents": "STDEV(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Compatibility",
             "details": "Estimates standard deviation based on a sample. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "stdev.p",
+            "trigger": "STDEV.P",
             "contents": "STDEV.P(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Calculates standard deviation based on the entire population.",
             "kind": "snippet"
         },
         {
-            "trigger": "stdev.s",
+            "trigger": "STDEV.S",
             "contents": "STDEV.S(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Estimates standard deviation based on a sample.",
             "kind": "snippet"
         },
         {
-            "trigger": "stdeva",
+            "trigger": "STDEVA",
             "contents": "STDEVA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Estimates standard deviation based on a sample, including numbers, text, and logical values.",
             "kind": "snippet"
         },
         {
-            "trigger": "stdevp",
+            "trigger": "STDEVP",
             "contents": "STDEVP(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Compatibility",
             "details": "Calculates standard deviation based on the entire population. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "stdevpa",
+            "trigger": "STDEVPA",
             "contents": "STDEVPA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Calculates standard deviation based on the entire population, including numbers, text, and logical values.",
             "kind": "snippet"
         },
         {
-            "trigger": "steyx",
+            "trigger": "STEYX",
             "contents": "STEYX(${1:known_ys},${2: known_xs})",
             "annotation": "Statistical",
             "details": "Returns the standard error of the predicted y-value for each x in the regression.",
             "kind": "snippet"
         },
         {
-            "trigger": "stockhistory",
+            "trigger": "STOCKHISTORY",
             "contents": "STOCKHISTORY(${1:stock},${2: start_date}${3:,${4: [end_date]},${5: [interval]},${6: [headers]},${7: [properties], ...}})",
             "annotation": "Financial",
             "details": "Retrieves historical data about a financial instrument.",
             "kind": "snippet"
         },
         {
-            "trigger": "substitute",
+            "trigger": "SUBSTITUTE",
             "contents": "SUBSTITUTE(${1:text},${2: old_text},${3: new_text}${4:,${5: [instance_num]}})",
             "annotation": "Text",
             "details": "Substitutes new text for old text in a text string.",
             "kind": "snippet"
         },
         {
-            "trigger": "subtotal",
+            "trigger": "SUBTOTAL",
             "contents": "SUBTOTAL(${1:function_num},${2: ref1}${3:,${4: [ref2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Returns a subtotal in a list or database.",
             "kind": "snippet"
         },
         {
-            "trigger": "sum",
+            "trigger": "SUM",
             "contents": "SUM(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Adds its arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "sumif",
+            "trigger": "SUMIF",
             "contents": "SUMIF(${1:range},${2: criteria}${3:,${4: [sum_range]}})",
             "annotation": "Math and trigonometry",
             "details": "Adds the cells specified by a given criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "sumifs",
+            "trigger": "SUMIFS",
             "contents": "SUMIFS(${1:sum_range},${2: criteria_range1},${3: criteria1}${4:,${5: [criteria_range2]},${6: [criteria2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Adds the cells in a range that meet multiple criteria.",
             "kind": "snippet"
         },
         {
-            "trigger": "sumproduct",
+            "trigger": "SUMPRODUCT",
             "contents": "SUMPRODUCT(${1:array1}${2:,${3: [array2]},${4: [array3], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sum of the products of corresponding array components.",
             "kind": "snippet"
         },
         {
-            "trigger": "sumsq",
+            "trigger": "SUMSQ",
             "contents": "SUMSQ(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sum of the squares of the arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "sumx2my2",
+            "trigger": "SUMX2MY2",
             "contents": "SUMX2MY2(${1:array_x},${2: array_y})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sum of the difference of squares of corresponding values in two arrays.",
             "kind": "snippet"
         },
         {
-            "trigger": "sumx2py2",
+            "trigger": "SUMX2PY2",
             "contents": "SUMX2PY2(${1:array_x},${2: array_y})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sum of the sum of squares of corresponding values in two arrays.",
             "kind": "snippet"
         },
         {
-            "trigger": "sumxmy2",
+            "trigger": "SUMXMY2",
             "contents": "SUMXMY2(${1:array_x},${2: array_y})",
             "annotation": "Math and trigonometry",
             "details": "Returns the sum of squares of differences of corresponding values in two arrays.",
             "kind": "snippet"
         },
         {
-            "trigger": "switch",
+            "trigger": "SWITCH",
             "contents": "SWITCH(${1:expression},${2: value1},${3: result1}${4:,${5: [default_or_value2]},${6: [result2], ...}})",
             "annotation": "Logical",
             "details": "Evaluates an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an optional default value may be returned. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "syd",
+            "trigger": "SYD",
             "contents": "SYD(${1:cost},${2: salvage},${3: life},${4: per})",
             "annotation": "Financial",
             "details": "Returns the sum-of-years' digits depreciation of an asset for a specified period.",
             "kind": "snippet"
         },
         {
-            "trigger": "t",
+            "trigger": "T",
             "contents": "T(${1:value})",
             "annotation": "Text",
             "details": "Converts its arguments to text.",
             "kind": "snippet"
         },
         {
-            "trigger": "t.dist",
+            "trigger": "T.DIST",
             "contents": "T.DIST(${1:x},${2: deg_freedom},${3: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the left-tailed Student t-distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "t.dist.2t",
+            "trigger": "T.DIST.2T",
             "contents": "T.DIST.2T(${1:x},${2: deg_freedom})",
             "annotation": "Statistical",
             "details": "Returns the two-tailed Student t-distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "t.dist.rt",
+            "trigger": "T.DIST.RT",
             "contents": "T.DIST.RT(${1:x},${2: deg_freedom})",
             "annotation": "Statistical",
             "details": "Returns the right-tailed Student's t-distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "t.inv",
+            "trigger": "T.INV",
             "contents": "T.INV(${1:probability},${2: deg_freedom})",
             "annotation": "Statistical",
             "details": "Returns the left-tailed inverse of the Student's t-distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "t.inv.2t",
+            "trigger": "T.INV.2T",
             "contents": "T.INV.2T(${1:probability},${2: deg_freedom})",
             "annotation": "Statistical",
             "details": "Returns the two-tailed inverse of the Student's t-distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "t.test",
+            "trigger": "T.TEST",
             "contents": "T.TEST(${1:array1},${2: array2},${3: tails},${4: type})",
             "annotation": "Statistical",
             "details": "Returns the probability associated with a Student's t-test.",
             "kind": "snippet"
         },
         {
-            "trigger": "take",
+            "trigger": "TAKE",
             "contents": "TAKE(${1:array},${2: rows}${3:,${4: [columns]}})",
             "annotation": "Array",
             "details": "Returns rows or columns from the start or end of an array.",
             "kind": "snippet"
         },
         {
-            "trigger": "tan",
+            "trigger": "TAN",
             "contents": "TAN(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the tangent of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "tanh",
+            "trigger": "TANH",
             "contents": "TANH(${1:number})",
             "annotation": "Math and trigonometry",
             "details": "Returns the hyperbolic tangent of a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "tbilleq",
+            "trigger": "TBILLEQ",
             "contents": "TBILLEQ(${1:settlement},${2: maturity},${3: discount})",
             "annotation": "Financial",
             "details": "Returns the bond-equivalent yield for a Treasury bill.",
             "kind": "snippet"
         },
         {
-            "trigger": "tbillprice",
+            "trigger": "TBILLPRICE",
             "contents": "TBILLPRICE(${1:settlement},${2: maturity},${3: discount})",
             "annotation": "Financial",
             "details": "Returns the price per $100 face value for a Treasury bill.",
             "kind": "snippet"
         },
         {
-            "trigger": "tbillyield",
+            "trigger": "TBILLYIELD",
             "contents": "TBILLYIELD(${1:settlement},${2: maturity},${3: pr})",
             "annotation": "Financial",
             "details": "Returns the yield for a Treasury bill.",
             "kind": "snippet"
         },
         {
-            "trigger": "tdist",
+            "trigger": "TDIST",
             "contents": "TDIST(${1:x},${2: deg_freedom},${3: tails})",
             "annotation": "Compatibility",
             "details": "Returns the Student's t-distribution. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "text",
+            "trigger": "TEXT",
             "contents": "TEXT(${1:value},${2: format_text})",
             "annotation": "Text",
             "details": "Formats a number and converts it to text.",
             "kind": "snippet"
         },
         {
-            "trigger": "textafter",
+            "trigger": "TEXTAFTER",
             "contents": "TEXTAFTER(${1:text},${2: delimiter}${3:,${4: [instance_num]},${5: [match_mode]},${6: [match_end]},${7: [if_not_found]}})",
             "annotation": "Text",
             "details": "Returns text that's after delimiting characters.",
             "kind": "snippet"
         },
         {
-            "trigger": "textbefore",
+            "trigger": "TEXTBEFORE",
             "contents": "TEXTBEFORE(${1:text},${2: delimiter}${3:,${4: [instance_num]},${5: [match_mode]},${6: [match_end]},${7: [if_not_found]}})",
             "annotation": "Text",
             "details": "Returns text that's before delimiting characters.",
             "kind": "snippet"
         },
         {
-            "trigger": "textjoin",
+            "trigger": "TEXTJOIN",
             "contents": "TEXTJOIN(${1:delimiter},${2: ignore_empty},${3: text1}${4:,${5: [text2], ...}})",
             "annotation": "Text",
             "details": "Combines the text from multiple ranges and/or strings, and includes a delimiter you specify between each text value that will be combined. If the delimiter is an empty text string, this function will effectively concatenate the ranges. This function isn't available in Excel 2016 for Mac.",
             "kind": "snippet"
         },
         {
-            "trigger": "textsplit",
+            "trigger": "TEXTSPLIT",
             "contents": "TEXTSPLIT(${1:text},${2: col_delimiter}${3:,${4: [row_delimiter]},${5: [ignore_empty]},${6: [match_mode]},${7: [pad_with]}})",
             "annotation": "Text",
             "details": "Splits text into rows or columns using delimiters.",
             "kind": "snippet"
         },
         {
-            "trigger": "time",
+            "trigger": "TIME",
             "contents": "TIME(${1:hour},${2: minute},${3: second})",
             "annotation": "Date and time",
             "details": "Returns the serial number of a particular time.",
             "kind": "snippet"
         },
         {
-            "trigger": "timevalue",
+            "trigger": "TIMEVALUE",
             "contents": "TIMEVALUE(${1:time_text})",
             "annotation": "Date and time",
             "details": "Converts a time in the form of text to a serial number.",
             "kind": "snippet"
         },
         {
-            "trigger": "tinv",
+            "trigger": "TINV",
             "contents": "TINV(${1:probability},${2: deg_freedom})",
             "annotation": "Compatibility",
             "details": "Returns the inverse of the Student's t-distribution. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "tocol",
+            "trigger": "TOCOL",
             "contents": "TOCOL(${1:array}${2:,${3: [ignore]},${4: [scan_by_column]}})",
             "annotation": "Array",
             "details": "Returns the array as a column.",
             "kind": "snippet"
         },
         {
-            "trigger": "today",
+            "trigger": "TODAY",
             "contents": "TODAY()",
             "annotation": "Date and time",
             "details": "Returns the serial number of today's date.",
             "kind": "snippet"
         },
         {
-            "trigger": "torow",
+            "trigger": "TOROW",
             "contents": "TOROW(${1:array}${2:,${3: [ignore]},${4: [scan_by_column]}})",
             "annotation": "Array",
             "details": "Returns the array as a row.",
             "kind": "snippet"
         },
         {
-            "trigger": "transpose",
+            "trigger": "TRANSPOSE",
             "contents": "TRANSPOSE(${1:array})",
             "annotation": "Lookup and reference",
             "details": "Returns the transpose of an array.",
             "kind": "snippet"
         },
         {
-            "trigger": "trend",
+            "trigger": "TREND",
             "contents": "TREND(${1:known_ys}${2:,${3: [known_xs]},${4: [new_xs]},${5: [const]}})",
             "annotation": "Statistical",
             "details": "Returns values along a linear trend.",
             "kind": "snippet"
         },
         {
-            "trigger": "trim",
+            "trigger": "TRIM",
             "contents": "TRIM(${1:text})",
             "annotation": "Text",
             "details": "Removes spaces from text.",
             "kind": "snippet"
         },
         {
-            "trigger": "trimmean",
+            "trigger": "TRIMMEAN",
             "contents": "TRIMMEAN(${1:array},${2: percent})",
             "annotation": "Statistical",
             "details": "Returns the mean of the interior of a data set.",
             "kind": "snippet"
         },
         {
-            "trigger": "trunc",
+            "trigger": "TRUNC",
             "contents": "TRUNC(${1:number}${2:,${3: [num_digits]}})",
             "annotation": "Math and trigonometry",
             "details": "Truncates a number to an integer.",
             "kind": "snippet"
         },
         {
-            "trigger": "ttest",
+            "trigger": "TTEST",
             "contents": "TTEST(${1:array1},${2: array2},${3: tails},${4: type})",
             "annotation": "Compatibility",
             "details": "Returns the probability associated with a Student's t-test. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "type",
+            "trigger": "TYPE",
             "contents": "TYPE(${1:value})",
             "annotation": "Information",
             "details": "Returns a number indicating the data type of a value.",
             "kind": "snippet"
         },
         {
-            "trigger": "unichar",
+            "trigger": "UNICHAR",
             "contents": "UNICHAR(${1:number})",
             "annotation": "Text",
             "details": "Returns the Unicode character that is references by the given numeric value.",
             "kind": "snippet"
         },
         {
-            "trigger": "unicode",
+            "trigger": "UNICODE",
             "contents": "UNICODE(${1:text})",
             "annotation": "Text",
             "details": "Returns the number (code point) that corresponds to the first character of the text.",
             "kind": "snippet"
         },
         {
-            "trigger": "unique",
+            "trigger": "UNIQUE",
             "contents": "UNIQUE(${1:array}${2:,${3: [by_col]},${4: [exactly_once]}})",
             "annotation": "Lookup and reference",
             "details": "Returns a list of unique values in a list or range",
             "kind": "snippet"
         },
         {
-            "trigger": "unregister",
+            "trigger": "UNREGISTER",
             "contents": "UNREGISTER(${1:register_id})",
             "annotation": "Add-in",
             "details": "Removes the registration of a DLL or code resource.",
             "kind": "snippet"
         },
         {
-            "trigger": "upper",
+            "trigger": "UPPER",
             "contents": "UPPER(${1:text})",
             "annotation": "Text",
             "details": "Converts text to uppercase.",
             "kind": "snippet"
         },
         {
-            "trigger": "value",
+            "trigger": "VALUE",
             "contents": "VALUE(${1:text})",
             "annotation": "Text",
             "details": "Converts a text argument to a number.",
             "kind": "snippet"
         },
         {
-            "trigger": "valuetotext",
+            "trigger": "VALUETOTEXT",
             "contents": "VALUETOTEXT(${1:value}${2:,${3: [format]}})",
             "annotation": "Text",
             "details": "Returns text from any specified value",
             "kind": "snippet"
         },
         {
-            "trigger": "var",
+            "trigger": "VAR",
             "contents": "VAR(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Compatibility",
             "details": "Estimates variance based on a sample. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "var.p",
+            "trigger": "VAR.P",
             "contents": "VAR.P(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Calculates variance based on the entire population.",
             "kind": "snippet"
         },
         {
-            "trigger": "var.s",
+            "trigger": "VAR.S",
             "contents": "VAR.S(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Statistical",
             "details": "Estimates variance based on a sample.",
             "kind": "snippet"
         },
         {
-            "trigger": "vara",
+            "trigger": "VARA",
             "contents": "VARA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Estimates variance based on a sample, including numbers, text, and logical values.",
             "kind": "snippet"
         },
         {
-            "trigger": "varp",
+            "trigger": "VARP",
             "contents": "VARP(${1:number1}${2:,${3: [number2], ...}})",
             "annotation": "Compatibility",
             "details": "Calculates variance based on the entire population. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "varpa",
+            "trigger": "VARPA",
             "contents": "VARPA(${1:value1}${2:,${3: [value2], ...}})",
             "annotation": "Statistical",
             "details": "Calculates variance based on the entire population, including numbers, text, and logical values.",
             "kind": "snippet"
         },
         {
-            "trigger": "vdb",
+            "trigger": "VDB",
             "contents": "VDB(${1:cost},${2: salvage},${3: life},${4: start_period},${5: end_period}${6:,${7: [factor]},${8: [no_switch]}})",
             "annotation": "Financial",
             "details": "Returns the depreciation of an asset for a specified or partial period by using a declining balance method.",
             "kind": "snippet"
         },
         {
-            "trigger": "vlookup",
+            "trigger": "VLOOKUP",
             "contents": "VLOOKUP(${1:lookup_value},${2: table_array},${3: col_index_num}${4:,${5: [range_lookup]}})",
             "annotation": "Lookup and reference",
             "details": "Looks in the first column of an array and moves across the row to return the value of a cell.",
             "kind": "snippet"
         },
         {
-            "trigger": "vstack",
+            "trigger": "VSTACK",
             "contents": "VSTACK(${1:array1}${2:,${3: [array2], ...}})",
             "annotation": "Array",
             "details": "Vertically combine arrays into one array.",
             "kind": "snippet"
         },
         {
-            "trigger": "webservice",
+            "trigger": "WEBSERVICE",
             "contents": "WEBSERVICE(${1:url})",
             "annotation": "Web",
             "details": "Returns data from a web service. This function is not available in Excel Online.",
             "kind": "snippet"
         },
         {
-            "trigger": "weekday",
+            "trigger": "WEEKDAY",
             "contents": "WEEKDAY(${1:serial_number}${2:,${3: [return_type]}})",
             "annotation": "Date and time",
             "details": "Converts a serial number to a day of the week.",
             "kind": "snippet"
         },
         {
-            "trigger": "weeknum",
+            "trigger": "WEEKNUM",
             "contents": "WEEKNUM(${1:serial_number}${2:,${3: [return_type]}})",
             "annotation": "Date and time",
             "details": "Converts a serial number to a number representing where the week falls numerically with a year.",
             "kind": "snippet"
         },
         {
-            "trigger": "weibull",
+            "trigger": "WEIBULL",
             "contents": "WEIBULL(${1:x},${2: alpha},${3: beta},${4: cumulative})",
             "annotation": "Compatibility",
             "details": "Calculates variance based on the entire population, including numbers, text, and logical values. In Excel 2007, this is a Statistical function.",
             "kind": "snippet"
         },
         {
-            "trigger": "weibull.dist",
+            "trigger": "WEIBULL.DIST",
             "contents": "WEIBULL.DIST(${1:x},${2: alpha},${3: beta},${4: cumulative})",
             "annotation": "Statistical",
             "details": "Returns the Weibull distribution.",
             "kind": "snippet"
         },
         {
-            "trigger": "workday",
+            "trigger": "WORKDAY",
             "contents": "WORKDAY(${1:start_date},${2: days}${3:,${4: [holidays]}})",
             "annotation": "Date and time",
             "details": "Returns the serial number of the date before or after a specified number of workdays.",
             "kind": "snippet"
         },
         {
-            "trigger": "workday.intl",
+            "trigger": "WORKDAY.INTL",
             "contents": "WORKDAY.INTL(${1:start_date},${2: days}${3:,${4: [weekend]},${5: [holidays]}})",
             "annotation": "Date and time",
             "details": "Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days.",
             "kind": "snippet"
         },
         {
-            "trigger": "wrapcols",
+            "trigger": "WRAPCOLS",
             "contents": "WRAPCOLS(${1:vector},${2: wrap_count}${3:,${4: [pad_with]}})",
             "annotation": "Array",
             "details": "Wraps a row or column to a specified height.",
             "kind": "snippet"
         },
         {
-            "trigger": "wraprows",
+            "trigger": "WRAPROWS",
             "contents": "WRAPROWS(${1:vector},${2: wrap_count}${3:,${4: [pad_with]}})",
             "annotation": "Array",
             "details": "Wraps a row or column to a specified width.",
             "kind": "snippet"
         },
         {
-            "trigger": "xirr",
+            "trigger": "XIRR",
             "contents": "XIRR(${1:values},${2: dates}${3:,${4: [guess]}})",
             "annotation": "Financial",
             "details": "Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.",
             "kind": "snippet"
         },
         {
-            "trigger": "xlookup",
+            "trigger": "XLOOKUP",
             "contents": "XLOOKUP(${1:lookup_value},${2: lookup_array},${3: return_array}${4:,${5: [if_not_found]},${6: [match_mode]},${7: [search_mode]}})",
             "annotation": "Lookup and reference",
             "details": "Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist,then XLOOKUP can return the closest (approximate) match.",
             "kind": "snippet"
         },
         {
-            "trigger": "xmatch",
+            "trigger": "XMATCH",
             "contents": "XMATCH(${1:lookup_value},${2: lookup_array}${3:,${4: [match_mode]},${5: [search_mode]}})",
             "annotation": "Lookup and reference",
             "details": "Returns the relative position of an item in an array or range of cells.",
             "kind": "snippet"
         },
         {
-            "trigger": "xnpv",
+            "trigger": "XNPV",
             "contents": "XNPV(${1:rate},${2: values},${3: dates})",
             "annotation": "Financial",
             "details": "Returns the net present value for a schedule of cash flows that is not necessarily periodic.",
             "kind": "snippet"
         },
         {
-            "trigger": "xor",
+            "trigger": "XOR",
             "contents": "XOR(${1:logical1}${2:,${3: [logical2], ...}})",
             "annotation": "Logical",
             "details": "Returns a logical exclusive OR of all arguments.",
             "kind": "snippet"
         },
         {
-            "trigger": "year",
+            "trigger": "YEAR",
             "contents": "YEAR(${1:serial_number})",
             "annotation": "Date and time",
             "details": "Converts a serial number to a year.",
             "kind": "snippet"
         },
         {
-            "trigger": "yearfrac",
+            "trigger": "YEARFRAC",
             "contents": "YEARFRAC(${1:start_date},${2: end_date}${3:,${4: [basis]}})",
             "annotation": "Date and time",
             "details": "Returns the year fraction representing the number of whole days between start_date and end_date.",
             "kind": "snippet"
         },
         {
-            "trigger": "yield",
+            "trigger": "YIELD",
             "contents": "YIELD(${1:settlement},${2: maturity},${3: rate},${4: pr},${5: redemption},${6: frequency}${7:,${8: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the yield on a security that pays periodic interest.",
             "kind": "snippet"
         },
         {
-            "trigger": "yielddisc",
+            "trigger": "YIELDDISC",
             "contents": "YIELDDISC(${1:settlement},${2: maturity},${3: pr},${4: redemption}${5:,${6: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the annual yield for a discounted security.",
             "kind": "snippet"
         },
         {
-            "trigger": "yieldmat",
+            "trigger": "YIELDMAT",
             "contents": "YIELDMAT(${1:settlement},${2: maturity},${3: issue},${4: rate},${5: pr}${6:,${7: [basis]}})",
             "annotation": "Financial",
             "details": "Returns the annual yield of a security that pays interest at maturity.",
             "kind": "snippet"
         },
         {
-            "trigger": "z.test",
+            "trigger": "Z.TEST",
             "contents": "Z.TEST(${1:array},${2: x}${3:,${4: [sigma]}})",
             "annotation": "Statistical",
             "details": "Returns the one-tailed probability-value of a z-test.",
             "kind": "snippet"
         },
         {
-            "trigger": "ztest",
+            "trigger": "ZTEST",
             "contents": "ZTEST(${1:array},${2: x}${3:,${4: [sigma]}})",
             "annotation": "Compatibility",
             "details": "Returns the one-tailed probability-value of a z-test. In Excel 2007, this is a Statistical function.",
