@@ -123,7 +123,7 @@
             "trigger": "ASC",
             "contents": "ASC($1)",
             "annotation": "Text",
-            "details": "Changes full-width ($1)",
+            "details": "Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters.",
             "kind": "function"
         },
         {
@@ -186,56 +186,56 @@
             "trigger": "AVERAGEIF",
             "contents": "AVERAGEIF($1)",
             "annotation": "Statistical",
-            "details": "Returns the average ($1)",
+            "details": "Returns the average (arithmetic mean) of all the cells in a range that meet a given criteria.",
             "kind": "function"
         },
         {
             "trigger": "AVERAGEIFS",
             "contents": "AVERAGEIFS($1)",
             "annotation": "Statistical",
-            "details": "Returns the average ($1)",
+            "details": "Returns the average (arithmetic mean) of all cells that meet multiple criteria.",
             "kind": "function"
         },
         {
             "trigger": "BAHTTEXT",
             "contents": "BAHTTEXT($1)",
             "annotation": "Text",
-            "details": "Converts a number to text, using the \u00df ($1)",
+            "details": "Converts a number to text, using the \u00df (baht) currency format.",
             "kind": "function"
         },
         {
             "trigger": "BASE",
             "contents": "BASE($1)",
             "annotation": "Math and trigonometry",
-            "details": "Converts a number into a text representation with the given radix ($1)",
+            "details": "Converts a number into a text representation with the given radix (base).",
             "kind": "function"
         },
         {
             "trigger": "BESSELI",
             "contents": "BESSELI($1)",
             "annotation": "Engineering",
-            "details": "Returns the modified Bessel function In($1)",
+            "details": "Returns the modified Bessel function In(x).",
             "kind": "function"
         },
         {
             "trigger": "BESSELJ",
             "contents": "BESSELJ($1)",
             "annotation": "Engineering",
-            "details": "Returns the Bessel function Jn($1)",
+            "details": "Returns the Bessel function Jn(x).",
             "kind": "function"
         },
         {
             "trigger": "BESSELK",
             "contents": "BESSELK($1)",
             "annotation": "Engineering",
-            "details": "Returns the modified Bessel function Kn($1)",
+            "details": "Returns the modified Bessel function Kn(x).",
             "kind": "function"
         },
         {
             "trigger": "BESSELY",
             "contents": "BESSELY($1)",
             "annotation": "Engineering",
-            "details": "Returns the Bessel function Yn($1)",
+            "details": "Returns the Bessel function Yn(x).",
             "kind": "function"
         },
         {
@@ -732,7 +732,7 @@
             "trigger": "CUBEKPIMEMBER",
             "contents": "CUBEKPIMEMBER($1)",
             "annotation": "Cube",
-            "details": "Returns a key performance  ($1)",
+            "details": "Returns a key performance  (KPI) name, property, and measure, and displays the name and property in the cell. A KPI is a quantifiable measurement, such as monthly gross profit or quarterly employee turnover, used to monitor an organization's performance.",
             "kind": "function"
         },
         {
@@ -851,7 +851,7 @@
             "trigger": "DBCS",
             "contents": "DBCS($1)",
             "annotation": "Text",
-            "details": "Changes half-width ($1)",
+            "details": "Changes half-width (single-byte) English letters or katakana within a character string to full-width (double-byte) characters.",
             "kind": "function"
         },
         {
@@ -956,7 +956,7 @@
             "trigger": "DOLLAR",
             "contents": "DOLLAR($1)",
             "annotation": "Text",
-            "details": "Converts a number to text, using the $ ($1)",
+            "details": "Converts a number to text, using the $ (dollar) currency format.",
             "kind": "function"
         },
         {
@@ -1145,28 +1145,28 @@
             "trigger": "F.DIST",
             "contents": "F.DIST($1)",
             "annotation": "Statistical",
-            "details": "Returns the ($1)",
+            "details": "Returns the (left-tailed) F probability distribution (degree of diversity) for two data sets.",
             "kind": "function"
         },
         {
             "trigger": "F.DIST.RT",
             "contents": "F.DIST.RT($1)",
             "annotation": "Statistical",
-            "details": "Returns the ($1)",
+            "details": "Returns the (right-tailed) F probability distribution (degree of diversity) for two data sets.",
             "kind": "function"
         },
         {
             "trigger": "F.INV",
             "contents": "F.INV($1)",
             "annotation": "Statistical",
-            "details": "Returns the inverse of the ($1)",
+            "details": "Returns the inverse of the (left-tailed) F probability distribution.",
             "kind": "function"
         },
         {
             "trigger": "F.INV.RT",
             "contents": "F.INV.RT($1)",
             "annotation": "Statistical",
-            "details": "Returns the inverse of the ($1)",
+            "details": "Returns the inverse of the (right-tailed) F probability distribution.",
             "kind": "function"
         },
         {
@@ -1285,7 +1285,7 @@
             "trigger": "FORECAST.ETS",
             "contents": "FORECAST.ETS($1)",
             "annotation": "Statistical",
-            "details": "Returns a future value based on existing ($1)",
+            "details": "Returns a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm. This function isn't available in Excel 2016 for Mac.",
             "kind": "function"
         },
         {
@@ -1390,14 +1390,14 @@
             "trigger": "GAMMALN",
             "contents": "GAMMALN($1)",
             "annotation": "Statistical",
-            "details": "Returns the natural logarithm of the gamma function, \u0393($1)",
+            "details": "Returns the natural logarithm of the gamma function, \u0393(x).",
             "kind": "function"
         },
         {
             "trigger": "GAMMALN.PRECISE",
             "contents": "GAMMALN.PRECISE($1)",
             "annotation": "Statistical",
-            "details": "Returns the natural logarithm of the gamma function, \u0393($1)",
+            "details": "Returns the natural logarithm of the gamma function, \u0393(x).",
             "kind": "function"
         },
         {
@@ -1544,7 +1544,7 @@
             "trigger": "IMABS",
             "contents": "IMABS($1)",
             "annotation": "Engineering",
-            "details": "Returns the absolute value ($1)",
+            "details": "Returns the absolute value (modulus) of a complex number.",
             "kind": "function"
         },
         {
@@ -1929,7 +1929,7 @@
             "trigger": "LEFT",
             "contents": "LEFT($1)",
             "annotation": "Text",
-            "details": "Extracts a specified number of characters from the start ($1)",
+            "details": "Extracts a specified number of characters from the start (left) of a text string.",
             "kind": "function"
         },
         {
@@ -2006,14 +2006,14 @@
             "trigger": "LOGNORM.DIST",
             "contents": "LOGNORM.DIST($1)",
             "annotation": "Statistical",
-            "details": "Returns the lognormal distribution of x, where ln($1)",
+            "details": "Returns the lognormal distribution of x, where ln(x) is normally distributed with parameters Mean and Standard_dev.",
             "kind": "function"
         },
         {
             "trigger": "LOGNORM.INV",
             "contents": "LOGNORM.INV($1)",
             "annotation": "Statistical",
-            "details": "Returns the inverse of the lognormal cumulative distribution function of x, where ln($1)",
+            "details": "Returns the inverse of the lognormal cumulative distribution function of x, where ln(x) is normally distributed with parameters Mean and Standard_dev.",
             "kind": "function"
         },
         {
@@ -2048,7 +2048,7 @@
             "trigger": "MAP",
             "contents": "MAP($1)",
             "annotation": "Array",
-            "details": "Returns an array formed by 'mapping' each value in the array($1)",
+            "details": "Returns an array formed by 'mapping' each value in the array(s) to a new value by applying a lambda to create a new value.",
             "kind": "function"
         },
         {
@@ -2228,7 +2228,7 @@
         },
         {
             "trigger": "NA",
-            "contents": "=NA($1)",
+            "contents": "NA($1)",
             "annotation": "Information",
             "details": "Returns the error value #N/A.",
             "kind": "function"
@@ -2333,7 +2333,7 @@
         },
         {
             "trigger": "NOW",
-            "contents": "=NOW($1)",
+            "contents": "NOW($1)",
             "annotation": "Date and time",
             "details": "Returns the serial number of the current date and time.",
             "kind": "function"
@@ -2475,7 +2475,7 @@
             "trigger": "PERCENTRANK.EXC",
             "contents": "PERCENTRANK.EXC($1)",
             "annotation": "Statistical",
-            "details": "Returns the rank of a value in a data set as a percentage ($1)",
+            "details": "Returns the rank of a value in a data set as a percentage (0..1, exclusive) of the data set.",
             "kind": "function"
         },
         {
@@ -2496,7 +2496,7 @@
             "trigger": "PERMUTATIONA",
             "contents": "PERMUTATIONA($1)",
             "annotation": "Statistical",
-            "details": "Returns the number of permutations for a given number of objects ($1)",
+            "details": "Returns the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects.",
             "kind": "function"
         },
         {
@@ -2510,12 +2510,12 @@
             "trigger": "PHONETIC",
             "contents": "PHONETIC($1)",
             "annotation": "Text",
-            "details": "Extracts the phonetic ($1)",
+            "details": "Extracts the phonetic (furigana) characters from a text string.",
             "kind": "function"
         },
         {
             "trigger": "PI",
-            "contents": "=PI($1)",
+            "contents": "PI($1)",
             "annotation": "Math and trigonometry",
             "details": "Returns the value of pi.",
             "kind": "function"
@@ -2641,7 +2641,7 @@
         },
         {
             "trigger": "RAND",
-            "contents": "=RAND($1)",
+            "contents": "RAND($1)",
             "annotation": "Math and trigonometry",
             "details": "Returns a random number between 0 and 1.",
             "kind": "function"
@@ -2741,7 +2741,7 @@
             "trigger": "RIGHT",
             "contents": "RIGHT($1)",
             "annotation": "Text",
-            "details": "Extracts a specified number of characters from the end ($1)",
+            "details": "Extracts a specified number of characters from the end (right) of a text string.",
             "kind": "function"
         },
         {
@@ -2965,7 +2965,7 @@
             "trigger": "SQRTPI",
             "contents": "SQRTPI($1)",
             "annotation": "Math and trigonometry",
-            "details": "Returns the square root of ($1)",
+            "details": "Returns the square root of (number * pi).",
             "kind": "function"
         },
         {
@@ -3278,7 +3278,7 @@
         },
         {
             "trigger": "TODAY",
-            "contents": "=TODAY($1)",
+            "contents": "TODAY($1)",
             "annotation": "Date and time",
             "details": "Returns the serial number of today's date.",
             "kind": "function"
@@ -3350,7 +3350,7 @@
             "trigger": "UNICODE",
             "contents": "UNICODE($1)",
             "annotation": "Text",
-            "details": "Returns the number ($1)",
+            "details": "Returns the number (code point) that corresponds to the first character of the text.",
             "kind": "function"
         },
         {
@@ -3525,7 +3525,7 @@
             "trigger": "XLOOKUP",
             "contents": "XLOOKUP($1)",
             "annotation": "Lookup and reference",
-            "details": "Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist,then XLOOKUP can return the closest ($1)",
+            "details": "Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist,then XLOOKUP can return the closest (approximate) match.",
             "kind": "function"
         },
         {
@@ -3598,5 +3598,5 @@
             "details": "Returns the one-tailed probability-value of a z-test. In Excel 2007, this is a Statistical function.",
             "kind": "function"
         }
-    ]
+]
 }
