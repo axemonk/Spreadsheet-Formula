@@ -3,8 +3,10 @@
 *.sublime-syntax text
 *.txt text
 
+# Skip packaging for distribution
 /.git* export-ignore
-/tests/ export-ignore
-/resources/ export-ignore
-/README.md export-ignore
+/.github/** export-ignore
+/resources/** export-ignore
+"/tests/Excel Formula (XX).sublime-syntax" export-ignore
+"/tests/syntax_test_excel.xx.xls.txt" export-ignore
 "/support/Test Functions.sublime-completions" export-ignore
